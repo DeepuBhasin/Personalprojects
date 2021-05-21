@@ -1,0 +1,21 @@
+*/20 			// Enter This in Minute text field;
+*				// Enter This in Hour text field;
+*				// Enter This in Day text field;
+*				// Enter This in Month text field;
+*				// Enter This in Weekday text field;
+
+
+Enter this in command 
+
+<!-- This for Local  -->
+/usr/local/bin/php /home/getrgijs/public_html/cronjob.php 1>> /dev/null 2>&1
+
+<!-- This for Local  -->
+/usr/local/bin/ea-php56 /home/getrgijs/sabizsolutions.co.za//path/to/cron/script
+
+
+
+then click on Add Job Buuton
+
+
+

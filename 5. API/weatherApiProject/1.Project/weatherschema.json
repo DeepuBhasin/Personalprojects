@@ -1,0 +1,251 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "cityid": {
+          "type": "integer"
+        },
+        "cityName": {
+          "type": "string"
+        },
+        "currentConditions": {
+          "type": "string"
+        },
+        "temperature": {
+          "type": "number"
+        },
+        "windSpeed": {
+          "type": "number"
+        },
+        "windDirection": {
+          "type": "string"
+        },
+        "windChillFactor": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "cityid",
+        "cityName",
+        "currentConditions",
+        "temperature",
+        "windSpeed",
+        "windDirection",
+        "windChillFactor"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "cityid": {
+          "type": "integer"
+        },
+        "cityName": {
+          "type": "string"
+        },
+        "currentConditions": {
+          "type": "string"
+        },
+        "temperature": {
+          "type": "number"
+        },
+        "windSpeed": {
+          "type": "number"
+        },
+        "windDirection": {
+          "type": "string"
+        },
+        "windChillFactor": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "cityid",
+        "cityName",
+        "currentConditions",
+        "temperature",
+        "windSpeed",
+        "windDirection",
+        "windChillFactor"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "cityid": {
+          "type": "integer"
+        },
+        "cityName": {
+          "type": "string"
+        },
+        "currentConditions": {
+          "type": "string"
+        },
+        "temperature": {
+          "type": "number"
+        },
+        "windSpeed": {
+          "type": "number"
+        },
+        "windDirection": {
+          "type": "string"
+        },
+        "windChillFactor": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "cityid",
+        "cityName",
+        "currentConditions",
+        "temperature",
+        "windSpeed",
+        "windDirection",
+        "windChillFactor"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "cityid": {
+          "type": "integer"
+        },
+        "cityName": {
+          "type": "string"
+        },
+        "currentConditions": {
+          "type": "string"
+        },
+        "temperature": {
+          "type": "number"
+        },
+        "windSpeed": {
+          "type": "number"
+        },
+        "windDirection": {
+          "type": "string"
+        },
+        "windChillFactor": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "cityid",
+        "cityName",
+        "currentConditions",
+        "temperature",
+        "windSpeed",
+        "windDirection",
+        "windChillFactor"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "cityid": {
+          "type": "integer"
+        },
+        "cityName": {
+          "type": "string"
+        },
+        "currentConditions": {
+          "type": "string"
+        },
+        "temperature": {
+          "type": "number"
+        },
+        "windSpeed": {
+          "type": "number"
+        },
+        "windDirection": {
+          "type": "string"
+        },
+        "windChillFactor": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "cityid",
+        "cityName",
+        "currentConditions",
+        "temperature",
+        "windSpeed",
+        "windDirection",
+        "windChillFactor"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "cityid": {
+          "type": "integer"
+        },
+        "cityName": {
+          "type": "string"
+        },
+        "currentConditions": {
+          "type": "string"
+        },
+        "temperature": {
+          "type": "number"
+        },
+        "windSpeed": {
+          "type": "number"
+        },
+        "windDirection": {
+          "type": "string"
+        },
+        "windChillFactor": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "cityid",
+        "cityName",
+        "currentConditions",
+        "temperature",
+        "windSpeed",
+        "windDirection",
+        "windChillFactor"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "cityid": {
+          "type": "integer"
+        },
+        "cityName": {
+          "type": "string"
+        },
+        "currentConditions": {
+          "type": "string"
+        },
+        "temperature": {
+          "type": "number"
+        },
+        "windSpeed": {
+          "type": "number"
+        },
+        "windDirection": {
+          "type": "string"
+        },
+        "windChillFactor": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "cityid",
+        "cityName",
+        "currentConditions",
+        "temperature",
+        "windSpeed",
+        "windDirection",
+        "windChillFactor"
+      ]
+    }
+  ]
+}

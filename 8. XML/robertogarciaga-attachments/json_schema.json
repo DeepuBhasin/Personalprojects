@@ -1,0 +1,1918 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "electricalMedicalRecord": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "personalInfromation": {
+              "type": "object",
+              "properties": {
+                "userId": {
+                  "type": "string"
+                },
+                "FirstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "gender": {
+                  "type": "string"
+                },
+                "address": {
+                  "type": "string"
+                },
+                "age": {
+                  "type": "string"
+                },
+                "weight": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "userId",
+                "FirstName",
+                "lastName",
+                "gender",
+                "address",
+                "age",
+                "weight"
+              ]
+            },
+            "MedicalInfromation": {
+              "type": "object",
+              "properties": {
+                "TreatmentOf": {
+                  "type": "string"
+                },
+                "subCategory": {
+                  "type": "string"
+                },
+                "medication": {
+                  "type": "string"
+                },
+                "allergies": {
+                  "type": "string"
+                },
+                "immunizationStatus": {
+                  "type": "string"
+                },
+                "medicalHistory": {
+                  "type": "object",
+                  "properties": {
+                    "consultations": {
+                      "type": "string"
+                    },
+                    "surgeries": {
+                      "type": "string"
+                    },
+                    "LaborarotyTestResults": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "consultations",
+                    "surgeries",
+                    "LaborarotyTestResults"
+                  ]
+                },
+                "billingInfromation": {
+                  "type": "object",
+                  "properties": {
+                    "Bank": {
+                      "type": "string"
+                    },
+                    "AccountId": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "Bank",
+                    "AccountId"
+                  ]
+                }
+              },
+              "required": [
+                "TreatmentOf",
+                "subCategory",
+                "medication",
+                "allergies",
+                "immunizationStatus",
+                "medicalHistory",
+                "billingInfromation"
+              ]
+            }
+          },
+          "required": [
+            "personalInfromation",
+            "MedicalInfromation"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "personalInfromation": {
+              "type": "object",
+              "properties": {
+                "userId": {
+                  "type": "string"
+                },
+                "FirstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "gender": {
+                  "type": "string"
+                },
+                "address": {
+                  "type": "string"
+                },
+                "age": {
+                  "type": "string"
+                },
+                "weight": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "userId",
+                "FirstName",
+                "lastName",
+                "gender",
+                "address",
+                "age",
+                "weight"
+              ]
+            },
+            "MedicalInfromation": {
+              "type": "object",
+              "properties": {
+                "TreatmentOf": {
+                  "type": "string"
+                },
+                "subCategory": {
+                  "type": "string"
+                },
+                "medication": {
+                  "type": "string"
+                },
+                "allergies": {
+                  "type": "string"
+                },
+                "immunizationStatus": {
+                  "type": "string"
+                },
+                "medicalHistory": {
+                  "type": "object",
+                  "properties": {
+                    "consultations": {
+                      "type": "string"
+                    },
+                    "surgeries": {
+                      "type": "string"
+                    },
+                    "LaborarotyTestResults": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "consultations",
+                    "surgeries",
+                    "LaborarotyTestResults"
+                  ]
+                },
+                "billingInfromation": {
+                  "type": "object",
+                  "properties": {
+                    "Bank": {
+                      "type": "string"
+                    },
+                    "AccountId": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "Bank",
+                    "AccountId"
+                  ]
+                }
+              },
+              "required": [
+                "TreatmentOf",
+                "subCategory",
+                "medication",
+                "allergies",
+                "immunizationStatus",
+                "medicalHistory",
+                "billingInfromation"
+              ]
+            }
+          },
+          "required": [
+            "personalInfromation",
+            "MedicalInfromation"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "personalInfromation": {
+              "type": "object",
+              "properties": {
+                "userId": {
+                  "type": "string"
+                },
+                "FirstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "gender": {
+                  "type": "string"
+                },
+                "address": {
+                  "type": "string"
+                },
+                "age": {
+                  "type": "string"
+                },
+                "weight": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "userId",
+                "FirstName",
+                "lastName",
+                "gender",
+                "address",
+                "age",
+                "weight"
+              ]
+            },
+            "MedicalInfromation": {
+              "type": "object",
+              "properties": {
+                "TreatmentOf": {
+                  "type": "string"
+                },
+                "subCategory": {
+                  "type": "string"
+                },
+                "medication": {
+                  "type": "string"
+                },
+                "allergies": {
+                  "type": "string"
+                },
+                "immunizationStatus": {
+                  "type": "string"
+                },
+                "medicalHistory": {
+                  "type": "object",
+                  "properties": {
+                    "consultations": {
+                      "type": "string"
+                    },
+                    "surgeries": {
+                      "type": "string"
+                    },
+                    "LaborarotyTestResults": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "consultations",
+                    "surgeries",
+                    "LaborarotyTestResults"
+                  ]
+                },
+                "billingInfromation": {
+                  "type": "object",
+                  "properties": {
+                    "Bank": {
+                      "type": "string"
+                    },
+                    "AccountId": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "Bank",
+                    "AccountId"
+                  ]
+                }
+              },
+              "required": [
+                "TreatmentOf",
+                "subCategory",
+                "medication",
+                "allergies",
+                "immunizationStatus",
+                "medicalHistory",
+                "billingInfromation"
+              ]
+            }
+          },
+          "required": [
+            "personalInfromation",
+            "MedicalInfromation"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "personalInfromation": {
+              "type": "object",
+              "properties": {
+                "userId": {
+                  "type": "string"
+                },
+                "FirstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "gender": {
+                  "type": "string"
+                },
+                "address": {
+                  "type": "string"
+                },
+                "age": {
+                  "type": "string"
+                },
+                "weight": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "userId",
+                "FirstName",
+                "lastName",
+                "gender",
+                "address",
+                "age",
+                "weight"
+              ]
+            },
+            "MedicalInfromation": {
+              "type": "object",
+              "properties": {
+                "TreatmentOf": {
+                  "type": "string"
+                },
+                "subCategory": {
+                  "type": "string"
+                },
+                "medication": {
+                  "type": "string"
+                },
+                "allergies": {
+                  "type": "string"
+                },
+                "immunizationStatus": {
+                  "type": "string"
+                },
+                "medicalHistory": {
+                  "type": "object",
+                  "properties": {
+                    "consultations": {
+                      "type": "string"
+                    },
+                    "surgeries": {
+                      "type": "string"
+                    },
+                    "LaborarotyTestResults": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "consultations",
+                    "surgeries",
+                    "LaborarotyTestResults"
+                  ]
+                },
+                "billingInfromation": {
+                  "type": "object",
+                  "properties": {
+                    "Bank": {
+                      "type": "string"
+                    },
+                    "AccountId": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "Bank",
+                    "AccountId"
+                  ]
+                }
+              },
+              "required": [
+                "TreatmentOf",
+                "subCategory",
+                "medication",
+                "allergies",
+                "immunizationStatus",
+                "medicalHistory",
+                "billingInfromation"
+              ]
+            }
+          },
+          "required": [
+            "personalInfromation",
+            "MedicalInfromation"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "personalInfromation": {
+              "type": "object",
+              "properties": {
+                "userId": {
+                  "type": "string"
+                },
+                "FirstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "gender": {
+                  "type": "string"
+                },
+                "address": {
+                  "type": "string"
+                },
+                "age": {
+                  "type": "string"
+                },
+                "weight": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "userId",
+                "FirstName",
+                "lastName",
+                "gender",
+                "address",
+                "age",
+                "weight"
+              ]
+            },
+            "MedicalInfromation": {
+              "type": "object",
+              "properties": {
+                "TreatmentOf": {
+                  "type": "string"
+                },
+                "subCategory": {
+                  "type": "string"
+                },
+                "medication": {
+                  "type": "string"
+                },
+                "allergies": {
+                  "type": "string"
+                },
+                "immunizationStatus": {
+                  "type": "string"
+                },
+                "medicalHistory": {
+                  "type": "object",
+                  "properties": {
+                    "consultations": {
+                      "type": "string"
+                    },
+                    "surgeries": {
+                      "type": "string"
+                    },
+                    "LaborarotyTestResults": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "consultations",
+                    "surgeries",
+                    "LaborarotyTestResults"
+                  ]
+                },
+                "billingInfromation": {
+                  "type": "object",
+                  "properties": {
+                    "Bank": {
+                      "type": "string"
+                    },
+                    "AccountId": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "Bank",
+                    "AccountId"
+                  ]
+                }
+              },
+              "required": [
+                "TreatmentOf",
+                "subCategory",
+                "medication",
+                "allergies",
+                "immunizationStatus",
+                "medicalHistory",
+                "billingInfromation"
+              ]
+            }
+          },
+          "required": [
+            "personalInfromation",
+            "MedicalInfromation"
+          ]
+        }
+      ]
+    },
+    "insuranceComapny": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "companyId": {
+              "type": "string"
+            },
+            "companyName": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            },
+            "revenue": {
+              "type": "string"
+            },
+            "employees": {
+              "type": "string"
+            },
+            "customerDetails": {
+              "type": "object",
+              "properties": {
+                "customerId": {
+                  "type": "object",
+                  "properties": {
+                    "@userId": {
+                      "type": "string"
+                    },
+                    "#text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "@userId",
+                    "#text"
+                  ]
+                },
+                "totalBalance": {
+                  "type": "object",
+                  "properties": {
+                    "@currency": {
+                      "type": "string"
+                    },
+                    "#text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "@currency",
+                    "#text"
+                  ]
+                },
+                "timePeriod": {
+                  "type": "string"
+                },
+                "transactions": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "transactionId": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        },
+                        "amountDebit": {
+                          "type": "string"
+                        },
+                        "reason": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "transactionId",
+                        "date",
+                        "amountDebit",
+                        "reason"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "transactionId": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        },
+                        "amountDebit": {
+                          "type": "string"
+                        },
+                        "reason": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "transactionId",
+                        "date",
+                        "amountDebit",
+                        "reason"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "transactionId": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        },
+                        "amountDebit": {
+                          "type": "string"
+                        },
+                        "reason": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "transactionId",
+                        "date",
+                        "amountDebit",
+                        "reason"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "transactionId": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        },
+                        "amountDebit": {
+                          "type": "string"
+                        },
+                        "reason": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "transactionId",
+                        "date",
+                        "amountDebit",
+                        "reason"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "transactionId": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        },
+                        "amountDebit": {
+                          "type": "string"
+                        },
+                        "reason": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "transactionId",
+                        "date",
+                        "amountDebit",
+                        "reason"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "customerId",
+                "totalBalance",
+                "timePeriod",
+                "transactions"
+              ]
+            }
+          },
+          "required": [
+            "companyId",
+            "companyName",
+            "location",
+            "revenue",
+            "employees",
+            "customerDetails"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "companyId": {
+              "type": "string"
+            },
+            "companyName": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            },
+            "revenue": {
+              "type": "string"
+            },
+            "employees": {
+              "type": "string"
+            },
+            "customerDetails": {
+              "type": "object",
+              "properties": {
+                "customerId": {
+                  "type": "object",
+                  "properties": {
+                    "@userId": {
+                      "type": "string"
+                    },
+                    "#text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "@userId",
+                    "#text"
+                  ]
+                },
+                "totalBalance": {
+                  "type": "object",
+                  "properties": {
+                    "@currency": {
+                      "type": "string"
+                    },
+                    "#text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "@currency",
+                    "#text"
+                  ]
+                },
+                "timePeriod": {
+                  "type": "string"
+                },
+                "transactions": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "transactionId": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        },
+                        "amountDebit": {
+                          "type": "string"
+                        },
+                        "reason": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "transactionId",
+                        "date",
+                        "amountDebit",
+                        "reason"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "transactionId": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        },
+                        "amountDebit": {
+                          "type": "string"
+                        },
+                        "reason": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "transactionId",
+                        "date",
+                        "amountDebit",
+                        "reason"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "transactionId": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        },
+                        "amountDebit": {
+                          "type": "string"
+                        },
+                        "reason": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "transactionId",
+                        "date",
+                        "amountDebit",
+                        "reason"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "customerId",
+                "totalBalance",
+                "timePeriod",
+                "transactions"
+              ]
+            }
+          },
+          "required": [
+            "companyId",
+            "companyName",
+            "location",
+            "revenue",
+            "employees",
+            "customerDetails"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "companyId": {
+              "type": "string"
+            },
+            "companyName": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            },
+            "revenue": {
+              "type": "string"
+            },
+            "employees": {
+              "type": "string"
+            },
+            "customerDetails": {
+              "type": "object",
+              "properties": {
+                "customerId": {
+                  "type": "object",
+                  "properties": {
+                    "@userId": {
+                      "type": "string"
+                    },
+                    "#text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "@userId",
+                    "#text"
+                  ]
+                },
+                "totalBalance": {
+                  "type": "object",
+                  "properties": {
+                    "@currency": {
+                      "type": "string"
+                    },
+                    "#text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "@currency",
+                    "#text"
+                  ]
+                },
+                "timePeriod": {
+                  "type": "string"
+                },
+                "transactions": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "transactionId": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        },
+                        "amountDebit": {
+                          "type": "string"
+                        },
+                        "reason": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "transactionId",
+                        "date",
+                        "amountDebit",
+                        "reason"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "transactionId": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        },
+                        "amountDebit": {
+                          "type": "string"
+                        },
+                        "reason": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "transactionId",
+                        "date",
+                        "amountDebit",
+                        "reason"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "customerId",
+                "totalBalance",
+                "timePeriod",
+                "transactions"
+              ]
+            }
+          },
+          "required": [
+            "companyId",
+            "companyName",
+            "location",
+            "revenue",
+            "employees",
+            "customerDetails"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "companyId": {
+              "type": "string"
+            },
+            "companyName": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            },
+            "revenue": {
+              "type": "string"
+            },
+            "employees": {
+              "type": "string"
+            },
+            "customerDetails": {
+              "type": "object",
+              "properties": {
+                "customerId": {
+                  "type": "object",
+                  "properties": {
+                    "@userId": {
+                      "type": "string"
+                    },
+                    "#text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "@userId",
+                    "#text"
+                  ]
+                },
+                "totalBalance": {
+                  "type": "object",
+                  "properties": {
+                    "@currency": {
+                      "type": "string"
+                    },
+                    "#text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "@currency",
+                    "#text"
+                  ]
+                },
+                "timePeriod": {
+                  "type": "string"
+                },
+                "transactions": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "transactionId": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        },
+                        "amountDebit": {
+                          "type": "string"
+                        },
+                        "reason": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "transactionId",
+                        "date",
+                        "amountDebit",
+                        "reason"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "transactionId": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        },
+                        "amountDebit": {
+                          "type": "string"
+                        },
+                        "reason": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "transactionId",
+                        "date",
+                        "amountDebit",
+                        "reason"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "customerId",
+                "totalBalance",
+                "timePeriod",
+                "transactions"
+              ]
+            }
+          },
+          "required": [
+            "companyId",
+            "companyName",
+            "location",
+            "revenue",
+            "employees",
+            "customerDetails"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "companyId": {
+              "type": "string"
+            },
+            "companyName": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            },
+            "revenue": {
+              "type": "string"
+            },
+            "employees": {
+              "type": "string"
+            },
+            "customerDetails": {
+              "type": "object",
+              "properties": {
+                "customerId": {
+                  "type": "object",
+                  "properties": {
+                    "@userId": {
+                      "type": "string"
+                    },
+                    "#text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "@userId",
+                    "#text"
+                  ]
+                },
+                "totalBalance": {
+                  "type": "object",
+                  "properties": {
+                    "@currency": {
+                      "type": "string"
+                    },
+                    "#text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "@currency",
+                    "#text"
+                  ]
+                },
+                "timePeriod": {
+                  "type": "string"
+                },
+                "transactions": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "transactionId": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        },
+                        "amountDebit": {
+                          "type": "string"
+                        },
+                        "reason": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "transactionId",
+                        "date",
+                        "amountDebit",
+                        "reason"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "transactionId": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        },
+                        "amountDebit": {
+                          "type": "string"
+                        },
+                        "reason": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "transactionId",
+                        "date",
+                        "amountDebit",
+                        "reason"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "transactionId": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        },
+                        "amountDebit": {
+                          "type": "string"
+                        },
+                        "reason": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "transactionId",
+                        "date",
+                        "amountDebit",
+                        "reason"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "customerId",
+                "totalBalance",
+                "timePeriod",
+                "transactions"
+              ]
+            }
+          },
+          "required": [
+            "companyId",
+            "companyName",
+            "location",
+            "revenue",
+            "employees",
+            "customerDetails"
+          ]
+        }
+      ]
+    },
+    "physician": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "pysiciansId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "specialist": {
+              "type": "string"
+            },
+            "address": {
+              "type": "string"
+            },
+            "about": {
+              "type": "string"
+            },
+            "patiendDetails": {
+              "type": "object",
+              "properties": {
+                "patiendId": {
+                  "type": "object",
+                  "properties": {
+                    "@userId": {
+                      "type": "string"
+                    },
+                    "#text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "@userId",
+                    "#text"
+                  ]
+                },
+                "checkHistory": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "patiendId",
+                "checkHistory"
+              ]
+            }
+          },
+          "required": [
+            "pysiciansId",
+            "name",
+            "specialist",
+            "address",
+            "about",
+            "patiendDetails"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pysiciansId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "specialist": {
+              "type": "string"
+            },
+            "address": {
+              "type": "string"
+            },
+            "about": {
+              "type": "string"
+            },
+            "patiendDetails": {
+              "type": "object",
+              "properties": {
+                "patiendId": {
+                  "type": "object",
+                  "properties": {
+                    "@userId": {
+                      "type": "string"
+                    },
+                    "#text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "@userId",
+                    "#text"
+                  ]
+                },
+                "checkHistory": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "patiendId",
+                "checkHistory"
+              ]
+            }
+          },
+          "required": [
+            "pysiciansId",
+            "name",
+            "specialist",
+            "address",
+            "about",
+            "patiendDetails"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pysiciansId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "specialist": {
+              "type": "string"
+            },
+            "address": {
+              "type": "string"
+            },
+            "about": {
+              "type": "string"
+            },
+            "patiendDetails": {
+              "type": "object",
+              "properties": {
+                "patiendId": {
+                  "type": "object",
+                  "properties": {
+                    "@userId": {
+                      "type": "string"
+                    },
+                    "#text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "@userId",
+                    "#text"
+                  ]
+                },
+                "checkHistory": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "patiendId",
+                "checkHistory"
+              ]
+            }
+          },
+          "required": [
+            "pysiciansId",
+            "name",
+            "specialist",
+            "address",
+            "about",
+            "patiendDetails"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pysiciansId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "specialist": {
+              "type": "string"
+            },
+            "address": {
+              "type": "string"
+            },
+            "about": {
+              "type": "string"
+            },
+            "patiendDetails": {
+              "type": "object",
+              "properties": {
+                "patiendId": {
+                  "type": "object",
+                  "properties": {
+                    "@userId": {
+                      "type": "string"
+                    },
+                    "#text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "@userId",
+                    "#text"
+                  ]
+                },
+                "checkHistory": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "patiendId",
+                "checkHistory"
+              ]
+            }
+          },
+          "required": [
+            "pysiciansId",
+            "name",
+            "specialist",
+            "address",
+            "about",
+            "patiendDetails"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "pysiciansId": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "specialist": {
+              "type": "string"
+            },
+            "address": {
+              "type": "string"
+            },
+            "about": {
+              "type": "string"
+            },
+            "patiendDetails": {
+              "type": "object",
+              "properties": {
+                "patiendId": {
+                  "type": "object",
+                  "properties": {
+                    "@userId": {
+                      "type": "string"
+                    },
+                    "#text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "@userId",
+                    "#text"
+                  ]
+                },
+                "checkHistory": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "health": {
+                          "type": "string"
+                        },
+                        "medicine": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "health",
+                        "medicine"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "patiendId",
+                "checkHistory"
+              ]
+            }
+          },
+          "required": [
+            "pysiciansId",
+            "name",
+            "specialist",
+            "address",
+            "about",
+            "patiendDetails"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "electricalMedicalRecord",
+    "insuranceComapny",
+    "physician"
+  ]
+}

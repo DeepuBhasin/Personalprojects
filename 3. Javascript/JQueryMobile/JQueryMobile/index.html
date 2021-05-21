@@ -1,0 +1,656 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Portfolio App</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+	
+	
+	<script src="js/jquery.js"></script>
+</head> 
+
+<body> 
+
+
+
+
+
+
+
+<!-- Start of first page -->
+<div data-role="page" id="home">
+
+	<div data-role="panel" id="mypanel"  data-position="left" data-position-fixed="false" data-display="reveal" id="nav-panel" data-theme="a">
+		<ul data-role="listview" data-theme="a" data-divider-theme="a" style="margin-top:-16px;" class="nav-search">
+						<li data-icon="delete" style="background-color:#111;">
+							<a href="#" data-rel="close"></a>
+						</li>
+
+						<center><a href="#home"><img src="assets/logo.jpeg" alt="|" width="100" /></a></center>
+
+						<li data-filtertext="wai-aria voiceover accessibility screen reader">
+							<a href="#home">Home</a>
+						</li>
+						<li data-filtertext="accordions collapsible set collapsible-set collapsed">
+							<a href="#about">About Me</a>
+						</li>
+						<li data-filtertext="ajax navigation model">
+							<a href="#formpage">Form</a>
+						</li>
+						<li data-filtertext="anatomy of page viewport">
+							<a href="#viewdata">Form Data</a>
+						</li>
+						<li data-filtertext="anatomy of page viewport">
+							<a href="#apidata">API DATA</a>
+						</li>
+						
+						
+					</ul> 
+	</div><!-- /panel -->
+
+	<div data-role="header">
+
+		<a href="#mypanel" class="ui-btn"><img src="assets/bullets-black.png" alt="|" /></a>
+		<h4>PORTFOLIO APP</h4>
+		<a href="#about" class="ui-btn"><img src="assets/user-black.png" alt="|" /></a>
+	</div><!-- /header -->
+
+	<div data-role="content">	<center>
+		<h2>HELLO! WELCOME TO THE PORTFOLIO APP</h2>	
+			<img src="assets/logo.jpeg" alt="|" width="200" />
+		 	
+</center>
+		
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4>&#169;copyright</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+
+
+
+
+
+
+<!-- Start of about page -->
+<div data-role="page" id="about">
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/jquery.flip.min.js"></script>
+	<style type="text/css">
+		
+		.flip {
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+}
+.flip img {
+    width: 300px;
+    height: auto;
+}
+.flip .back {
+    
+    color: #000;
+    text-align: center;
+   
+    font-size: 10px;
+}
+.flip .back img{
+    
+     width: 200px;
+    height: auto;
+}
+	</style>
+
+	<script>
+$(function(){
+    $(".flip").flip({
+        trigger: 'click'
+    });
+});
+</script>
+
+	<div data-role="panel" id="mypanel"  data-position="left" data-position-fixed="false" data-display="reveal" id="nav-panel" data-theme="a">
+		<ul data-role="listview" data-theme="a" data-divider-theme="a" style="margin-top:-16px;" class="nav-search">
+						<li data-icon="delete" style="background-color:#111;">
+							<a href="#" data-rel="close"></a>
+						</li>
+
+						<center><a href="#home"><img src="assets/logo.jpeg" alt="|" width="100" /></a></center>
+
+						<li data-filtertext="wai-aria voiceover accessibility screen reader">
+							<a href="#home">Home</a>
+						</li>
+						<li data-filtertext="accordions collapsible set collapsible-set collapsed">
+							<a href="#about">About Me</a>
+						</li>
+						<li data-filtertext="ajax navigation model">
+							<a href="#formpage">Form</a>
+						</li>
+						<li data-filtertext="anatomy of page viewport">
+							<a href="#viewdata">Form Data</a>
+						</li>
+						<li data-filtertext="anatomy of page viewport">
+							<a href="#apidata">API DATA</a>
+						</li>
+						
+						
+					</ul> 
+	</div><!-- /panel -->
+
+
+	<div data-role="header">
+		<a href="#mypanel" class="ui-btn"><img src="assets/bullets-black.png" alt="|" /></a>
+		<h4>PORTFOLIO APP</h4>
+		<a href="#about" class="ui-btn"><img src="assets/user-black.png" alt="|" /></a>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		
+		<div class="flip"> 
+    <div class="front" > 
+        <img src="assets/person.jpeg" alt="" />
+    </div> 
+    <div class="back">
+    	<img src="assets/person.jpeg" alt="" />
+        <h2>Name : John Mathew</h2>
+        <h2>Phone : (617)5555 675</h2>
+        <h2>Profession : Software Developer</h2>
+    </div> 
+</div>
+
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4>&#169;copyright</h4>
+	</div><!-- /footer -->
+</div><!-- / about page -->
+
+
+
+
+
+
+
+
+
+<!-- Start of form page -->
+<div data-role="page" id="formpage">
+
+	<div data-role="panel" id="mypanel"  data-position="left" data-position-fixed="false" data-display="reveal" id="nav-panel" data-theme="a">
+		<ul data-role="listview" data-theme="a" data-divider-theme="a" style="margin-top:-16px;" class="nav-search">
+						<li data-icon="delete" style="background-color:#111;">
+							<a href="#" data-rel="close"></a>
+						</li>
+
+						<center><a href="#home"><img src="assets/logo.jpeg" alt="|" width="100" /></a></center>
+
+						<li data-filtertext="wai-aria voiceover accessibility screen reader">
+							<a href="#home">Home</a>
+						</li>
+						<li data-filtertext="accordions collapsible set collapsible-set collapsed">
+							<a href="#about">About Me</a>
+						</li>
+						<li data-filtertext="ajax navigation model">
+							<a href="#formpage">Form</a>
+						</li>
+						<li data-filtertext="anatomy of page viewport">
+							<a href="#viewdata">Form Data</a>
+						</li>
+						<li data-filtertext="anatomy of page viewport">
+							<a href="#apidata">API DATA</a>
+						</li>
+						
+						
+					</ul> 
+	</div><!-- /panel -->
+
+
+
+
+	<div data-role="header">
+		<a href="#mypanel" class="ui-btn"><img src="assets/bullets-black.png" alt="|" /></a>
+		<h4>PORTFOLIO APP</h4>
+		<a href="#about" class="ui-btn"><img src="assets/user-black.png" alt="|" /></a>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>ADD DETAILS.</p>
+
+		<form id="form_data" name="form_data">
+			<div class="ui-field-contain">
+				<label for="first_name">First Name:*</label>
+				<input type="text" name="first_name" id="first_name"  class="first_name" placeholder="Enter First Name" >
+			</div>
+			<div class="ui-field-contain">
+				<label for="last_name">Last Name:*</label>
+				<input type="text" name="last_name" id="last_name"  class="last_name" placeholder="Enter First Name" >
+			</div>
+			<div class="ui-field-contain">
+				<label for="age">Age:*</label>
+				<input type="number" name="age" id="age" class="age"  placeholder="Enter Age" >
+			</div>
+			<div class="ui-field-contain">
+				<label for="email">Email Address:*</label>
+				<input type="email" name="email" id="email" class="email"  placeholder="Enter Email Address" >
+			</div>
+			<div class="ui-field-contain">
+				<label for="gender">Gender:*</label>
+				<select id="gender" required="">
+					<option value="">Select Gender</option>
+					<option  value="Male">Male</option>
+					<option value="Female">Female</option>
+				</select>
+			</div>
+			<div class="ui-field-contain">
+				<label for="qualification">Qualification:*</label>
+				<select id="qualification" required="">
+					<option value="">Select Qualification</option>
+					<option value="High School">High School</option>
+					<option value="Diploma">Diploma</option>
+					<option value="Graduation">Graduation</option>
+					<option  value="Post Graduation">Post Graduation</option>
+				</select>
+			</div>
+
+			<div class="ui-field-contain">
+				<label for="phone">Phone Number:*</label>
+				<input type="number" name="phone" id="phone" class="phone"  placeholder="Enter Phone Number" >
+			</div>
+
+			<div class="ui-field-contain">
+				<label for="address">Home Address:*</label>
+				<textarea name="address" id="address" class="address" placeholder="Enter Home Address" ></textarea>
+			</div>
+
+			<div class="ui-field-contain">
+				<label for="desc">Describe Yourself:*</label>
+				<textarea name="desc" id="desc" class="desc"  placeholder="Enter Description" ></textarea>
+			</div>
+
+			<div class="ui-field-contain">
+			
+				<button type="button" onclick="formFunction();" class="ui-btn ui-shadow">SUBMIT</button>
+				<button type="reset" class="ui-btn ui-shadow">CLEAR</button>
+
+			</div>
+		</form>
+
+<script type="text/javascript">
+	function formFunction(){
+		var first_name = $('#first_name').val().trim();
+		var last_name = $('#last_name').val().trim();
+		var age = $('#age').val().trim();
+		var email = $('#email').val().trim();
+		var gender = $('#gender').val();
+		var qualification = $('#qualification').val().trim();
+		var phone = $('#phone').val().trim();
+		var address = $('#address').val().trim();
+		var desc = $('#desc').val().trim();
+
+		if(first_name.length<=0){
+			alert('Enter First Name');
+		}
+		else if(last_name.length<=0){
+			alert('Enter Last Name');
+		}
+		else if(age.length<=0){
+			alert('Enter Age');
+		}
+		else if(gender.length<=0){
+			alert('Select Gender');
+		}
+		else if(qualification.length<=0){
+			alert('Select Qualification');
+		}
+		else if(phone.length<=0){
+			alert('Enter Phone Number');
+		}
+		else if(address.length<=0){
+			alert('Enter Address');
+		}
+		else if(desc.length<=0){
+			alert('Enter Description');
+		}else{
+
+			var array={'first_name':first_name,
+					'last_name':last_name,
+					'age':age,
+					'gender':gender,
+					'qualification':qualification,
+					'phone':phone,
+					'address':address,
+					'desc':desc
+					};
+
+			var newarray=[];
+
+			if(localStorage.length==0){
+				localStorage.setItem('newarray'+[0],JSON.stringify(array));
+			}else{
+				localStorage.setItem('newarray'+[localStorage.length],JSON.stringify(array));
+			}
+
+			alert('Your Infromation id added Successfully');
+		}
+
+	}
+</script>
+		
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>&#169;copyright</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+
+
+
+
+
+
+<!-- Start of view data page -->
+<div data-role="page" id="viewdata">
+
+
+	<div data-role="panel" id="mypanel"  data-position="left" data-position-fixed="false" data-display="reveal" id="nav-panel" data-theme="a">
+		<ul data-role="listview" data-theme="a" data-divider-theme="a" style="margin-top:-16px;" class="nav-search">
+						<li data-icon="delete" style="background-color:#111;">
+							<a href="#" data-rel="close"></a>
+						</li>
+
+						<center><a href="#home"><img src="assets/logo.jpeg" alt="|" width="100" /></a></center>
+
+						<li data-filtertext="wai-aria voiceover accessibility screen reader">
+							<a href="#home">Home</a>
+						</li>
+						<li data-filtertext="accordions collapsible set collapsible-set collapsed">
+							<a href="#about">About Me</a>
+						</li>
+						<li data-filtertext="ajax navigation model">
+							<a href="#formpage">Form</a>
+						</li>
+						<li data-filtertext="anatomy of page viewport">
+							<a href="#viewdata">Form Data</a>
+						</li>
+						<li data-filtertext="anatomy of page viewport">
+							<a href="#apidata">API DATA</a>
+						</li>
+						
+						
+					</ul> 
+	</div><!-- /panel -->
+
+
+
+	<div data-role="header">
+		<a href="#mypanel" class="ui-btn"><img src="assets/bullets-black.png" alt="|" /></a>
+		<h4>PORTFOLIO APP</h4>
+		<a href="#about" class="ui-btn"><img src="assets/user-black.png" alt="|" /></a>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+
+<div class="ui-field-contain">
+			
+				<button type="button" onclick="showData();" class="ui-btn ui-shadow">SHOW DATA</button>
+</div>
+
+		<table border="1" cellpadding="7" style="display: none;" id="myshowTable">
+			<thead>
+				<tr>
+					<th>SNo</th>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Age</th>
+					<th>Gender</th>
+					<th>Qualification</th>
+					<th>Phone</th>
+					<th>Address</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+			<tbody id="mytable">
+			</tbody>
+		</table>
+
+	</div><!-- /content -->
+
+
+
+<script type="text/javascript">
+	function showData(){
+		document.getElementById('myshowTable').style.display='Block';
+		var countint = localStorage.length;
+		if(countint>0){
+			let x=0;
+			for(i=0;i<countint;i++){
+				var common = JSON.parse(localStorage.getItem('newarray'+i));
+				$('#mytable').append('<tr><td>'+(++x)+'</td><td>'+common.first_name+'</td><td>'+common.last_name+'</td><td>'+common.age+'</td><td>'+common.gender+'</td><td>'+common.qualification+'</td><td>'+common.phone+'</td><td>'+common.address+'</td><td>'+common.desc+'</td></tr>');
+			}
+		}
+	}
+</script>
+
+
+
+
+
+	<div data-role="footer" data-position="fixed">
+		<h4>&#169;copyright</h4>
+	</div><!-- /footer -->
+</div><!-- / view page -->
+
+
+
+
+
+
+
+
+<!-- Start of api page -->
+<div data-role="page" id="apidata">
+
+
+	<div data-role="panel" id="mypanel"  data-position="left" data-position-fixed="false" data-display="reveal" id="nav-panel" data-theme="a">
+		<ul data-role="listview" data-theme="a" data-divider-theme="a" style="margin-top:-16px;" class="nav-search">
+						<li data-icon="delete" style="background-color:#111;">
+							<a href="#" data-rel="close"></a>
+						</li>
+
+						<center><a href="#home"><img src="assets/logo.jpeg" alt="|" width="100" /></a></center>
+
+						<li data-filtertext="wai-aria voiceover accessibility screen reader">
+							<a href="#home">Home</a>
+						</li>
+						<li data-filtertext="accordions collapsible set collapsible-set collapsed">
+							<a href="#about">About Me</a>
+						</li>
+						<li data-filtertext="ajax navigation model">
+							<a href="#formpage">Form</a>
+						</li>
+						<li data-filtertext="anatomy of page viewport">
+							<a href="#viewdata">Form Data</a>
+						</li>
+						<li data-filtertext="anatomy of page viewport">
+							<a href="#apidata">API DATA</a>
+						</li>
+						
+						
+					</ul> 
+	</div><!-- /panel -->
+
+
+	<div data-role="header">
+		<a href="#mypanel" class="ui-btn"><img src="assets/bullets-black.png" alt="|" /></a>
+		<h4>PORTFOLIO APP</h4>
+		<a href="#about" class="ui-btn"><img src="assets/user-black.png" alt="|" /></a>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>WEATHER JSON API DATA</p>
+
+		<button type="button" onclick="CityFunction();">SHOW JSON DATA</button>
+		 <div class="myTableWeather" id="tableDiv" style="display: none;">
+                <table class="table-responsive" border="1" cellpadding="25">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>City Name</th>
+                            <th>Date</th>
+                            <th>Weather Conditions</th>
+                            <th>Temprature</th>
+                            <th>Wind Speed</th>
+                            <th>Wind Direction</th>
+                            <th>Weather icon</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTableWeather" class="bg-primary"></tbody>
+                </table>
+            </div>   
+         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script type="text/javascript">
+        
+function CityFunction(e){
+    var cityName = 'New York';
+
+    if(cityName!='Select a City'){
+          $.ajax({
+            url:'http://api.openweathermap.org/data/2.5/weather?q='+cityName +'&units=metric&appid=36de6328cffc2e631bb64b265304041c',
+            datatype : 'JSON',
+            success : function(data){
+            console.log(data);
+            
+             if(data.main.temp>35 || data.main.temp<(-5))
+                {
+                    var tempCondition = 'style="color:#fff;background-color:red"';
+                }  
+                else{
+                    var tempCondition = '';
+                }
+
+                if(data.wind.speed>50){
+                    var windConditon = 'kph';
+                }
+                else{
+                    var windConditon = 'mph';
+                } 
+
+                var degreeTexture = degToCard(data.wind.deg) ;
+
+                $('#myTableWeather').html('<tr  bgcolor="skyblue"><td>'+data.name+'</td><td>'+convertStampDate(data.dt)+'</td><td>'+data.weather[0].description+'</td><td '+tempCondition+' >'+data.main.temp+' C</td><td>'+data.wind.speed+' '+windConditon+'</td><td>'+data.wind.deg+' '+degreeTexture+'</td><td id="image_div"></td></tr>');
+           
+                  $.ajax({
+                          type: "GET",
+                          url:'http://openweathermap.org/img/wn/'+data.weather[0].icon+'@2x.png',
+                          beforeSend: function (xhr) {
+                            xhr.overrideMimeType('text/plain; charset=x-user-defined');
+                          },
+                          success: function (result, textStatus, jqXHR) {       
+                            if(result.length < 1){
+                                alert("The thumbnail doesn't exist");
+                                $("#image_div").attr("src", "data:image/png;base64,");
+                                return
+                            }
+
+                            var binary = "";
+                            var responseText = jqXHR.responseText;
+                            var responseTextLen = responseText.length;
+
+                            for ( i = 0; i < responseTextLen; i++ ) {
+                                binary += String.fromCharCode(responseText.charCodeAt(i) & 255)
+                            }
+
+                            $('#image_div').html('<img id="image_id" src="data:image/png;base64,'+btoa(binary)+'"/>');    
+                           
+                            // $("#image_div").attr("src", "data:image/png;base64,"+btoa(binary));
+                          },
+                          error: function(xhr, textStatus, errorThrown){
+                            alert("Error in getting document "+textStatus);
+                          } 
+                        });    
+
+            },
+            statusCode : {
+                404 : function() {
+                   alert('There was a problem with the server.  Try again soon!');
+                 }
+            }
+
+        });
+
+        document.getElementById('tableDiv').style.display = "Block";
+    }else{
+        document.getElementById('tableDiv').style.display = "none";
+        $('#myTableWeather').html('');
+    }
+    
+}
+
+
+    
+function degToCard(num) {
+    var val = Math.floor((num / 22.5) + 0.5);
+    var arr = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"];
+    return arr[(val % 16)];
+}
+
+function convertStampDate(unixtimestamp){
+
+// Unixtimestamp
+
+// Months array
+// var months_arr = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+var months_arr = [1,2,3,4,5,6,7,8,9,10,11,12];
+
+// Convert timestamp to milliseconds
+var date = new Date(unixtimestamp*1000);
+
+// Year
+var year = date.getFullYear();
+
+// Month
+var month = months_arr[date.getMonth()];
+
+// Day
+var day = date.getDate();
+
+// Hours
+var hours = date.getHours();
+
+// Minutes
+var minutes = "0" + date.getMinutes();
+
+// Seconds
+var seconds = "0" + date.getSeconds();
+
+// Display date time in MM-dd-yyyy h:m:s format
+var fulldate = month+' '+day+'-'+year+' '+hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
+
+// filtered fate
+var convdataTime = day+'-'+month+'-'+year;
+return convdataTime;
+}
+
+
+    </script>
+		
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4>&#169;copyright</h4>
+	</div><!-- /footer -->
+</div><!-- /api page -->
+
+
+</body>
+</html>

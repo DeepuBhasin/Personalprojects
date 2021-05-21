@@ -1,0 +1,19 @@
+<!ELEMENT transactions (shop*,author)>
+<!ATTLIST shop giftShop CDATA "0">
+<!ELEMENT shop (date)*>
+<!ATTLIST date transaction_date CDATA "01/11/2019">
+<!ELEMENT date (transactionDetails)*>
+<!ELEMENT transactionDetails (transaction,customer)*>
+<!ELEMENT transaction (transaction_id,value)>
+<!ELEMENT transaction_id (#PCDATA)*>
+<!ELEMENT value (#PCDATA)*>
+<!ATTLIST value currency CDATA "gbp">
+<!ELEMENT customer (prefix,lastName,givenName,addressID,customerID)>
+<!ELEMENT prefix (#PCDATA)*>
+<!ELEMENT lastName (#PCDATA)*>
+<!ELEMENT givenName (#PCDATA)*>
+<!ELEMENT addressID (#PCDATA)*>
+<!ELEMENT customerID (#PCDATA)*>
+<!ELEMENT author (#PCDATA)*>
+<!ENTITY firstname "mahfuzur">
+<!ENTITY lastname "1000">

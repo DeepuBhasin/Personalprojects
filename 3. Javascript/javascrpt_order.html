@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<p>Click the button to reduce the number of table rows.</p>
+
+<table id="myTable">
+  <tr>
+    <td>element r0c0</td>
+    <td>element r0c1</td>
+    <td>element r0c2</td>
+  </tr>
+
+  <tr>
+    <td>element r1c0</td>
+    <td>element r1c1</td>
+    <td>element r1c2</td>
+  </tr>
+
+  <tr>
+    <td>element r2c0</td>
+    <td>element r2c1</td>
+    <td>element r2c2</td>
+  </tr>
+
+  <tr>
+    <td>element r3c0</td>
+    <td>element r3c1</td>
+    <td>element r3c2</td>
+  </tr>
+
+  <tr>
+    <td>element r4c0</td>
+    <td>element r4c1</td>
+    <td>element r4c2</td>
+  </tr>
+   <tr>
+    <td>element r5c0</td>
+    <td>element r5c1</td>
+    <td>element r5c2</td>
+  </tr>
+
+ 
+   
+</table>
+<br> 
+
+<button onclick="tryIt();">Try it</button>
+
+<script>
+
+function tryIt(){
+
+  var rowNum = prompt("Limit to ROW : ");
+
+  if (isNaN(rowNum))
+  {
+  	alert("Pleae enter Numbers Only");
+    tryIt();
+    
+  }
+  else if(rowNum>5)
+  {
+    alert("Pleae enter Number Less than 5");
+    tryIt();
+    
+  }
+  else if(rowNum<0)
+  {
+    alert("Pleae enter Number Greater than 0");
+    tryIt();
+    
+  }  
+  else 
+  {  
+      var count_rows = document.getElementById("myTable").rows.length;
+      console.log(count_rows);
+      if(count_rows<6)
+       {
+         for (i=count_rows; i<6; i++)
+          {
+              var row=document.getElementById("myTable").insertRow(i);
+              var cell0 = row.insertCell(0);
+              var cell1 = row.insertCell(1);
+              var cell2 = row.insertCell(2);
+
+              cell0.innerHTML = "element r"+i+"c0";
+              cell1.innerHTML = "element r"+i+"c1";
+              cell2.innerHTML = "element r"+i+"c2";
+
+          }
+          removeTable(rowNum);
+       }
+       else
+       {
+         removeTable(rowNum);
+       } 
+    }   
+}
+
+function removeTable(rowNum)
+{
+   for (let i=5; i > rowNum; i--)
+         {
+            document.getElementById("myTable").deleteRow(i);
+         }
+}
+</script>

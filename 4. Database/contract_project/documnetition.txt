@@ -1,0 +1,244 @@
+1. Query to add a supplier
+DELIMITER //
+CREATE PROCEDURE sp_add_project (IN in_project_data varchar(45))
+BEGIN 
+SET @total_ready = (SELECT count(*) as total_ready FROM project_table where project_data=in_project_data order by created_dt ASC);
+SET @total_count = (SELECT count(*) as total_count FROM project_table WHERE created_dt BETWEEN (SELECT DATE_SUB(LAST_DAY(NOW()),INTERVAL DAY(LAST_DAY(NOW()))-
+1 DAY) AS 'FIRST DAY OF CURRENT MONTH') and (SELECT LAST_day(now())) ORDER BY created_dt);
+  IF(@total_ready>0) THEN 
+    SELECT 'Error ! Your project is already Created';
+  ELSEIF(@total_count <=50) THEN
+    INSERT INTO project_table (project_data, created_dt) VALUES (in_project_data,CURRENT_TIMESTAMP()); 
+    SELECT 'Project Added Successfully.';   
+    
+ELSE
+    SELECT 'Error ! You Can only Enter 50 Projects Per Month';
+End if;    
+END //
+DELIMITER ;;
+
+CALL `sp_add_project`('Boys Hostel Project');
+
+2. query to show all the project
+
+DELIMITER //
+CREATE PROCEDURE sp_show_project()
+BEGIN 
+SELECT * FROM project_table ORDER BY project_data ASC;
+END //
+DELIMITER ;;
+
+CALL sp_show_project()
+=================================================================================================================================================================
+3. Query to add data into contract_table
+DELIMITER //
+CREATE PROCEDURE sp_add_contract(
+                                IN in_project_no int,  
+                                IN in_contract_price float,
+                                IN in_description_of_contract_in varchar(255),
+                                IN in_date_required datetime
+                               )
+BEGIN 
+SET @total_already = (SELECT count(*) as total_already FROM contract_table where description_of_contract=in_description_of_contract_in and contract_price=in_contract_price);
+SET @total_exist = (SELECT count(*) as total_exist FROM project_table where project_no=in_project_no);
+SET @total_count = (SELECT count(*) as total_count FROM contract_table WHERE created_dt BETWEEN (SELECT DATE_SUB(LAST_DAY(NOW()),INTERVAL DAY(LAST_DAY(NOW()))-
+1 DAY) AS 'FIRST DAY OF CURRENT MONTH') and (SELECT LAST_day(now())) ORDER BY created_dt);
+  IF(@total_already>0) THEN 
+    SELECT 'Error ! Contract Already Exist';
+ ELSEIF(@total_exist=0) THEN 
+    SELECT 'Error ! Project Don not exist';
+ ELSEIF(@total_count <=50) THEN
+      INSERT INTO contract_table (project_no,contract_price, description_of_contract,date_required,created_dt) VALUES (in_project_no,in_contract_price,in_description_of_contract_in,in_date_required, CURRENT_TIMESTAMP());
+      SELECT 'Contract Added Successfully'; 
+   ELSE
+    SELECT 'Error ! You Can only Enter 50 Contract Per Month';
+End if;    
+END //
+DELIMITER ;;   
+
+CALL `sp_add_contract`('1','48781','Table','2021-05-08');
+  
+4. query To show contract according to Project
+DELIMITER //
+CREATE PROCEDURE sp_show_contract()
+BEGIN 
+SELECT c.*,p.project_data,p.created_dt FROM contract_table as c INNER JOIN project_table as p ON p.project_no=c.project_no ORDER BY p.created_dt ASC;
+END //
+DELIMITER ;;
+
+CALL sp_show_contract();
+
+==================================================================================================================================================
+
+5. Query for adding Supplier 
+DELIMITER //
+  CREATE PROCEDURE sp_add_supplier(IN in_supplier_name varchar(45),
+                                   IN in_email_id varchar(45),
+                                   IN in_phone_number varchar(45),
+                                   IN in_supplier_address varchar(45)
+                                    )
+  BEGIN 
+  SET @total_already = (SELECT count(*) as total_already FROM supplier_table where phone_number=in_phone_number);
+  IF(@total_already>0) THEN 
+      SELECT 'Error ! Supplier Already Created';
+    ELSE
+      INSERT INTO supplier_table (supplier_name,email_id,phone_number,supplier_address) VALUES (in_supplier_name,in_email_id,in_phone_number,in_supplier_address); 
+      SELECT 'Supplier Added Successfully.';   
+  End if;    
+  END //
+  DELIMITER ;;
+
+CALL `sp_add_supplier`('Deepinder','D@gmail.com','9915099247','#51');
+
+6. Query for showing Supplier
+
+DELIMITER //
+CREATE PROCEDURE sp_show_supplier()
+BEGIN 
+SELECT * FROM supplier_table ORDER BY supplier_name ASC;
+END //
+DELIMITER ;;
+
+CALL sp_show_supplier(); 
+
+=============================================================================================================================================================
+
+7 Query to add data into sp_add_item_table
+DELIMITER //
+CREATE PROCEDURE sp_add_item_table (IN in_contract_id int,
+                                IN in_type_of_item varchar(255),
+                                IN in_quantity_of_item int,
+                                IN  in_total_price float,
+                                IN in_item_description varchar(255)
+                               )
+BEGIN 
+SET @total_already = (SELECT count(*) as total_already FROM item_table where contract_id=in_contract_id and type_of_item=in_type_of_item and quantity_of_item = in_quantity_of_item and total_price = in_total_price and item_description=in_item_description);
+SET @total_exist = (SELECT count(*) as total_exist FROM contract_table WHERE contract_no=in_contract_id);
+SET @maximum_price = (SELECT contract_price FROM contract_table WHERE contract_no=in_contract_id);
+
+SET @price = (SELECT SUM(total_price) as price FROM item_table WHERE contract_id=in_contract_id) + in_total_price;
+SET @total_quantity = (SELECT IF(SUM(quantity_of_item)is not null,SUM(quantity_of_item),0) as total_quantity FROM item_table WHERE contract_id=contract_id) + in_quantity_of_item;
+IF(@total_exist=0) THEN 
+    SELECT 'Error ! Contract Don not exist';
+ ELSEIF(@total_already>0) THEN 
+    SELECT 'Error ! Item with same contract_no, type_of_item, quantity_of_item, total_price and item_description';
+ ELSEIF(@price>@maximum_price) THEN 
+    SELECT 'Error ! Item cannot added beacuse your items amount exceed Contract Amount';
+ ELSEIF(@total_quantity>500) THEN 
+    SELECT 'Error ! You Exceed 500 limit so you cannot add more item in this contract ';
+ ELSE
+      INSERT INTO  item_table(contract_id,type_of_item, quantity_of_item,total_price,item_description,created_dt) VALUES (in_contract_id,in_type_of_item,in_quantity_of_item,in_total_price,in_item_description,CURRENT_TIMESTAMP());
+      SELECT 'Item Added Successfully'; 
+  End if;    
+END //
+DELIMITER ;; 
+
+CALL `sp_add_item_table`('1','table',15','1241','okok');   
+
+
+CALL `sp_add_requirement_of_contract`('1','table','15','1241','need big tables');
+
+8. Query to show all item and contract and project
+
+
+DELIMITER //
+CREATE PROCEDURE sp_show_item_contract_project()
+BEGIN 
+SELECT t.*,c.*,t.* FROM item_table as t INNER JOIN contract_table as c ON c.contract_no=t.contract_id INNER JOIN project_table as p On p.project_no=c.project_no ORDER BY p.project_no ASC;
+END //
+DELIMITER ;;
+
+CALL sp_show_item_contract_project();
+
+===========================================================================================================================================
+
+9. Query for adding purposal 
+  DELIMITER //
+  CREATE PROCEDURE sp_add_purposl(IN in_contract_id int,
+                                   IN in_supplier_id int,
+                                   IN in_contract_amount float
+                                )
+  BEGIN 
+  SET @total_already = (SELECT count(*) as total_already FROM purposal_table where contract_id=in_contract_id and supplier_id=in_supplier_id and contract_amount=in_contract_amount);
+  
+  SET @check_contract= (SELECT COUNT(*) FROM contract_table where contract_no=in_contract_id);
+  SET @check_supplier= (SELECT COUNT(*) FROM supplier_table where supplier_no=in_supplier_id);
+
+
+  SET @amount = (SELECT contract_price FROM contract_table where contract_no=in_contract_id);
+  IF(@total_already>0) THEN 
+      SELECT 'Error ! Purposal Already Created';
+  ELSEIF(@check_contract=0) THEN 
+      SELECT 'Error ! Contract not Exist';
+  ELSEIF(@check_supplier=0) THEN 
+      SELECT 'Error ! Supplier not Exist';         
+  ELSEIF(@amount<in_contract_amount) THEN 
+      SELECT 'Error ! Purposal Amount is greater than contract amount';    
+    ELSE
+      INSERT INTO purposal_table (contract_id,supplier_id,contract_amount,date_of_purposal) VALUES (in_contract_id,in_supplier_id,in_contract_amount,CURRENT_TIMESTAMP()); 
+      SELECT 'Purposal Added Successfully.';   
+  End if;    
+  END //
+  DELIMITER ;;
+
+10. Query to show all purposal_supplier_contract
+
+
+DELIMITER //
+CREATE PROCEDURE sp_show_purposal_supplier_contract()
+BEGIN 
+SELECT p.*,c.*,pr.* FROM purposal_table as p INNER JOIN supplier_table as s ON s.supplier_no=p.supplier_id INNER JOIN contract_table as c ON c.contract_no=p.contract_id INNER JOIN project_table as pr ON pr.project_no=c.project_no ORDER BY pr.created_dt ASC;
+END //
+DELIMITER ;;
+
+CALL sp_show_purposal_supplier_contract();
+
+==================================================================================================================================
+
+11. Query for adding purposal 
+  DELIMITER //
+  CREATE PROCEDURE sp_add_order(IN in_item_table_id int,
+                                   IN in_contract_no float,
+                                   IN in_supplier_id int,
+                                   IN in_price float,
+                                   IN in_date_required datetime,
+                                   IN in_date_complete datetime,
+                                   IN in_order_qty int
+                                )
+  BEGIN 
+  SET @check_contract= (SELECT COUNT(*) FROM order_table where contract_no=in_contract_no);
+  SET @check_already= (SELECT COUNT(*) FROM order_table where item_table_id=in_item_table_id and contract_no=in_contract_no and supplier_id=in_supplier_id and price=in_price and date_required=in_date_required and date_complete=in_date_complete and order_qty=in_order_qty);
+  
+  SET @check_item= (SELECT COUNT(*) FROM  item_table where item_no=in_item_table_id);
+  SET @check_contract= (SELECT COUNT(*) FROM contract_table where contract_no=in_contract_no);
+  SET @check_supplier= (SELECT COUNT(*) FROM supplier_table where supplier_no=in_supplier_id);
+
+
+  IF(@check_already>0) THEN 
+      SELECT 'Error ! Ordder Already Created';
+  ELSEIF(@check_contract>6000) THEN 
+      SELECT 'Error ! You cannot place more than 600';
+  ELSEIF(@check_contract=0) THEN 
+      SELECT 'Error ! Contract not Exist';
+  ELSEIF(@check_item=0) THEN 
+      SELECT 'Error ! Item not Exist';
+  ELSEIF(@check_supplier=0) THEN 
+      SELECT 'Error ! Supplier not Exist';         
+  ELSE
+      INSERT INTO order_table (item_table_id,contract_no,supplier_id,price,date_required,date_complete,order_qty) VALUES (in_item_table_id,in_contract_no,in_supplier_id,in_price,in_date_required,in_date_complete,in_order_qty); 
+      SELECT 'order Added Successfully.';   
+  End if;    
+  END //
+  DELIMITER ;;
+
+
+12. show all order_item_contract_project
+
+DELIMITER //
+CREATE PROCEDURE sp_show_order_item_contract_project()
+BEGIN 
+SELECT o.*,i.*,c.*,pr.* FROM order_table as o INNER JOIN supplier_table as s ON s.supplier_no=o.supplier_id INNER JOIN contract_table as c ON c.contract_no=o.contract_no INNER JOIN item_table as i ON i.item_no=o.item_table_id INNER JOIN project_table as pr ON pr.project_no=c.project_no ORDER BY pr.created_dt ASC;
+END //
+DELIMITER ;;
+
+CALL sp_show_order_item_contract_project();

@@ -1,0 +1,458 @@
+<?xml version="1.0" standalone="no"?>
+<!-- <?xml-stylesheet type="text/xsl" href="xsl/1_patient_insurance.xsl"?> -->
+<!-- <?xml-stylesheet type="text/xsl" href="xsl/2_patient_physician.xsl"?> -->
+<?xml-stylesheet type="text/xsl" href="xsl/3_patient.xsl"?>
+<!DOCTYPE data SYSTEM "xml_schema.dtd">
+<data>
+	<electricalMedicalRecord>
+		<patientInfromation>
+			<personalInfromation>
+				<userId>PPAA11</userId>
+				<FirstName>Wisdom</FirstName>
+			 	<lastName>Witherspoon</lastName>
+			 	<gender>Male</gender>
+			 	<address>Ronda de Sant Pere, 35, 08010 Barcelona, Spain</address>
+				<age>25</age>
+			 	<weight>90 kg</weight>
+			</personalInfromation>
+			<MedicalInfromation>
+				<TreatmentOf>Skin</TreatmentOf>
+				<subCategory>Acne types</subCategory>
+				<medication>Antibacterials</medication>
+				<allergies>Irritation on Skin</allergies>
+				<immunizationStatus>Qualitative Immunoblot</immunizationStatus>
+				<medicalHistory>
+					<consultations>5</consultations>
+					<surgeries>5</surgeries>
+					<LaborarotyTestResults>High level of protines in blood.High level of irons, Low levels of glucose</LaborarotyTestResults>
+				</medicalHistory>
+				<billingInfromation>
+					<Bank>Goldman Sachs</Bank>
+					<AccountId>ES125098537038930</AccountId>
+				</billingInfromation>
+			</MedicalInfromation>
+		</patientInfromation>
+		<patientInfromation>
+		<personalInfromation>
+			<userId>PPBB22</userId>
+			<FirstName>Bellamy</FirstName>
+		 	<lastName>Sawyer</lastName>
+		 	<gender>Male</gender>
+		 	<address>Av. de Portugal, 209, 03130 Santa Pola, Alicante, Spain</address>
+			<age>55</age>
+		 	<weight>100 kg</weight>
+		</personalInfromation>
+			<MedicalInfromation>
+				<TreatmentOf>Heart</TreatmentOf>
+				<subCategory>Aorta disease and Marfan syndrome</subCategory>
+				<medication>Blood pressure low</medication>
+				<allergies>Tall and slender build</allergies>
+				<immunizationStatus>nearsightedness</immunizationStatus>
+				<medicalHistory>
+					<consultations>4</consultations>
+					<surgeries>3</surgeries>
+					<LaborarotyTestResults>The pressure of blood leaving your heart can cause the wall of your aorta to bulge out, like a weak spot in a tire.</LaborarotyTestResults>
+				</medicalHistory>
+				<billingInfromation>
+					<Bank>Bankinter</Bank>
+					<AccountId>BSI18537038964730</AccountId>
+				</billingInfromation>
+			</MedicalInfromation>
+		</patientInfromation>
+		<patientInfromation>
+		<personalInfromation>
+				<userId>PPCC33</userId>
+				<FirstName>MacConnell</FirstName>
+			 	<lastName>Selina</lastName>
+			 	<gender>Female</gender>
+			 	<address>Paseo del Mediterráneo, 363, 04638 Mojácar, Almería, Spain</address>
+				<age>40</age>
+			 	<weight>60 kg</weight>
+			</personalInfromation>
+			<MedicalInfromation>
+				<TreatmentOf>Eyes</TreatmentOf>
+				<subCategory>Glaucoma</subCategory>
+				<medication>Carbonic anhydrase inhibitors (CAIs) </medication>
+				<allergies>Prostaglandin Analogs</allergies>
+				<immunizationStatus>Neurodegeneration and Neuroprotection</immunizationStatus>
+				<medicalHistory>
+					<consultations>4</consultations>
+					<surgeries>2</surgeries>
+					<LaborarotyTestResults>The range for normal pressure is 12-22 mm Hg (“mm Hg” refers to millimeters of mercury, a scale used to record eye pressure).</LaborarotyTestResults>
+				</medicalHistory>
+				<billingInfromation>
+					<Bank>KutxaBank</Bank>
+					<AccountId>KBYDI18537038930</AccountId>
+				</billingInfromation>
+			</MedicalInfromation>
+		</patientInfromation>
+		<patientInfromation>
+			<personalInfromation>
+				<userId>PPDD44</userId>
+				<FirstName>Wilton</FirstName>
+			 	<lastName>Starla</lastName>
+			 	<gender>Female</gender>
+			 	<address>Gran Via de les Corts Catalanes, 415, 08015 Barcelona, B, Spain</address>
+				<age>29</age>
+			 	<weight>70 kg</weight>
+			</personalInfromation>
+			<MedicalInfromation>
+				<TreatmentOf>Brain</TreatmentOf>
+				<subCategory>Brain Tumor</subCategory>
+				<medication>chemotherapy</medication>
+				<allergies>brain cancer</allergies>
+				<immunizationStatus>DCVax-L</immunizationStatus>
+				<medicalHistory>
+					<consultations>3</consultations>
+					<surgeries>2</surgeries>
+					<LaborarotyTestResults>The most common imaging tests for brain tumors are magnetic resonance imaging (MRI) and computed tomography (CAT scan, CT scan). </LaborarotyTestResults>
+				</medicalHistory>
+				<billingInfromation>
+					<Bank>Caja Rural Group</Bank>
+					<AccountId>CRGI1464780802526</AccountId>
+				</billingInfromation>
+			</MedicalInfromation>
+		</patientInfromation>
+		<patientInfromation>
+		<personalInfromation>
+			<userId>PPEE55</userId>
+			<FirstName>Lyon</FirstName>
+		 	<lastName>Laz</lastName>
+		 	<gender>Male</gender>
+		 	<address>Calle de Zurbano, 8, 28010 Madrid, Spain</address>
+			<age>35</age>
+		 	<weight>95 kg</weight>
+		</personalInfromation>
+		<MedicalInfromation>
+			<TreatmentOf>Cancer</TreatmentOf>
+			<subCategory>Chest Cancer</subCategory>
+			<medication>Abemaciclib </medication>
+			<allergies>asthma</allergies>
+			<immunizationStatus>NeuVax</immunizationStatus>
+			<medicalHistory>
+				<consultations>4</consultations>
+				<surgeries>3</surgeries>
+				<LaborarotyTestResults>A hormone receptor is a specialized protein located on the surface of or within a cell.</LaborarotyTestResults>
+			</medicalHistory>
+			<billingInfromation>
+				<Bank>Bankia</Bank>
+				<AccountId>BED144785508026</AccountId>
+			</billingInfromation>
+		</MedicalInfromation>
+	</patientInfromation>
+	</electricalMedicalRecord>
+	<insuranceComapny>
+		<company>
+			<companyId>CCBB11</companyId>
+			<companyName>MAPFRE</companyName>
+			<location>Spain, Madrid, Majadahonda</location>
+			<revenue>$33.6B</revenue>
+			<employees>34.3K</employees>
+			<customerDetails>
+				<customerId userId="PPAA11">PPAA11</customerId>	
+				<totalBalance currency="usd">5210$</totalBalance>
+				<timePeriod>1 year</timePeriod>
+				<transactions>
+					<transaction>
+						<transactionId>t12wwew3324tfkuosoiklsih11</transactionId>
+						<date>1-04-2020</date>
+						<amountDebit>50$</amountDebit>
+						<reason>Treatment For Skin</reason>
+					</transaction>
+					<transaction>
+						<transactionId>43564655rtt2627bd</transactionId>
+						<date>2-04-2020</date>
+						<amountDebit>70$</amountDebit>
+						<reason>Treatment For Arm skin</reason>
+					</transaction>	
+					<transaction>
+						<transactionId>t3727620djt2627bd</transactionId>
+						<date>3-04-2020</date>
+						<amountDebit>60$</amountDebit>
+						<reason>Treatment For Hand skin</reason>
+					</transaction>
+					<transaction>
+						<transactionId>394989d27bddi09eeheio</transactionId>
+						<date>4-04-2020</date>
+						<amountDebit>160$</amountDebit>
+						<reason>Treatment For leg skin</reason>
+					</transaction>
+					<transaction>
+						<transactionId>3u09ejijd27bddi0siee098978</transactionId>
+						<date>5-04-2020</date>
+						<amountDebit>160$</amountDebit>
+						<reason>Treatment For neck skin</reason>
+					</transaction>
+				</transactions>
+			</customerDetails>
+		</company>
+		<company>
+			<companyId>CCCC11</companyId>
+			<companyName>Seguros Ocaso</companyName>
+			<location>Spain, Madrid, Madrid</location>
+			<revenue>$267.1M</revenue>
+			<employees>30K</employees>
+			<customerDetails>
+				<customerId userId="PPBB22">PPBB22</customerId>	
+				<totalBalance currency="usd">4500$</totalBalance>
+				<timePeriod>2 year</timePeriod>
+				<transactions>
+					<transaction>
+						<transactionId>32444rdjkdhiube</transactionId>
+						<date>3-02-2020</date>
+						<amountDebit>50$</amountDebit>
+						<reason>Check up For Heart</reason>
+					</transaction>
+					<transaction>
+						<transactionId>i4r3wr4rudhdihdi092029</transactionId>
+						<date>10-02-2020</date>
+						<amountDebit>60$</amountDebit>
+						<reason>Check up for heart</reason>
+					</transaction>
+					<transaction>
+						<transactionId>7687u67utw67nxbxjk</transactionId>
+						<date>11-04-2020</date>
+						<amountDebit>20$</amountDebit>
+						<reason>Check of For heart pump</reason>
+					</transaction>
+				</transactions>
+			</customerDetails>
+		</company>
+		<company>
+			<companyId>CCDD33</companyId>
+			<companyName>SANITAS</companyName>
+			<location>Spain, Madrid, Madrid</location>
+			<revenue>$1.6B</revenue>
+			<employees>11K</employees>
+			<customerDetails>
+				<customerId userId="PPCC33">PPCC33</customerId>	
+				<totalBalance currency="usd">4554$</totalBalance>
+				<timePeriod>3 year</timePeriod>
+				<transactions>
+					<transaction>
+						<transactionId>4987498fjj095059123trt</transactionId>
+						<date>8-08-2020</date>
+						<amountDebit>520$</amountDebit>
+						<reason>Eyes Operation</reason>
+					</transaction>
+					<transaction>
+						<transactionId>48230940930oifhiubiuvuev</transactionId>
+						<date>18-08-2020</date>
+						<amountDebit>200$</amountDebit>
+						<reason>Check of For Eyes</reason>
+					</transaction>
+				</transactions>
+			</customerDetails>
+		</company>
+		<company>
+			<companyId>CCEE44</companyId>
+			<companyName>logo for Grupo Catalana Occidente Grupo Catalana Occidente</companyName>
+			<location>Spain, Catalonia, Sant Cugat del Valles</location>
+			<revenue>$375M</revenue>
+			<employees>6.5K</employees>
+			<customerDetails>
+				<customerId userId="PPDD44">PPDD44</customerId>	
+				<totalBalance currency="usd">48425$</totalBalance>
+				<timePeriod>9 year</timePeriod>
+				<transactions>
+					<transaction>
+						<transactionId>ueute7726828</transactionId>
+						<date>8-02-2020</date>
+						<amountDebit>1520$</amountDebit>
+						<reason>Brain Operation</reason>
+					</transaction>
+					<transaction>
+						<transactionId>37653gssbklsm</transactionId>
+						<date>18-02-2020</date>
+						<amountDebit>2000$</amountDebit>
+						<reason>Brain Operation</reason>
+					</transaction>
+				</transactions>
+			</customerDetails>
+		</company>
+		<company>
+			<companyId>PPEE55</companyId>
+			<companyName>SegurCaixa Adeslas</companyName>
+			<location>Spain, Madrid, Madrid</location>
+			<revenue>$4.7B</revenue>
+			<employees>6.1K</employees>
+			<customerDetails>
+				<customerId userId="PPEE55">PPEE55</customerId>	
+				<totalBalance currency="usd">4425$</totalBalance>
+				<timePeriod>1 year</timePeriod>
+				<transactions>
+					<transaction>
+						<transactionId>diuhdn88</transactionId>
+						<date>1-01-2020</date>
+						<amountDebit>120$</amountDebit>
+						<reason>Chest Operation</reason>
+					</transaction>
+					<transaction>
+						<transactionId>wqqdsacln22</transactionId>
+						<date>4-01-2020</date>
+						<amountDebit>2000$</amountDebit>
+						<reason>Chest Operation</reason>
+					</transaction>
+					<transaction>
+						<transactionId>pomkno99000</transactionId>
+						<date>10-01-2020</date>
+						<amountDebit>200$</amountDebit>
+						<reason>Chest Operation</reason>
+					</transaction>
+				</transactions>
+			</customerDetails>
+		</company>
+	</insuranceComapny>
+	<physician>
+		<physicianInfromation>
+			<pysiciansId>PPCC11</pysiciansId>
+			<name>Antonio Russi</name>
+			<specialist>Neurologist Epileptologist (Skin)</specialist>
+			<address>Barcelona,Spain</address>
+			<about>Prof. Antonio Russi is recognized as world famous neurologist and the best epileptologist in Spain. The Doctor specializes in non-surgical therapy of severe and rare epilepsy stages. He helps children and adults to get rid of seizures for good. Prof. Antonio Russi is an apparent expert in epilepsy    </about>
+			<patiendDetails>
+				<patiendId userId="PPAA11">PPAA11</patiendId>
+				<checkHistory>
+					<check>
+						<date>1-04-2020</date>
+						<health>Good</health>
+						<medicine>Antibacterials</medicine>
+					</check>
+					<check>
+						<date>2-04-2020</date>
+						<health>Poor</health>
+						<medicine>Fiver Medicine</medicine>
+					</check>
+					<check>
+						<date>3-04-2020</date>
+						<health>Fine</health>
+						<medicine>Fiver Medicine</medicine>
+					</check>
+					<check>
+						<date>4-04-2020</date>
+						<health>Good</health>
+						<medicine>Skin Medicine</medicine>
+					</check>
+					<check>
+						<date>5-04-2020</date>
+						<health>Good</health>
+						<medicine>Skin Medicine</medicine>
+					</check>
+				</checkHistory>
+			</patiendDetails>
+		</physicianInfromation>
+		<physicianInfromation>
+			<pysiciansId>PPDD22</pysiciansId>
+			<name>Bartolome Oliver</name>
+			<specialist>Neurosurgeon, Spine neurosurgeon, Neurooncologist, Pediatric neurosurgeon</specialist>
+			<address>Barcelona,Spain</address>
+			<about>Bartolome Oliver is top rated neurologists from Spain. Heads the Neurosurgical Department at the Teknon Clinic. Dr. Bartolome has been practicing since 1979. Dr. Oliver performs microsurgical operations through small incisions under a microscope. The physician also utilizes apparatuses of non-invasi</about>
+			<patiendDetails>
+				<patiendId userId="PPBB22">PPBB22</patiendId>
+				<checkHistory>
+					<check>
+						<date>4-02-2020</date>
+						<health>Good</health>
+						<medicine>Immunity Booster</medicine>
+					</check>
+					<check>
+						<date>11-04-2020</date>
+						<health>Good</health>
+						<medicine>Cardic Muscles</medicine>
+					</check>
+					<check>
+						<date>12-04-2020</date>
+						<health>Great</health>
+						<medicine>Heart Pumps</medicine>
+					</check>
+					<check>
+						<date>13-04-2020</date>
+						<health>Great</health>
+						<medicine>Heart Medicine</medicine>
+					</check>
+				</checkHistory>
+			</patiendDetails>
+		</physicianInfromation>
+		<physicianInfromation>
+			<pysiciansId>PPDD33</pysiciansId>
+			<name>Jaume Mora Graupera</name>
+			<specialist>Pediatric hematologist/oncologist Pediatric oncologist</specialist>
+			<address>Barcelona,Spain</address>
+			<about>Dr. Graupera is an awarded pediatric oncologist. Heads the Hematology Oncology Department in Sant Joan De Deu — one of the best children’s hospitals in Europe. Researcher. Was trained in the USA. Specialty Provides treatments of neuroblastomas, gliomas, Ewing's sarcomas, and Wilms' tumors</about>
+			<patiendDetails>
+				<patiendId userId="PPCC33">PPCC33</patiendId>
+				<checkHistory>
+					<check>
+						<date>19-02-2020</date>
+						<health>Good</health>
+						<medicine>Afinitor</medicine>
+					</check>
+					<check>
+						<date>20-04-2020</date>
+						<health>Good</health>
+						<medicine>Avastin </medicine>
+					</check>
+					<check>
+						<date>28-04-2020</date>
+						<health>Great</health>
+						<medicine>Bevacizumab</medicine>
+					</check>
+				</checkHistory>
+			</patiendDetails>
+		</physicianInfromation>
+		<physicianInfromation>
+			<pysiciansId>PPEE44</pysiciansId>
+			<name>Ramon Aurell Ballesteros</name>
+			<specialist>Fertility specialist Obstetrician-gynecologist</specialist>
+			<address>Barcelona,Spain Centro Medico Teknon</address>
+			<about>Dr. Ramon Aurell Ballesteros earned Degree in Medicine and Surgery from the Autonomous University of Barcelona , in 1991. He completed his specialization in obstetrics and gynecology in London, 1991 - 1997. Specialist trainig in Reproductive Medicine at Hammersmith Hospital, London 1997-1999</about>
+			<patiendDetails>
+				<patiendId userId="PPDD44">PPDD44</patiendId>
+				<checkHistory>
+					<check>
+						<date>19-02-2020</date>
+						<health>Good</health>
+						<medicine>Afinitor</medicine>
+					</check>
+					<check>
+						<date>20-04-2020</date>
+						<health>Good</health>
+						<medicine>Avastin </medicine>
+					</check>
+					<check>
+						<date>28-04-2020</date>
+						<health>Great</health>
+						<medicine>Bevacizumab</medicine>
+					</check>
+				</checkHistory>
+			</patiendDetails>
+		</physicianInfromation>
+		<physicianInfromation>
+			<pysiciansId>PPFF55</pysiciansId>
+			<name>Antonio de Lacy Fortuny</name>
+			<specialist>Hospital Quiron Barcelona</specialist>
+			<address>Barcelona,Spain Centro Medico Teknon</address>
+			<about>Dr. Antonio de Lacy Fortuny is an oncosurgeon with 25 years of experience. The doctor specialises in rectal and colon cancer treatment, bariatric surgery, esophageal cancer treatment. The surgeon has performed over 15,000 surgical procedures.</about>
+			<patiendDetails>
+				<patiendId userId="PPEE55">PPEE55</patiendId>
+				<checkHistory>
+					<check>
+						<date>02-02-2020</date>
+						<health>Good</health>
+						<medicine>Afinitor</medicine>
+					</check>
+					<check>
+						<date>04-02-2020</date>
+						<health>Good</health>
+						<medicine>Avastin </medicine>
+					</check>
+					<check>
+						<date>10-02-2020</date>
+						<health>Great</health>
+						<medicine>Bevacizumab</medicine>
+					</check>
+				</checkHistory>
+			</patiendDetails>
+		</physicianInfromation>
+	</physician>
+</data>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Project| Henrry Goels | Deepinder Singh</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.php">Weather Api Project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://www.fiverr.com/henrrygoels?up_rollout=true" title="Henrry Goels Fiverr Profile">Henrry Goels
+					</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br/>
+    <div class="container">
+        <div class="row">
+            <h2 class="text-info">Weather Api Result from JSON File</h2><br/><br/><br/>
+        </div>    
+        <div class="row">
+            <div class="myTable">
+                <table class="table-responsive table-striped table-hover" border="1" cellpadding="25">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Sri No</th>
+                            <th>City Id</th>
+                            <th>City Name</th>
+                            <th>Current Condition</th>
+                            <th>Temprature</th>
+                            <th>Wind Speed</th>
+                            <th>Wind Direction</th>
+                            <th>Wind Chill Factor</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTable"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="weather.js"></script>
+</body>
+
+</html>

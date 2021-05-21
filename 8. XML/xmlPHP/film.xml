@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="filme.css" type="text/css" ?>
+
+<datenbank>
+    <film>
+        <title>The Godfather</title>
+        <anbieter>Paramount Pictures</anbieter>
+        <darsteller>
+            <man>Marlon Brando</man>
+            <woman>Diane Keaton</woman>
+        </darsteller>
+        <bewertungen>
+            <bewertung typ="kritiker">98%</bewertung>
+            <bewertung typ="publikum">78%</bewertung>
+        </bewertungen>
+    </film>
+    <film>
+        <title>The Mandalorian</title>
+        <anbieter>Disney+</anbieter>
+        <darsteller>
+            <man>Pedro Pascal</man>
+            <woman>Dallas Howard</woman>
+        </darsteller>
+        <bewertungen>
+            <bewertung typ="kritiker">93%</bewertung>
+            <bewertung typ="publikum">92%</bewertung>
+        </bewertungen>
+    </film>
+    <film>
+        <title>Matrix</title>
+        <anbieter>Divers</anbieter>
+        <darsteller>
+            <man>Keanu Reeves</man>
+            <man>Laurence Fishburn</man>
+            <woman>Carrie-Anne Moss</woman>
+        </darsteller>
+        <bewertungen>
+            <bewertung typ="kritiker">88%</bewertung>
+            <bewertung typ="publikum">85%</bewertung>
+        </bewertungen>
+    </film>
+    <film>
+        <title>Avatar: Der Herr der Elemente</title>
+        <anbieter>Nickelodeon, Netflix</anbieter>
+        <darsteller>
+            <man>Zach Tyler Eisen</man>
+            <man>Jack DeSena</man>
+            <woman>Mae Whitman</woman>
+            <woman>Jessie Flower</woman>
+        </darsteller>
+        <bewertungen>
+            <bewertung typ="kritiker">97%</bewertung>
+            <bewertung typ="publikum">98%</bewertung>
+        </bewertungen>
+    </film>
+</datenbank>

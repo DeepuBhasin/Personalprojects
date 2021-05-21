@@ -1,0 +1,63 @@
+[   
+        {
+            "cityid": 2643123,
+            "cityName": "Manchester",
+            "currentConditions": "Clouds",
+            "temperature": 275.22,
+            "windSpeed": 3.09,
+            "windDirection": "320deg",
+            "windChillFactor": 0.9
+        }, {
+            "cityid": 2648579,
+            "cityName": "Glasgow",
+            "currentConditions": "Clouds",
+            "temperature": 275.85,
+            "windSpeed": 3.6,
+            "windDirection": "280deg",
+            "windChillFactor": 0.5
+        }, {
+            "cityid": 2155472,
+            "cityName": "Newcastle",
+            "currentConditions": "Rain",
+            "temperature": 293.27,
+            "windSpeed": 3.09,
+            "windDirection": "200deg",
+            "windChillFactor": 0.98
+        },
+        {
+            "cityid": 4049979,
+            "cityName": "Birmingham",
+            "currentConditions": "Clear",
+            "temperature": 289.37,
+            "windSpeed": 3.09,
+            "windDirection": "220deg",
+            "windChillFactor": 0.85
+        },
+        {
+            "cityid": 5183234,
+            "cityName": "Carlisle",
+            "currentConditions": "Clouds",
+            "temperature": 284.54,
+            "windSpeed": 0.29,
+            "windDirection": "115deg",
+            "windChillFactor": 0.8
+        },
+        {
+            "cityid": 2653822,
+            "cityName": "Cardiff",
+            "currentConditions": "Clouds",
+            "temperature": 276.31,
+            "windSpeed": 2.57,
+            "windDirection": "310deg",
+            "windChillFactor": 0.2
+        },
+        {
+            "cityid": 2655984,
+            "cityName": "Belfast",
+            "currentConditions": "Clouds",
+            "temperature": 276.73,
+            "windSpeed": 2.57,
+            "windDirection": "280deg",
+            "windChillFactor": 0.5
+        }
+    ]

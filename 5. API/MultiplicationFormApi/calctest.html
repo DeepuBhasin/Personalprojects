@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>Givesome</title>
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://apps.mi.ca/web/css/bootstrap.css">
+    
+</head>
+<body>
+  
+  
+ 
+  
+    <br/>
+<h3 class="text-center">Multiplication Test!</h3>
+<div class="container contact-form" style="margin-top:40px">
+            <form method="post" onsubmit="return false;" action="https://apps.mi.ca">
+			    <input type="hidden" name="_token" value="d8yrzetcngtUtXSO5370hWDkUAC5iwdA4FZo9sZk">
+                <label>Calculation Type</label>
+                <input type="text" class="form-control"  readonly="readonly" id="calculation_type" value="multiply" name="calculation_type"/>
+               <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group ">
+                        <label>Number 1</label>
+                            <input type="number" min="1" required name="field1" class="form-control" placeholder="Field 1 *" id="field1"  required />
+                           
+                        </div>
+                        <div class="form-group ">
+                        <label>Number 2</label>
+                            <input  name="number" min="1"  required  class="form-control" placeholder="Field 2 *" id="field2" required />
+							
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="row">
+                <div class="col-md-12">
+                    <div class="pull-right">
+                        
+                    <input type="submit" style="background-color: #62449a !important;" name="btnSubmit" id="btnSubmit" class="btn btn-primary btn-round btn-sm " value="Send" />
+
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-md-12">
+                <strong>Output: </strong><span id="returnvalue"></span>
+                </div>
+                </div>
+            </form>
+            <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+</div>
+
+ 
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+
+    <script src="https://apps.mi.ca/web/js/bootstrap.min.js"></script>
+
+    <script>
+$(document).ready(function(){
+
+   
+    $('#btnSubmit').click(function(){
+
+        var field1=$("#field1").val();
+        var field2=$("#field2").val();
+        var calculation_type=$("#calculation_type").val();
+        $.ajax({
+            type: "POST",
+            url: '/savewidgetdata',
+            data: {
+               
+                field1:field1,
+                field2:field2,
+                calculation_type:calculation_type
+            }, // serializes the form's elements.
+            success: function(data) {
+                data=JSON.parse(data)
+               
+                $("#returnvalue").text(data.rvalue);
+            }
+        });
+
+    })
+
+});
+
+</script>
+
+
+  
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="15px" viewBox="0 0 10 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect x="1470.14062" y="19.296875" width="8.328125" height="13.203125" id="rect-1"></rect>
+    </defs>
+    <g id="6.1-Glossary:-List-View" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1510.000000, -233.000000)">
+        <g id="All-Rows" transform="translate(40.000000, 214.000000)">
+            <g id="Row">
+                <g id="Arrow">
+                    <image x="1470.14062" y="19.296875" width="8.328125" height="13.203125" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAABBCAYAAABMx43BAAAAAXNSR0IArs4c6QAAAVdJREFUaAXtmEGKAjEQRXXcKsx2xFOIC5dzmblHbjHXme3cYK4xrgX9DQaaxt/8LrpNLX6giF2pJM+HgY6r1Xh7x/DXeEnb0Q7wF3FDFES61gfsINOBPgNMBToGmAJUAWwKOgWwCegWB6Oe4gqg9uUVR36DTa6II+IU2PATc9aIH8Ti7Q07fCNUg8O6sjjhYwODzm3aRm0UBoYnWnkuc5tj6/k3ysxE8zYaNcfm2SgzE83baNQcm2ejzEw0b6NRc2yejTIz0byNRs2xeXsMXBDKS/Kw5h/zDmzhufIfWOgPMdxcee4Az3OBsHUMyMyoeRtUTbE6G2Rm1LwNqqZYnQ0yM2reBlVTrM4GmRk1b4OqKVZng8yMmrdB1RSrs0FmRs3vUJj62lm/SMEH5S7cr3nJvbgC1n4KaBPAKaBNARXQFIBjoKkAn4GmBOyDpgasoIv/P1g3Yv0dvOxFCb33bUMAAAAASUVORK5CYII="></image>
+                    <use fill="#CCCFD4" fill-rule="evenodd" xlink:href="#rect-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

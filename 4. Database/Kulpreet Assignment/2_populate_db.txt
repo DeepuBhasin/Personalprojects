@@ -1,0 +1,98 @@
+INSERT INTO `author` (`a_id`, `fname`, `lname`) VALUES
+('a1', 'PARAG', 'PARIKH'),
+('a2', 'Arthur', 'Miller'),
+('a3', 'Ernest', 'Hemingway'),
+('a4', 'Margaret', 'Mitchell'),
+('a5', 'John', 'Steinbeck'),
+('a6', 'F. Scott', 'Fitzgerald'),
+('a7', 'Harper', 'Lee'),
+('a8', 'Jeff', 'Smith');
+
+INSERT INTO `publisher` (`p_id`, `p_name`, `p_address`, `p_phone`) VALUES
+('p1', 'Harper Perennial', 'USA', '9996664512'),
+('p2', 'Scribner ', 'USA', '8880004784'),
+('p3', 'Penguin Books ', 'UK', '8524441545'),
+('p4', 'Warner Books', 'Atlanta, USA', '4138284821'),
+('p5', 'Heinemann Library', 'New York,USA', '6261636264'),
+('p6', 'Pearson Education', 'UK', '4148583828'),
+('p7', 'McGraw-Hill Education', 'USA', '1020304327');
+
+
+INSERT INTO `book` (`isbn`, `title`, `btype`, `price`, `pub_date`, `p_id`) VALUES
+('0142000671', 'Of Mice and Men', 'Story', '20.05', '2020-01-02 00:00:00', 'p2'),
+('0142000777', 'STOCKS TO RICHES ', 'Textbook', '10.90', '2018-11-09 00:00:00', 'p5'),
+('0213432112', 'Fundamentals of Database Systems', 'Textbook', '2.60', '2019-09-25 00:00:00', 'p7'),
+('0446675539', 'Gone with the Wind', 'Novel', '41.83', '1999-04-01 00:00:00', 'p3'),
+('067001690X', 'The Grapes of Wrath', 'Novel', '22.90', '2002-01-08 00:00:00', 'p3'),
+('562441756', 'The Great Gatsby', 'Novel', '86.60', '2014-09-10 00:00:00', 'p3'),
+('848518451', 'THE GREAT GATSBY', 'Noval', '42.60', '2001-12-11 00:00:00', 'p6'),
+('8754954474', 'To Kill a Mockingbird', 'Dramatic', '45.60', '2006-06-23 00:00:00', 'p1');
+
+
+INSERT INTO `customer` (`c_id`, `c_name`, `c_address`) VALUES
+('c1', 'Alice Kay', '22751 El Prado #1108\nRancho Santa Margarita, California(CA), 92688'),
+('c2', 'Harry', '306 Church St\nBroxton, Georgia(GA), 31519'),
+('c3', 'George', '250 E Water St\nSlippery Rock, Pennsylvania(PA), 16057'),
+('c4', 'Noah', '4101 Amy Ct\nHigh Ridge, Missouri(MO), 63049'),
+('c5', 'Jack', '23 Shore Dr\nCuddebackville, New York(NY), 12729');
+
+INSERT INTO `editor` (`eid`, `fname`, `lname`) VALUES
+('e1', 'John', 'Steinbeck'),
+('e2', 'Parag', 'Parikh'),
+('e3', 'John', 'Marsh'),
+('e4', 'Robert', 'DeMott'),
+('e5', 'F. Scott', 'Fitzgerald'),
+('e6', 'Tay', 'Hohoff'),
+('e7', 'Johannes', 'Gehrke');
+
+INSERT INTO `edited_by` (`eid`, `isbn`) VALUES
+('e7', '0213432112'),
+('e7', '8754954474'),
+('e4', '562441756'),
+('e4', '067001690X'),
+('e3', '0446675539'),
+('e5', '0213432112'),
+('e2', '0142000777'),
+('e1', '0142000671');
+
+
+
+INSERT INTO `orders` (`o_id`, `order_date`, `c_id`) VALUES
+('o1', '2020-05-04 06:12:21', 'c1'),
+('o10', '2002-05-04 07:46:15', 'c4'),
+('o11', '2001-04-17 18:13:00', 'c5'),
+('o2', '2019-11-13 14:11:41', 'c5'),
+('o3', '2020-01-27 19:11:42', 'c2'),
+('o4', '2020-12-08 06:34:35', 'c4'),
+('o5', '2020-12-01 07:33:15', 'c3'),
+('o6', '2020-04-14 02:33:06', 'c1'),
+('o7', '2020-12-16 17:19:42', 'c1'),
+('o8', '2019-05-04 06:33:47', 'c2'),
+('o9', '2020-04-17 05:36:00', 'c1');
+
+INSERT INTO `order_book` (`o_id`, `isbn`, `no_of_copy`) VALUES
+('o1', '0446675539', 7),
+('o10', '0213432112', 2),
+('o11', '0213432112', 5),
+('o2', '067001690X', 3),
+('o3', '562441756', 9),
+('o4', '8754954474', 12),
+('o5', '0213432112', 11),
+('o6', '0142000777', 1),
+('o7', '0142000671', 7),
+('o8', '0213432112', 2),
+('o9', '0213432112', 2);
+
+
+
+INSERT INTO `written_by` (`isbn`, `a_id`) VALUES
+('067001690X', 'a1'),
+('0142000671', 'a2'),
+('0142000777', 'a4'),
+('0213432112', 'a3'),
+('0446675539', 'a5'),
+('0446675539', 'a8'),
+('562441756', 'a6'),
+('8754954474', 'a7'),
+('067001690X', 'a8');
+

@@ -1,0 +1,6 @@
+View Profile Page
+- Receive button: adds the inputted value from the current Balance
+- Weigh button: subtracts the inputted value from the current Balance
+- Allows the user to input his name whenever he updates the Balance of the item
+- All the edits from the Balance must be shown in a table
+- The current balance must show on the Inventory Page

@@ -1,0 +1,9 @@
+DROP TABLE `author`;
+DROP TABLE  `book`;
+DROP TABLE  `customer`;
+DROP TABLE  `edited_by`;
+DROP TABLE  `editor`;
+DROP TABLE  `orders`;
+DROP TABLE  `order_book`;
+DROP TABLE  `publisher`;
+DROP TABLE  `written_by`;;

@@ -1,0 +1,79 @@
+-- creating Database 
+CREATE DATABASE assignment;
+
+
+-- create customer table
+CREATE TABLE customer(							 
+    c_id char(9) NOT NULL PRIMARY KEY,  
+    c_name varchar(20) NOT NULL,
+    c_address varchar(80) NOT NULL
+)ENGINE=INNODB;	
+
+-- create orders table
+CREATE TABLE orders(							 
+    o_id char(9) NOT NULL PRIMARY KEY,  
+    order_date DATETIME NOT NULL,
+    c_id char(9) NOT NULL,
+    FOREIGN KEY (c_id) REFERENCES customer(c_id)
+)ENGINE=INNODB;	
+
+-- create publisher table
+CREATE TABLE publisher(
+p_id char(10) NOT NULL PRIMARY KEY,
+p_name varchar(30) NOT NULL,
+p_address varchar(80) NOT NULL,
+p_phone char(10) NOT NULL
+)ENGINE=INNODB;	
+
+-- create book table
+CREATE TABLE book(
+isbn char(10) NOT NULL PRIMARY KEY,
+title varchar(100) NOT NULL, 
+btype varchar(15) NOT NULL,
+price DECIMAL(10,2) NOT NULL,
+pub_date DATETIME NOT NULL,
+p_id char(10) NOT NULL,
+FOREIGN KEY (p_id) REFERENCES publisher(p_id)
+)ENGINE=INNODB;
+
+-- create order_book table
+CREATE TABLE order_book(
+	o_id char(9) NOT NULL PRIMARY KEY,  
+	isbn char(10),
+	no_of_copy int,
+    FOREIGN KEY (isbn) REFERENCES book(isbn),
+    FOREIGN KEY (o_id) REFERENCES orders(o_id)
+)ENGINE=INNODB;	
+
+-- create author table
+CREATE TABLE author(
+a_id char(4) NOT NULL PRIMARY KEY,
+fname varchar(15) NOT NULL,
+lname varchar(15) NOT NULL
+)ENGINE=INNODB;
+
+-- create written_by table
+CREATE TABLE written_by(
+isbn char(10) NOT NULL,
+a_id char(4) NOT NULL,
+
+FOREIGN KEY (isbn) REFERENCES book(isbn),
+FOREIGN KEY (a_id) REFERENCES author(a_id)
+)ENGINE=INNODB;
+
+
+-- create editor table
+CREATE TABLE editor(
+eid char(4) NOT NULL PRIMARY KEY,
+fname varchar(15) NOT NULL,
+lname varchar(15) NOT NULL
+)ENGINE=INNODB;
+
+-- create edited_by table
+CREATE TABLE edited_by(
+eid char(4) NOT NULL,
+isbn char(10) NOT NULL,
+
+FOREIGN KEY (isbn) REFERENCES book(isbn),
+FOREIGN KEY (eid) REFERENCES editor(eid)
+);

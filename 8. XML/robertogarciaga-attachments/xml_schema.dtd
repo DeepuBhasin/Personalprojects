@@ -1,0 +1,223 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT data (electricalMedicalRecord,insuranceComapny,physician)>
+<!ATTLIST data
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT electricalMedicalRecord (patientInfromation)+>
+<!ATTLIST electricalMedicalRecord
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT insuranceComapny (company)+>
+<!ATTLIST insuranceComapny
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT physician (physicianInfromation)+>
+<!ATTLIST physician
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT patientInfromation (personalInfromation,MedicalInfromation)>
+<!ATTLIST patientInfromation
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT company (companyId,companyName,location,revenue,employees,
+                   customerDetails)>
+<!ATTLIST company
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT physicianInfromation (pysiciansId,name,specialist,address,
+                                about,patiendDetails)>
+<!ATTLIST physicianInfromation
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT personalInfromation (userId,FirstName,lastName,gender,address,
+                               age,weight)>
+<!ATTLIST personalInfromation
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT MedicalInfromation (TreatmentOf,subCategory,medication,
+                              allergies,immunizationStatus,
+                              medicalHistory,billingInfromation)>
+<!ATTLIST MedicalInfromation
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT companyId (#PCDATA)>
+<!ATTLIST companyId
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT companyName (#PCDATA)>
+<!ATTLIST companyName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT location (#PCDATA)>
+<!ATTLIST location
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT revenue (#PCDATA)>
+<!ATTLIST revenue
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT employees (#PCDATA)>
+<!ATTLIST employees
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT customerDetails (customerId,totalBalance,timePeriod,
+                           transactions)>
+<!ATTLIST customerDetails
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT pysiciansId (#PCDATA)>
+<!ATTLIST pysiciansId
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT specialist (#PCDATA)>
+<!ATTLIST specialist
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT about (#PCDATA)>
+<!ATTLIST about
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT patiendDetails (patiendId,checkHistory)>
+<!ATTLIST patiendDetails
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT userId (#PCDATA)>
+<!ATTLIST userId
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT FirstName (#PCDATA)>
+<!ATTLIST FirstName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT lastName (#PCDATA)>
+<!ATTLIST lastName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT gender (#PCDATA)>
+<!ATTLIST gender
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT age (#PCDATA)>
+<!ATTLIST age
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT weight (#PCDATA)>
+<!ATTLIST weight
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT TreatmentOf (#PCDATA)>
+<!ATTLIST TreatmentOf
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT subCategory (#PCDATA)>
+<!ATTLIST subCategory
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT medication (#PCDATA)>
+<!ATTLIST medication
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT allergies (#PCDATA)>
+<!ATTLIST allergies
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT immunizationStatus (#PCDATA)>
+<!ATTLIST immunizationStatus
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT medicalHistory (consultations,surgeries,
+                          LaborarotyTestResults)>
+<!ATTLIST medicalHistory
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT billingInfromation (Bank,AccountId)>
+<!ATTLIST billingInfromation
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT customerId (#PCDATA)>
+<!ATTLIST customerId
+  xmlns CDATA #FIXED ''
+  userId NMTOKEN #REQUIRED>
+
+<!ELEMENT totalBalance (#PCDATA)>
+<!ATTLIST totalBalance
+  xmlns CDATA #FIXED ''
+  currency NMTOKEN #REQUIRED>
+
+<!ELEMENT timePeriod (#PCDATA)>
+<!ATTLIST timePeriod
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT transactions (transaction)+>
+<!ATTLIST transactions
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT patiendId (#PCDATA)>
+<!ATTLIST patiendId
+  xmlns CDATA #FIXED ''
+  userId NMTOKEN #REQUIRED>
+
+<!ELEMENT checkHistory (check)+>
+<!ATTLIST checkHistory
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT consultations (#PCDATA)>
+<!ATTLIST consultations
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT surgeries (#PCDATA)>
+<!ATTLIST surgeries
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT LaborarotyTestResults (#PCDATA)>
+<!ATTLIST LaborarotyTestResults
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Bank (#PCDATA)>
+<!ATTLIST Bank
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT AccountId (#PCDATA)>
+<!ATTLIST AccountId
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT transaction (transactionId,date,amountDebit,reason)>
+<!ATTLIST transaction
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT check (date,health,medicine)>
+<!ATTLIST check
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT transactionId (#PCDATA)>
+<!ATTLIST transactionId
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT amountDebit (#PCDATA)>
+<!ATTLIST amountDebit
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT reason (#PCDATA)>
+<!ATTLIST reason
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT health (#PCDATA)>
+<!ATTLIST health
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT medicine (#PCDATA)>
+<!ATTLIST medicine
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT address (#PCDATA)>
+<!ATTLIST address
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date
+  xmlns CDATA #FIXED ''>

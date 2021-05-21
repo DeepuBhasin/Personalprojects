@@ -1,0 +1,86 @@
+1. Select Queries with Simple Conditions 
+	
+	a. Select all the users 
+
+		SELECT * FROM users_table ORDER BY name ASC
+
+	b. for selecting users who's salary greater than 25000 
+
+		SELECT * FROM users_table WHERE salary>=25000 ORDER BY name ASC
+
+	c. Select the Average of all user salaries 
+
+		SELECT AVG(salary) as average  FROM users_table 
+
+	d. Total Number of Users 
+
+		SELECT COUNT(sno) as total_user  FROM users_table 
+
+	e. Select the Total of all user salary
+		
+		SELECT SUM(salary) as average  FROM users_table 	
+
+
+
+2. Select query with joins 	
+	
+	a. Select users according to the departments
+
+		SELECT u.*,d.* FROM user_department_table as ud INNER JOIN users_table as u ON u.sno=ud.user_id INNER JOIN department as d ON d.sri =ud.department_id ORDER BY u.name ASC
+
+	b. 	Select users which belongs to sales depratement 
+
+		SELECT u.*,d.* FROM user_department_table as ud INNER JOIN users_table as u ON u.sno=ud.user_id INNER JOIN department as d ON d.sri =ud.department_id WHERE d.department_name='Sales' ORDER BY u.name ASC
+
+	c. SELECT users which belongs to Testing unit or Manufacturing 
+
+		SELECT u.*,d.* FROM user_department_table as ud INNER JOIN users_table as u ON u.sno=ud.user_id INNER JOIN department as d ON d.sri =ud.department_id WHERE d.department_name IN('Testing Unit','Manufacturing') ORDER BY u.name ASC
+
+	d. Select devices which belongs to users 
+
+		SELECT u.*,d.* FROM user_device_table as ud INNER JOIN users_table as u ON u.sno=ud.user_id INNER JOIN device_table as d ON d.sno=ud.device_id ORDER BY u.name ASC
+ 	
+ 	e. Select software which is installed on Devices 
+
+ 		SELECT s.*,d.* FROM software_device_table as sd INNER JOIN software_table as s ON s.sno=sd.id INNER JOIN device_table as d ON d.sno=sd.device_id ORDER BY s.name ASC
+    
+    f. Select Software which provided by vendors 
+
+    	SELECT s.*,v.* FROM software_vendor_table as sv INNER JOIN software_table as s ON s.sno=sv.software_id INNER JOIN vendor_table as v ON v.sno=sv.vendor_id ORDER BY s.name ASC;
+
+
+3. Select Query with groups 
+	
+		a. No of users in each Department 
+
+			SELECT d.sri,d.department_name,count(ud.user_id) as Totalcount FROM user_department_table as ud INNER JOIN users_table as u ON u.sno=ud.user_id INNER JOIN department as d ON d.sri =ud.department_id GROUP BY ud.department_id  ORDER BY d.sri ASC
+
+		b. No of user assign on each system
+
+			SELECT d.sno,d.device_type,d.model_number,Count(u.sno) as total_count FROM user_device_table as ud INNER JOIN users_table as u ON u.sno=ud.user_id INNER JOIN device_table as d ON d.sno=ud.device_id GROUP BY d.sno ORDER BY d.sno ASC
+
+		c. 	No of user group of each department have sum of salary greater than 60000
+
+			SELECT d.sri,d.department_name,count(ud.user_id) as Totalcount,SUM(u.salary) as salary_count FROM user_department_table as ud INNER JOIN users_table as u ON u.sno=ud.user_id INNER JOIN department as d ON d.sri =ud.department_id  GROUP BY ud.department_id HAVING 60000<SUM(u.salary)  ORDER BY d.sri ASC
+
+		d. 	System which have installed more than 2 software 
+
+			SELECT d.device_type,d.model_number ,COUNT(sd.software_id) as total_count FROM software_device_table as sd INNER JOIN software_table as s ON s.sno=sd.id INNER JOIN device_table as d ON d.sno=sd.device_id GROUP BY sd.device_id HAVING COUNT(sd.software_id)>2 ORDER by d.device_type ASC;
+
+4.  Select Query with nested 
+	
+		a. Select users which salary has greater than average salary
+
+			SELECT * FROM users_table WHERE  salary > (SELECT AVG(salary) as average  FROM users_table  ) ORDER BY name ASC
+
+		b. 	Selecting Users which belongs to 'Testing unit' and Manufacturing 
+
+			SELECT * FROM users_table WHERE sno IN(SELECT sno FROM user_department_table as ud INNER JOIN users_table as u ON u.sno=ud.user_id INNER JOIN department as d ON d.sri =ud.department_id WHERE d.department_name IN('Testing Unit','Manufacturing') ORDER BY u.name ASC) ORDER BY name ASC
+
+		c. Select software which have more than 10 years of validity 
+			
+			SELECT * FROM software_table WHERE sno in (SELECT sno DateDiff FROM software_table WHERE ROUND((DATEDIFF(expiry_date,purchasing_date)/365))>10) ORDER by name 	 	 
+
+		d. Selecting those vendors whom does not include 'Oracle','SAP','Kaspersky'
+		
+			SELECT * FROM vendor_table WHERE sno NOT IN (SELECT sno FROM vendor_table WHERE name IN ('Oracle','SAP','Kaspersky')) ORDER by name ASC	

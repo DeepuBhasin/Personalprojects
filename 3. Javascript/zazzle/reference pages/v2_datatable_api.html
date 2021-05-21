@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/core.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/components.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/colors.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/nicescroll.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/drilldown.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/fab.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script type="text/javascript" src="assets/js/plugins/tables/datatables/datatables.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/forms/selects/select2.min.js"></script>
+
+	<script type="text/javascript" src="assets/js/core/app.js"></script>
+	<script type="text/javascript" src="assets/js/pages/datatables_extension_buttons_html5.js"></script>
+
+	<script type="text/javascript" src="assets/js/plugins/ui/ripple.min.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body class="navbar-bottom">
+	<!-- Page header -->
+	<div class="page-header page-header-inverse bg-whit4e">
+
+		<!-- Main navbar -->
+		<div class="navbar navbar-inverse navbar-transparent">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html"><img src="assets/images/logo_dark.svg" alt=""></a>
+
+				<ul class="nav navbar-nav pull-right visible-xs-block">
+					<li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-grid3"></i></a></li>
+				</ul>
+			</div>
+
+			<div class="navbar-collapse collapse" id="navbar-mobile">
+
+				<ul class="nav navbar-nav navbar-nav-material">
+					<li><a href="#" class="legit-ripple">Dashboard </a></li>
+                    <li><a href="#">Visualization</a></li>
+                    <li><a href="glossary_datatable_extension_buttons_html5.html">Glossary</a></li>
+				</ul>
+
+				<div class="navbar-right">
+					<ul class="nav navbar-nav">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								<i class="icon-bell2"></i>
+								<span class="visible-xs-inline-block position-right">Notifications</span>
+								<span class="status-mark border-pink-300"></span>
+							</a>
+
+							<div class="dropdown-menu dropdown-content">
+								<div class="dropdown-content-heading">
+									Notifications
+									<ul class="icons-list">
+										<li><a href="#"><i class="icon-menu7"></i></a></li>
+									</ul>
+								</div>
+
+								<ul class="media-list dropdown-content-body width-350">
+									<li class="media">
+										<div class="media-left">
+											<a href="#" class="btn bg-success-400 btn-rounded btn-icon btn-xs"><i class="icon-mention"></i></a>
+										</div>
+
+										<div class="media-body">
+											<a href="#">Taylor Swift</a> mentioned you in a post "Angular JS. Tips and tricks"
+											<div class="media-annotation">4 minutes ago</div>
+										</div>
+									</li>
+
+									<li class="media">
+										<div class="media-left">
+											<a href="#" class="btn bg-pink-400 btn-rounded btn-icon btn-xs"><i class="icon-paperplane"></i></a>
+										</div>
+										
+										<div class="media-body">
+											Special offers have been sent to subscribed users by <a href="#">Donna Gordon</a>
+											<div class="media-annotation">36 minutes ago</div>
+										</div>
+									</li>
+
+									<li class="media">
+										<div class="media-left">
+											<a href="#" class="btn bg-blue btn-rounded btn-icon btn-xs"><i class="icon-plus3"></i></a>
+										</div>
+										
+										<div class="media-body">
+											<a href="#">Chris Arney</a> created a new <span class="text-semibold">Design</span> branch in <span class="text-semibold">Limitless</span> repository
+											<div class="media-annotation">2 hours ago</div>
+										</div>
+									</li>
+
+									<li class="media">
+										<div class="media-left">
+											<a href="#" class="btn bg-purple-300 btn-rounded btn-icon btn-xs"><i class="icon-truck"></i></a>
+										</div>
+										
+										<div class="media-body">
+											Shipping cost to the Netherlands has been reduced, database updated
+											<div class="media-annotation">Feb 8, 11:30</div>
+										</div>
+									</li>
+
+									<li class="media">
+										<div class="media-left">
+											<a href="#" class="btn bg-warning-400 btn-rounded btn-icon btn-xs"><i class="icon-bubble8"></i></a>
+										</div>
+										
+										<div class="media-body">
+											New review received on <a href="#">Server side integration</a> services
+											<div class="media-annotation">Feb 2, 10:20</div>
+										</div>
+									</li>
+
+									<li class="media">
+										<div class="media-left">
+											<a href="#" class="btn bg-teal-400 btn-rounded btn-icon btn-xs"><i class="icon-spinner11"></i></a>
+										</div>
+										
+										<div class="media-body">
+											<strong>January, 2016</strong> - 1320 new users, 3284 orders, $49,390 revenue
+											<div class="media-annotation">Feb 1, 05:46</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								<i class="icon-bubble8"></i>
+								<span class="visible-xs-inline-block position-right">Messages</span>
+							</a>
+							
+							<div class="dropdown-menu dropdown-content width-350">
+								<div class="dropdown-content-heading">
+									Messages
+									<ul class="icons-list">
+										<li><a href="#"><i class="icon-menu7"></i></a></li>
+									</ul>
+								</div>
+
+								<ul class="media-list dropdown-content-body">
+									<li class="media">
+										<div class="media-left">
+											<img src="assets/images/user_placeholder.svg" class="img-circle img-sm" alt="">
+											<span class="badge bg-danger-400 media-badge">5</span>
+										</div>
+
+										<div class="media-body">
+											<a href="#" class="media-heading">
+												<span class="text-semibold">James Alexander</span>
+												<span class="media-annotation pull-right">04:58</span>
+											</a>
+
+											<span class="text-muted">who knows, maybe that would be the best thing for me...</span>
+										</div>
+									</li>
+
+									<li class="media">
+										<div class="media-left">
+											<img src="assets/images/user_placeholder.svg" class="img-circle img-sm" alt="">
+											<span class="badge bg-danger-400 media-badge">4</span>
+										</div>
+
+										<div class="media-body">
+											<a href="#" class="media-heading">
+												<span class="text-semibold">Margo Baker</span>
+												<span class="media-annotation pull-right">12:16</span>
+											</a>
+
+											<span class="text-muted">That was something he was unable to do because...</span>
+										</div>
+									</li>
+
+									<li class="media">
+										<div class="media-left"><img src="assets/images/user_placeholder.svg" class="img-circle img-sm" alt=""></div>
+										<div class="media-body">
+											<a href="#" class="media-heading">
+												<span class="text-semibold">Jeremy Victorino</span>
+												<span class="media-annotation pull-right">22:48</span>
+											</a>
+
+											<span class="text-muted">But that would be extremely strained and suspicious...</span>
+										</div>
+									</li>
+
+									<li class="media">
+										<div class="media-left"><img src="assets/images/user_placeholder.svg" class="img-circle img-sm" alt=""></div>
+										<div class="media-body">
+											<a href="#" class="media-heading">
+												<span class="text-semibold">Beatrix Diaz</span>
+												<span class="media-annotation pull-right">Tue</span>
+											</a>
+
+											<span class="text-muted">What a strenuous career it is that I've chosen...</span>
+										</div>
+									</li>
+
+									<li class="media">
+										<div class="media-left"><img src="assets/images/user_placeholder.svg" class="img-circle img-sm" alt=""></div>
+										<div class="media-body">
+											<a href="#" class="media-heading">
+												<span class="text-semibold">Richard Vango</span>
+												<span class="media-annotation pull-right">Mon</span>
+											</a>
+											
+											<span class="text-muted">Other travelling salesmen live a life of luxury...</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								<i class="icon-cog2"></i>
+							</a>
+                            
+							<ul class="dropdown-menu dropdown-menu-right">
+								<li><a href="user_profile.html"><i class="icon-user-plus"></i> Profile</a></li>
+								<li><a href="#"><i class="icon-coins"></i> Admin Panel</a></li>
+								<li><a href="#"><span class="badge bg-blue pull-right">26</span> <i class="icon-comment-discussion"></i> Messages</a></li>
+								<li class="divider"></li>
+								<li><a href="#"><i class="icon-cog5"></i> Account</a></li>
+								<li><a href="#"><i class="icon-switch2"></i> Sign out</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+    </div>
+<!-- /main navbar -->
+
+	<!-- Page container -->
+	<div class="page-container">
+
+		<!-- Page content -->
+		<div class="page-content">
+
+			<!-- Main content -->
+			<div class="content-wrapper">
+              	
+                
+                
+				<!-- Individual column searching (selects) -->
+				<div class="panel panel-flat">
+					<div class="panel-heading">
+						<h5 class="panel-title">Individual column searching</h5>
+						<div class="heading-elements">
+							<ul class="icons-list">
+		                		<li><a data-action="collapse"></a></li>
+		                		<li><a data-action="reload"></a></li>
+		                		<li><a data-action="close"></a></li>
+		                	</ul>
+	                	</div>
+					</div>
+
+					<div class="panel-body">
+						Individual columns searching with <code>selects</code>. This example is almost identical to text based individual column example and provides the same functionality, but in this case using <code>select</code> input controls. After the table is initialised, the API is used to build the select inputs through the use of the <code>column().data()</code> method to get the data for each column in turn.
+					</div>
+
+					<table class="table datatable-button-html5-columns-plus-search-selects">
+						<thead>
+							<tr>
+				                <th>Name</th>
+				                <th>Position</th>
+				                <th>Age</th>
+				                <th>Start date</th>
+				                <th>Salary</th>
+				            </tr>
+						</thead>
+						<tbody>
+							<tr>
+				                <td>Tiger Nixon</td>
+				                <td>System Architect</td>
+				                <td>61</td>
+				                <td><a href="#">2011/04/25</a></td>
+				                <td><span class="label label-info">$320,800</span></td>
+				            </tr>
+                            <tr data-toggle="collapse" data-parent="#accordion-styled" href="#accordion-styled-group1">
+								<td>Marth</td>
+								<td><a href="#">Enright</a></td>
+								<td>671</td>
+								<td>22 Jun 1972</td>
+								<td>$85,600</td>
+                            </tr>
+                            <tr data-toggle="collapse" data-parent="#accordion-styled" id="accordion-styled-group1">
+							     <td>Marth</td>
+								<td><a href="#">Enright</a></td>
+								<td>671</td>
+								<td>22 Jun 1972</td>
+								<td>$85,600</td>
+                            </tr>
+                           
+						</tbody>
+						<tfoot>
+							<tr>
+				                <td>Name</td>
+				                <td>Position</td>
+				                <td>Age</td>
+				                <td>Start date</td>
+				                <td>Salary</td>
+                            </tr>
+						</tfoot>
+                    </table>
+                
+            </div>
+				<!-- /individual column searching (selects) -->
+
+			</div>
+			<!-- /main content -->
+
+		</div>
+		<!-- /page content -->
+
+	</div>
+	<!-- /page container -->
+
+</body>
+</html>

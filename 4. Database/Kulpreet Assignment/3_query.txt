@@ -1,0 +1,66 @@
+1.Obtain information (editor id, editor first name, editor last name) of the editors who have edited the book whose ISBNCode is ‘8330418998’.
+
+query : SELECT e.eid,e.fname,e.lname FROM editor as e INNER JOIN edited_by as eb ON eb.eid=e.eid WHERE eb.isbn='067001690X'
+
+
+2.  Retrieve the customers’ names who bought novels. Order the result in the descending order of customer name. (Book type is novel).
+
+query : SELECT o.o_id,c.c_id,b.btype,c.c_name FROM order_book as ob INNER JOIN orders as o ON ob.o_id=o.o_id INNER JOIN customer as c ON c.c_id=o.c_id INNER JOIN book as b ON ob.isbn=b.isbn WHERE b.btype='Novel' ORDER BY c.c_name DESC
+
+3.  Get all publishers information (publisher name, address) which have published textbooks.  If a publisher published more than one book, list the publisher only once in your result.
+
+query : SELECT DISTINCT p.p_name,p.p_address FROM book as b INNER JOIN publisher as p ON p.p_id=b.p_id WHERE b.btype='Textbook' ORDER BY p.p_name ASC
+
+4.  Retrieve the author Id, author’s first name, author’s last name, and number of novel books written, if an author has written more than 2 novel books.  Both sole-authoring and co-authoring activities should be considered as writing a book.
+ 
+ query : SELECT a.fname,a.lname, count(b.isbn) as count FROM written_by as wb INNER JOIN book as b ON wb.isbn=b.isbn INNER JOIN author as a ON wb.a_id=a.a_id WHERE b.btype='Novel' GROUP BY a.a_id
+
+ 5. Get authors information (first name, last name) who has written the book ‘Fundamentals of Database Systems’.
+
+ query : SELECT a.fname,a.lname,b.isbn FROM written_by as wb INNER JOIN author as a ON a.a_id=wb.a_id INNER JOIN book as b ON b.isbn=wb.isbn WHERE b.title='Fundamentals of Database Systems'
+
+
+ 6. Get the books information (title, type and ISBN) written by author ‘Jeff Smith’.
+
+ query : SELECT b.title,b.btype,b.isbn FROM author as a INNER JOIN written_by as wb ON wb.a_id=a.a_id INNER JOIN book as b ON b.isbn=wb.isbn WHERE a.fname='Jeff' and a.lname='Smith' 
+
+7.  Get information (publisher id, publisher name, phone) about publishers who have published more than 2 novels. 
+query : SELECT p.p_name,p.p_address,p.p_phone FROM publisher as p INNER JOIN book as b ON b.p_id=p.p_id GROUP BY b.p_id HAVING COUNT(b.p_id)>2 ;
+
+8.  Obtain the highest price of the books that are written by author “Jeff Smith”. List the price.
+
+query : SELECT MAX(b.price) as price,b.title FROM book as b INNER JOIN written_by as wb ON b.isbn=wb.isbn INNER JOIN author as a ON a.a_id=wb.a_id WHERE a.fname='Jeff' and a.lname='Smith' GROUP BY b.isbn ORDER by b.price DESC LIMIT 1
+
+9. List the editor Id and number of books edited, if the editor has edited more than 2 books. Both sole-editing and co-editing activities should be considered as editing a book. 
+
+SELECT e.eid,COUNT(eb.eid) as count FROM edited_by as eb INNER JOIN editor as e ON e.eid=eb.eid INNER JOIN book as b ON b.isbn=eb.isbn GROUP BY eb.eid 
+
+10. List all orders (order_id, order date) that ordered by customer named “Alice Kay”;
+
+query : SELECT o.o_id,o.order_date FROM customer as c INNER JOIN orders as o ON o.c_id=c.c_id INNER JOIN order_book as ob ON ob.o_id=o.o_id WHERE c.c_name='Alice Kay'
+
+
+
+11. List all books (ISBN, title, price) that are ordered by customer named “Alice Kay”.  If she ordered the same book more than once or more than one copy, please only display the book once in the result.  Order the result by book title in ascending order.
+
+query : SELECT b.isbn,b.title,b.price FROM customer as c INNER JOIN orders as o ON o.c_id=c.c_id INNER JOIN order_book as ob ON ob.o_id=o.o_id INNER JOIN book as b ON b.isbn=ob.isbn WHERE c.c_name='Alice Kay' ORDER BY b.title ASC;
+
+
+12. List all the orders (order_no, order date) that include “Fundamentals of Database Systems”.  
+
+query : SELECT o.o_id,o.order_date FROM customer as c INNER JOIN orders as o ON o.c_id=c.c_id INNER JOIN order_book as ob ON ob.o_id=o.o_id INNER JOIN book as b ON b.isbn=ob.isbn WHERE b.title='Fundamentals of Database Systems' 
+
+
+13. List how many orders are placed before “2019-08-11’. 
+
+query : SELECT o.o_id,o.order_date FROM order_book as ob INNER JOIN orders as o ON ob.o_id=o.o_id WHERE date(o.order_date)<date('2019-08-11');
+
+
+14. For customers who had made more than 2 orders so far, list customer Id, customer name, and number of orders that the customer has made.
+
+query : SELECT c.c_id,c.c_name,c.c_address,COUNT(o.c_id) as count FROM customer as c INNER JOIN orders as o ON o.c_id=c.c_id INNER JOIN order_book as ob ON ob.o_id=o.o_id INNER JOIN book as b ON b.isbn=ob.isbn GROUP BY o.c_id HAVING COUNT(o.c_id)>2
+
+
+15. Retrieve book (or books) that has(have) the highest price among all books.  Please list book tile and price.
+
+SELECT max(b.price) as price, b.title FROM book as b GROUP by b.isbn ORDER BY b.price DESC LIMIT 1

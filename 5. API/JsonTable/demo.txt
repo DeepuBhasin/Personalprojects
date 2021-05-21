@@ -1,0 +1,36 @@
+1#id 				titile 											categories					price						labels							attribute 
+1		ASOS DESIGN oversized linen shirt with revere collar	1: Shirts					10							1									Blue
+																2: Sale													10									M
+																														11									L
+
+2 a #categories 					coumter
+		1. shirts 			3	
+		2. sale 			2
+		3. pents	
+		4. shoes 		
+
+2 b ii# lable				counter
+	1 						2	
+	2						1
+	5						1
+	6						1
+	8						1
+	10						1
+	11						2
+
+																						
+ a #categories 			labale
+		1. shirts 			1,10,11,2,5,8,
+		2. sale 			1,10,11
+		3. pents	
+		4. shoes 
+
+
+ a #atrubute 				labale
+		1. color			  1,2,5
+		2. size 			  10,11 
+
+		india 16 -05-2021  12 pm before 	
+
+
+		1 daya 24 hours ?

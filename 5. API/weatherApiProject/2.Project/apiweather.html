@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Project | Henrry Goels | Deepinder Singh</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.php">Wether Api</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://www.fiverr.com/henrrygoels?up_rollout=true" title="Henrry Goels Fiverr Profile">Henrry Goels
+					</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br/>
+    <div class="container">
+        <div class="row">
+            <h2 class="text-info">Weather Api Result Using json File (Current Weather Api)</h2><br/><br/><br/>
+        </div>    
+        <div class="row">
+            <div class="form-group col-md-7">
+                <label for="countryName">Select Conutry *</label>
+                <select class="form-control" name="countryName" id="countryName" required="" onchange="countryFunction(this);">
+                    <option value="">Select Conutry</option>
+                    <option value="england-cities.html">England</option>
+                    <option value="nireland-cities.html">Nireland</option>
+                    <option value="scotland-cities.html">Scotland</option>
+                    <option value="wales-cities.html">wales</option>
+                </select>
+            </div>
+            <div class="form-group col-md-7" style="display: none;" id="cityDiv">
+                <label for="cityName">Select City *</label>
+                <select class="form-control" name="cityName" id="cityName" required="" onchange="CityFunction(this);">
+                </select>
+            </div>
+        </div>
+         <div class="row">
+            <div class="myTable" id="tableDiv" style="display: none;">
+                <table class="table-responsive" border="1" cellpadding="25">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>City Name</th>
+                            <th>Date</th>
+                            <th>Weather Conditions</th>
+                            <th>Temprature</th>
+                            <th>Wind Speed</th>
+                            <th>Wind Direction</th>
+                            <th>Weather icon</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTable" class="bg-primary" style="color:#fff;"></tbody>
+                </table>
+            </div>
+
+        </div>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- <div id="image_div">
+  
+</div> -->
+    </div>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="weather.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="35px" viewBox="0 0 120 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.93014189,6.90774177 L2.75147887,15.4587886" id="path-1"></path>
+    </defs>
+    <g id="A1-Admin-sign-in" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-25.000000, -16.000000)">
+        <g id="Logo-Copy" transform="translate(25.000000, 15.000000)">
+            <g id="Latest-LIght-Spekit-Logo" transform="translate(32.524944, 0.000000)" fill="#3576E8" font-family="Avenir-Heavy, Avenir" font-size="29.47" font-weight="600" letter-spacing="0.0613983035">
+                <g id="Group-8">
+                    <text id="Spekit">
+                        <tspan x="0.575595486" y="29">Spekit</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Icon" transform="translate(0.000000, 2.000000)">
+                <path d="M13.4288596,13.9040528 L23.2849033,13.5153689" id="Line-33" stroke="#C4C3D0" stroke-width="0.982372881" stroke-linecap="square"></path>
+                <path d="M13.0181911,15.4587886 L21.4368951,27.3136491" id="Line-34" stroke="#C4C3D0" stroke-width="0.982372881" stroke-linecap="square"></path>
+                <path d="M24.722243,14.409342 L22.1760983,27.0804387" id="Line-35" stroke="#C4C3D0" stroke-width="0.982372881" stroke-linecap="square"></path>
+                <path d="M4.80482131,18.9569442 L20.8299818,27.5339346" id="Line-36" stroke="#C4C3D0" stroke-width="0.982372881" stroke-linecap="square"></path>
+                <path d="M23.6955718,14.6814207 L9.32217468,27.507991" id="Line-37" stroke="#C4C3D0" stroke-width="0.982372881" stroke-linecap="square"></path>
+                <path d="M10.1435117,28.2853589 L20.2870233,27.4691226" id="Line-38" stroke="#C4C3D0" stroke-width="0.982372881" stroke-linecap="square"></path>
+                <path d="M17.9462129,3.79827019 L21.4368951,27.5468594" id="Line-32" stroke="#C4C3D0" stroke-width="0.982372881" stroke-linecap="square"></path>
+                <path d="M11.7861856,15.8474726 L8.5008377,27.507991" id="Line-19" stroke="#C4C3D0" stroke-width="0.982372881" stroke-linecap="square"></path>
+                <path d="M4.80482131,17.0135244 L10.5541801,15.0701047" id="Line-20" stroke="#C4C3D0" stroke-width="0.982372881" stroke-linecap="square"></path>
+                <path d="M3.16214736,4.96432203 L15.482202,2.2435344" id="Line-22" stroke="#C4C3D0" stroke-width="0.982372881" stroke-linecap="square"></path>
+                <path d="M3.98348433,19.7343121 L8.91150619,27.896675" id="Line-28" stroke="#C4C3D0" stroke-width="0.982372881" stroke-linecap="square"></path>
+                <path d="M16.303539,3.79827019 L3.98348433,15.8474726" id="Line-11" stroke="#C4C3D0" stroke-width="0.982372881" stroke-linecap="square"></path>
+                <path d="M17.4944776,3.40305085 L12.5664557,13.7179661" id="Line-11" stroke="#C4C3D0" stroke-width="0.982372881" stroke-linecap="square"></path>
+                <g id="Line-5" stroke-linecap="square" stroke="#C4C3D0" stroke-width="0.982372881">
+                    <use xlink:href="#path-1"></use>
+                    <use xlink:href="#path-1"></use>
+                </g>
+                <path d="M2.75147887,6.90774177 L10.7595144,13.3210269" id="Line-6" stroke="#C4C3D0" stroke-width="0.982372881" stroke-linecap="square"></path>
+                <path d="M19.1782184,3.79827019 L24.1062402,12.349317" id="Line-7" stroke="#C4C3D0" stroke-width="0.982372881" stroke-linecap="square"></path>
+                <ellipse id="Oval" stroke="#C673D2" stroke-width="0.5" fill="#C673D2" cx="22.0528978" cy="27.896675" rx="2.25867668" ry="2.13776171"></ellipse>
+                <ellipse id="Oval-Copy-4" stroke="#C673D2" stroke-width="0.5" fill="#C673D2" cx="17.5355444" cy="2.2435344" rx="2.25867668" ry="2.13776171"></ellipse>
+                <ellipse id="Oval-Copy-5" fill="#3576E8" cx="2.75147887" cy="17.7908923" rx="2.25867668" ry="2.13776171"></ellipse>
+                <path d="M11.9915198,16.0418146 C12.8987436,16.0418146 13.6341938,15.3457356 13.6341938,14.4870788 C13.6341938,13.6284219 12.8987436,12.932343 11.9915198,12.932343 C11.0842961,12.932343 10.3488459,13.6284219 10.3488459,14.4870788 C10.3488459,15.3457356 11.0842961,16.0418146 11.9915198,16.0418146 Z" id="Oval-Copy-6" stroke="#5DC6E7" stroke-width="0.5" fill="#5DC6E7"></path>
+                <ellipse id="Oval-Copy" fill="#3576E8" cx="8.70617194" cy="28.8621934" rx="1.64267395" ry="1.55473579"></ellipse>
+                <ellipse id="Oval-Copy-9" fill="#3576E8" cx="1.64267395" cy="5.53083749" rx="1.64267395" ry="1.55473579"></ellipse>
+                <ellipse id="Oval-Copy-2" fill="#3576E8" cx="24.722243" cy="13.3210269" rx="1.64267395" ry="1.55473579"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

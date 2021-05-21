@@ -1,0 +1,498 @@
+{
+   "electricalMedicalRecord": [
+      {
+         "personalInfromation": {
+            "userId": "PPAA11",
+            "FirstName": "Wisdom",
+            "lastName": "Witherspoon",
+            "gender": "Male",
+            "address": "Ronda de Sant Pere, 35, 08010 Barcelona, Spain",
+            "age": "25",
+            "weight": "90 kg"
+         },
+         "MedicalInfromation": {
+            "TreatmentOf": "Skin",
+            "subCategory": "Acne types",
+            "medication": "Antibacterials",
+            "allergies": "Irritation on Skin",
+            "immunizationStatus": "Qualitative Immunoblot",
+            "medicalHistory": {
+               "consultations": "5",
+               "surgeries": "5",
+               "LaborarotyTestResults": "High level of protines in blood.High level of irons, Low levels of glucose"
+            },
+            "billingInfromation": {
+               "Bank": "Goldman Sachs",
+               "AccountId": "ES125098537038930"
+            }
+         }
+      },
+      {
+         "personalInfromation": {
+            "userId": "PPBB22",
+            "FirstName": "Bellamy",
+            "lastName": "Sawyer",
+            "gender": "Male",
+            "address": "Av. de Portugal, 209, 03130 Santa Pola, Alicante, Spain",
+            "age": "55",
+            "weight": "100 kg"
+         },
+         "MedicalInfromation": {
+            "TreatmentOf": "Heart",
+            "subCategory": "Aorta disease and Marfan syndrome",
+            "medication": "Blood pressure low",
+            "allergies": "Tall and slender build",
+            "immunizationStatus": "nearsightedness",
+            "medicalHistory": {
+               "consultations": "4",
+               "surgeries": "3",
+               "LaborarotyTestResults": "The pressure of blood leaving your heart can cause the wall of your aorta to bulge out, like a weak spot in a tire."
+            },
+            "billingInfromation": {
+               "Bank": "Bankinter",
+               "AccountId": "BSI18537038964730"
+            }
+         }
+      },
+      {
+         "personalInfromation": {
+            "userId": "PPCC33",
+            "FirstName": "MacConnell",
+            "lastName": "Selina",
+            "gender": "Female",
+            "address": "Paseo del Mediterráneo, 363, 04638 Mojácar, Almería, Spain",
+            "age": "40",
+            "weight": "60 kg"
+         },
+         "MedicalInfromation": {
+            "TreatmentOf": "Eyes",
+            "subCategory": "Glaucoma",
+            "medication": "Carbonic anhydrase inhibitors (CAIs)",
+            "allergies": "Prostaglandin Analogs",
+            "immunizationStatus": "Neurodegeneration and Neuroprotection",
+            "medicalHistory": {
+               "consultations": "4",
+               "surgeries": "2",
+               "LaborarotyTestResults": "The range for normal pressure is 12-22 mm Hg (“mm Hg” refers to millimeters of mercury, a scale used to record eye pressure)."
+            },
+            "billingInfromation": {
+               "Bank": "KutxaBank",
+               "AccountId": "KBYDI18537038930"
+            }
+         }
+      },
+      {
+         "personalInfromation": {
+            "userId": "PPDD44",
+            "FirstName": "Wilton",
+            "lastName": "Starla",
+            "gender": "Female",
+            "address": "Gran Via de les Corts Catalanes, 415, 08015 Barcelona, B, Spain",
+            "age": "29",
+            "weight": "70 kg"
+         },
+         "MedicalInfromation": {
+            "TreatmentOf": "Brain",
+            "subCategory": "Brain Tumor",
+            "medication": "chemotherapy",
+            "allergies": "brain cancer",
+            "immunizationStatus": "DCVax-L",
+            "medicalHistory": {
+               "consultations": "3",
+               "surgeries": "2",
+               "LaborarotyTestResults": "The most common imaging tests for brain tumors are magnetic resonance imaging (MRI) and computed tomography (CAT scan, CT scan)."
+            },
+            "billingInfromation": {
+               "Bank": "Caja Rural Group",
+               "AccountId": "CRGI1464780802526"
+            }
+         }
+      },
+      {
+         "personalInfromation": {
+            "userId": "PPEE55",
+            "FirstName": "Lyon",
+            "lastName": "Laz",
+            "gender": "Male",
+            "address": "Calle de Zurbano, 8, 28010 Madrid, Spain",
+            "age": "35",
+            "weight": "95 kg"
+         },
+         "MedicalInfromation": {
+            "TreatmentOf": "Cancer",
+            "subCategory": "Chest Cancer",
+            "medication": "Abemaciclib",
+            "allergies": "asthma",
+            "immunizationStatus": "NeuVax",
+            "medicalHistory": {
+               "consultations": "4",
+               "surgeries": "3",
+               "LaborarotyTestResults": "A hormone receptor is a specialized protein located on the surface of or within a cell."
+            },
+            "billingInfromation": {
+               "Bank": "Bankia",
+               "AccountId": "BED144785508026"
+            }
+         }
+      }
+   ],
+   "insuranceComapny": [
+      {
+         "companyId": "CCBB11",
+         "companyName": "MAPFRE",
+         "location": "Spain, Madrid, Majadahonda",
+         "revenue": "$33.6B",
+         "employees": "34.3K",
+         "customerDetails": {
+            "customerId": {
+               "@userId": "PPAA11",
+               "#text": "PPAA11"
+            },
+            "totalBalance": {
+               "@currency": "usd",
+               "#text": "5210$"
+            },
+            "timePeriod": "1 year",
+            "transactions": [
+               {
+                  "transactionId": "t12wwew3324tfkuosoiklsih11",
+                  "date": "1-04-2020",
+                  "amountDebit": "50$",
+                  "reason": "Treatment For Skin"
+               },
+               {
+                  "transactionId": "43564655rtt2627bd",
+                  "date": "2-04-2020",
+                  "amountDebit": "70$",
+                  "reason": "Treatment For Arm skin"
+               },
+               {
+                  "transactionId": "t3727620djt2627bd",
+                  "date": "3-04-2020",
+                  "amountDebit": "60$",
+                  "reason": "Treatment For Hand skin"
+               },
+               {
+                  "transactionId": "394989d27bddi09eeheio",
+                  "date": "4-04-2020",
+                  "amountDebit": "160$",
+                  "reason": "Treatment For leg skin"
+               },
+               {
+                  "transactionId": "3u09ejijd27bddi0siee098978",
+                  "date": "5-04-2020",
+                  "amountDebit": "160$",
+                  "reason": "Treatment For neck skin"
+               }
+            ]
+         }
+      },
+      {
+         "companyId": "CCCC11",
+         "companyName": "Seguros Ocaso",
+         "location": "Spain, Madrid, Madrid",
+         "revenue": "$267.1M",
+         "employees": "30K",
+         "customerDetails": {
+            "customerId": {
+               "@userId": "PPBB22",
+               "#text": "PPBB22"
+            },
+            "totalBalance": {
+               "@currency": "usd",
+               "#text": "4500$"
+            },
+            "timePeriod": "2 year",
+            "transactions": [
+               {
+                  "transactionId": "32444rdjkdhiube",
+                  "date": "3-02-2020",
+                  "amountDebit": "50$",
+                  "reason": "Check up For Heart"
+               },
+               {
+                  "transactionId": "i4r3wr4rudhdihdi092029",
+                  "date": "10-02-2020",
+                  "amountDebit": "60$",
+                  "reason": "Check up for heart"
+               },
+               {
+                  "transactionId": "7687u67utw67nxbxjk",
+                  "date": "11-04-2020",
+                  "amountDebit": "20$",
+                  "reason": "Check of For heart pump"
+               }
+            ]
+         }
+      },
+      {
+         "companyId": "CCDD33",
+         "companyName": "SANITAS",
+         "location": "Spain, Madrid, Madrid",
+         "revenue": "$1.6B",
+         "employees": "11K",
+         "customerDetails": {
+            "customerId": {
+               "@userId": "PPCC33",
+               "#text": "PPCC33"
+            },
+            "totalBalance": {
+               "@currency": "usd",
+               "#text": "4554$"
+            },
+            "timePeriod": "3 year",
+            "transactions": [
+               {
+                  "transactionId": "4987498fjj095059123trt",
+                  "date": "8-08-2020",
+                  "amountDebit": "520$",
+                  "reason": "Eyes Operation"
+               },
+               {
+                  "transactionId": "48230940930oifhiubiuvuev",
+                  "date": "18-08-2020",
+                  "amountDebit": "200$",
+                  "reason": "Check of For Eyes"
+               }
+            ]
+         }
+      },
+      {
+         "companyId": "CCEE44",
+         "companyName": "logo for Grupo Catalana Occidente Grupo Catalana Occidente",
+         "location": "Spain, Catalonia, Sant Cugat del Valles",
+         "revenue": "$375M",
+         "employees": "6.5K",
+         "customerDetails": {
+            "customerId": {
+               "@userId": "PPDD44",
+               "#text": "PPDD44"
+            },
+            "totalBalance": {
+               "@currency": "usd",
+               "#text": "48425$"
+            },
+            "timePeriod": "9 year",
+            "transactions": [
+               {
+                  "transactionId": "ueute7726828",
+                  "date": "8-02-2020",
+                  "amountDebit": "1520$",
+                  "reason": "Brain Operation"
+               },
+               {
+                  "transactionId": "37653gssbklsm",
+                  "date": "18-02-2020",
+                  "amountDebit": "2000$",
+                  "reason": "Brain Operation"
+               }
+            ]
+         }
+      },
+      {
+         "companyId": "PPEE55",
+         "companyName": "SegurCaixa Adeslas",
+         "location": "Spain, Madrid, Madrid",
+         "revenue": "$4.7B",
+         "employees": "6.1K",
+         "customerDetails": {
+            "customerId": {
+               "@userId": "PPEE55",
+               "#text": "PPEE55"
+            },
+            "totalBalance": {
+               "@currency": "usd",
+               "#text": "4425$"
+            },
+            "timePeriod": "1 year",
+            "transactions": [
+               {
+                  "transactionId": "diuhdn88",
+                  "date": "1-01-2020",
+                  "amountDebit": "120$",
+                  "reason": "Chest Operation"
+               },
+               {
+                  "transactionId": "wqqdsacln22",
+                  "date": "4-01-2020",
+                  "amountDebit": "2000$",
+                  "reason": "Chest Operation"
+               },
+               {
+                  "transactionId": "pomkno99000",
+                  "date": "10-01-2020",
+                  "amountDebit": "200$",
+                  "reason": "Chest Operation"
+               }
+            ]
+         }
+      }
+   ],
+   "physician": [
+      {
+         "pysiciansId": "PPCC11",
+         "name": "Antonio Russi",
+         "specialist": "Neurologist Epileptologist (Skin)",
+         "address": "Barcelona,Spain",
+         "about": "Prof. Antonio Russi is recognized as world famous neurologist and the best epileptologist in Spain. The Doctor specializes in non-surgical therapy of severe and rare epilepsy stages. He helps children and adults to get rid of seizures for good. Prof. Antonio Russi is an apparent expert in epilepsy",
+         "patiendDetails": {
+            "patiendId": {
+               "@userId": "PPAA11",
+               "#text": "PPAA11"
+            },
+            "checkHistory": [
+               {
+                  "date": "1-04-2020",
+                  "health": "Good",
+                  "medicine": "Antibacterials"
+               },
+               {
+                  "date": "2-04-2020",
+                  "health": "Poor",
+                  "medicine": "Fiver Medicine"
+               },
+               {
+                  "date": "3-04-2020",
+                  "health": "Fine",
+                  "medicine": "Fiver Medicine"
+               },
+               {
+                  "date": "4-04-2020",
+                  "health": "Good",
+                  "medicine": "Skin Medicine"
+               },
+               {
+                  "date": "5-04-2020",
+                  "health": "Good",
+                  "medicine": "Skin Medicine"
+               }
+            ]
+         }
+      },
+      {
+         "pysiciansId": "PPDD22",
+         "name": "Bartolome Oliver",
+         "specialist": "Neurosurgeon, Spine neurosurgeon, Neurooncologist, Pediatric neurosurgeon",
+         "address": "Barcelona,Spain",
+         "about": "Bartolome Oliver is top rated neurologists from Spain. Heads the Neurosurgical Department at the Teknon Clinic. Dr. Bartolome has been practicing since 1979. Dr. Oliver performs microsurgical operations through small incisions under a microscope. The physician also utilizes apparatuses of non-invasi",
+         "patiendDetails": {
+            "patiendId": {
+               "@userId": "PPBB22",
+               "#text": "PPBB22"
+            },
+            "checkHistory": [
+               {
+                  "date": "4-02-2020",
+                  "health": "Good",
+                  "medicine": "Immunity Booster"
+               },
+               {
+                  "date": "11-04-2020",
+                  "health": "Good",
+                  "medicine": "Cardic Muscles"
+               },
+               {
+                  "date": "12-04-2020",
+                  "health": "Great",
+                  "medicine": "Heart Pumps"
+               },
+               {
+                  "date": "13-04-2020",
+                  "health": "Great",
+                  "medicine": "Heart Medicine"
+               }
+            ]
+         }
+      },
+      {
+         "pysiciansId": "PPDD33",
+         "name": "Jaume Mora Graupera",
+         "specialist": "Pediatric hematologist/oncologist Pediatric oncologist",
+         "address": "Barcelona,Spain",
+         "about": "Dr. Graupera is an awarded pediatric oncologist. Heads the Hematology Oncology Department in Sant Joan De Deu — one of the best children’s hospitals in Europe. Researcher. Was trained in the USA. Specialty Provides treatments of neuroblastomas, gliomas, Ewing's sarcomas, and Wilms' tumors",
+         "patiendDetails": {
+            "patiendId": {
+               "@userId": "PPCC33",
+               "#text": "PPCC33"
+            },
+            "checkHistory": [
+               {
+                  "date": "19-02-2020",
+                  "health": "Good",
+                  "medicine": "Afinitor"
+               },
+               {
+                  "date": "20-04-2020",
+                  "health": "Good",
+                  "medicine": "Avastin"
+               },
+               {
+                  "date": "28-04-2020",
+                  "health": "Great",
+                  "medicine": "Bevacizumab"
+               }
+            ]
+         }
+      },
+      {
+         "pysiciansId": "PPEE44",
+         "name": "Ramon Aurell Ballesteros",
+         "specialist": "Fertility specialist Obstetrician-gynecologist",
+         "address": "Barcelona,Spain Centro Medico Teknon",
+         "about": "Dr. Ramon Aurell Ballesteros earned Degree in Medicine and Surgery from the Autonomous University of Barcelona , in 1991. He completed his specialization in obstetrics and gynecology in London, 1991 - 1997. Specialist trainig in Reproductive Medicine at Hammersmith Hospital, London 1997-1999",
+         "patiendDetails": {
+            "patiendId": {
+               "@userId": "PPDD44",
+               "#text": "PPDD44"
+            },
+            "checkHistory": [
+               {
+                  "date": "19-02-2020",
+                  "health": "Good",
+                  "medicine": "Afinitor"
+               },
+               {
+                  "date": "20-04-2020",
+                  "health": "Good",
+                  "medicine": "Avastin"
+               },
+               {
+                  "date": "28-04-2020",
+                  "health": "Great",
+                  "medicine": "Bevacizumab"
+               }
+            ]
+         }
+      },
+      {
+         "pysiciansId": "PPFF55",
+         "name": "Antonio de Lacy Fortuny",
+         "specialist": "Hospital Quiron Barcelona",
+         "address": "Barcelona,Spain Centro Medico Teknon",
+         "about": "Dr. Antonio de Lacy Fortuny is an oncosurgeon with 25 years of experience. The doctor specialises in rectal and colon cancer treatment, bariatric surgery, esophageal cancer treatment. The surgeon has performed over 15,000 surgical procedures.",
+         "patiendDetails": {
+            "patiendId": {
+               "@userId": "PPEE55",
+               "#text": "PPEE55"
+            },
+            "checkHistory": [
+               {
+                  "date": "02-02-2020",
+                  "health": "Good",
+                  "medicine": "Afinitor"
+               },
+               {
+                  "date": "04-02-2020",
+                  "health": "Good",
+                  "medicine": "Avastin"
+               },
+               {
+                  "date": "10-02-2020",
+                  "health": "Great",
+                  "medicine": "Bevacizumab"
+               }
+            ]
+         }
+      }
+   ]
+}

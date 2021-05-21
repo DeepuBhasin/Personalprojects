@@ -1,0 +1,50 @@
+1. Simple Select query
+	a. Show all customer 
+		SELECT * FROM customer_table ORDER BY name ASC;
+
+	b. Show all doctor Table 
+		SELECT * FROM doctor_table ORDER BY name ASC
+
+	c. Show all recetionist table 
+		SELECT * FROM receptionist_table ORDER BY name ASC;
+
+	d. show all type of room 
+		SELECT * FROM type_of_booking ORDER BY name ASC;
+
+	e. Show total number of room
+		SELECT COUNT(*) as total_number_of_room FROM room_table 
+	
+	f. show total number of customer 
+		SELECT COUNT(*) as total_number_of_customer FROM customer_table 
+
+	g. show total number of doctor
+		SELECT COUNT(*) as total_number_of_doctoer FROM doctor_table 							
+
+	h. show total number of receptionis
+		SELECT COUNT(*) as total_number_of_receptionist FROM receptionist_table 	
+
+2. Select query with where conditons 
+		a. Show infromation of doctor name is Dr Jennifer
+			SELECT * FROM doctor_table WHERE name='Dr Jennifer'
+
+		b. show information about receptionist where salary > 9000	
+			SELECT * FROM receptionist_table WHERE salary >= 9000 ORDER BY name ASC
+
+		c. Show room type where value Double bed and Executive Suite
+			SELECT * FROM type_of_booking WHERE name IN ('Double bed','Executive Suite') ORDER BY name ASC;	
+
+		d. Show those booking which are covid positive 
+			SELECT * FROM booking_table WHERE covid_test_report='Positive'
+
+		e. 	Show only those booking which start from 2021-05-01 and end 2021-05-10
+			SELECT * FROM booking_table WHERE checkin_date BETWEEN date('2021-05-01') and date('2021-05-10')	
+
+3. Select Query with joins 
+		a. show room and what kind are they 
+			SELECT t.name,r.* FROM room_table as r INNER JOIN type_of_booking as t ON t.id=r.type_of_booking_id ORDER BY t.name ASC;
+
+		b. show complete booking table 
+			SELECT c.name as customer_name,r.name as receptionist_name,d.name as doctor_name,t.name,b.* FROM booking_table as b INNER JOIN customer_table as c ON c.id=b.customer_id INNER JOIN receptionist_table as r ON r.id=b.receptionist_id INNER JOIN room_table as ro ON ro.id=b.room_id INNER JOIN doctor_table as d ON d.id=b.doctor_id INNER JOIN type_of_booking as t ON t.id=ro.type_of_booking_id		
+
+		c. Complete transaction details according to customer
+			SELECT tr.*,c.name as customer_name FROM booking_table as b INNER JOIN customer_table as c ON c.id=b.customer_id INNER JOIN transaction_table as tr ON tr.booking_id=b.id				

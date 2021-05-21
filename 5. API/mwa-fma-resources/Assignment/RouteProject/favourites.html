@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<title>CityScoot</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  </head>
+  <body>
+	<header class="container mb-3">
+		<img class="navbar-brand navbar-brand-centered" src="images/city-scoot-logo.png" alt="CityScoot Logo">
+		<h1 class="navbar-brand navbar-brand-centered">CityScoot</h1>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-4">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 	aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto ">
+					<li><a class="nav-link " href="index.html">Home</a></li>
+					<li class="nav-item">
+						<a class="nav-link" href="routes.html">Routes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="guides.html">Guides</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="safety.html">Safety</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="scooters.html">Scooters</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<nav class="d-none d-md-block" aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				<li class="breadcrumb-item"><a href="guides.html">My favourite Guides</a></li>
+			</ol>
+		</nav>
+	</header>
+	<div class="container">
+		<article>
+			<div class="row">
+				<div class="col-lg-4">
+					<img class="img-fluid mb-4 d-none d-sm-block" src="images/guide-icon.png" alt="guide-icon-page">
+				</div>
+				<div class="col">
+					<p>CityScoot guides have detailed, in-depth knowledge of London’s highlights as well as its lesser known attractions.  They will take you along rivers, down canal towpaths, through hidden streets, through busting markets. Many of our guides are qualified lawyers, doctors, architects and historians, bringing their specialist knowledge to their work. </p>
+				</div>
+			</div>
+			<div class="row" id="firebaseDiv">
+			</div>
+			<div class="modal fade" id="modal-id">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title">Your Guide Delete Successfully</h4>
+						</div>
+						<div class="modal-body">
+							<div id="showModeData">
+								
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-success" onclick='window.location.href="favourites.html"'>Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+	</div>
+	<footer class="container mt-3 border-top text-center">
+		<ul class="nav justify-content-end mb-3 small">
+			<li class="nav-item">
+				<a class="nav-link" href="accessibility.html">Accessibility</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Privacy</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Corporate</a>
+			</li>
+		</ul>
+		<p class="text-right small p-3">&copy; CityScoot</p>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+			  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+			  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+			  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+			  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+			  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+
+			  <!-- Add Firebase products that you want to use -->
+			  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+			  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+
+				<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+			<script>
+			
+			  // Your web app's Firebase configuration
+			  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+			  var firebaseConfig = {
+			    apiKey: "AIzaSyDwb4HlvCDvG4K4kUvHAmc_020K6L4o8iw",
+			    authDomain: "routesweb-a3bc0.firebaseapp.com",
+			    projectId: "routesweb-a3bc0",
+			    storageBucket: "routesweb-a3bc0.appspot.com",
+			    messagingSenderId: "174150830762",
+			    appId: "1:174150830762:web:45d3d8d6147256ff4b9ed3",
+			    measurementId: "G-W0MHV44XM8"
+			  };
+			  // Initialize Firebase
+			  firebase.initializeApp(firebaseConfig);
+
+
+			  var database = firebase.database();
+
+			  var starCountRef = database.ref('route/');
+
+				starCountRef.on('value', (snapshot) => {
+				const data = snapshot.val();
+				 // console.log(data);
+
+				 	c = 0;
+				   $.each(data,function(key,value){
+						getfireData(value);
+				   	
+				  });
+				});
+
+				function getfireData(value)
+				{
+					if(value.blue_bedge=='Yes ')
+						{
+							for (var i = 0; i < localStorage.length; i++)
+								{
+									dataType = Number(localStorage.getItem(localStorage.key(i)));
+									if(!isNaN(dataType) && dataType==value.id)
+									{
+										$('#firebaseDiv').append('<div class="col-lg-3 col-md-6"><div class="card text-center"><div class="card-body"><h5>Guide '+(++c)+'</h5></div><img src="images/'+value.image+'" class="card-img-top" alt="Guide"><ul class="list-group list-group-flush"><li class="list-group-item active"><a>Name</a></li><li class="list-group-item"><a>'+value.first_name+' '+value.last_name+'</a></li><li class="list-group-item active"><a>Age</a></li><li class="list-group-item"><a>'+value.age+'</a></li><li class="list-group-item active"><a>Tours</a></li><li class="list-group-item"><a>'+value.tours+'</a></li><li class="list-group-item active"><a>Occupation</a></li><li class="list-group-item"><a>'+value.occupation+'</a></li><li class="list-group-item active"><a>Blue Badge</a></li><li class="list-group-item"><a>'+value.blue_bedge+'</a></li><li class="list-group-item active"><button class="btn btn-danger" id="'+value.id+'" onclick="deleteFunction(this);">Delete Guide</button></li></ul></div></div>');    	 
+									}
+								}
+							}
+				}
+
+
+			
+
+				function deleteFunction(e)
+				{
+					var id = e.id;
+					
+					var database = firebase.database();
+					var starCountRef = database.ref('route/');
+					starCountRef.on('value', (snapshot) => {
+					const data = snapshot.val();
+					$.each(data,function(key,value){
+						if(id==value.id){
+							
+							$('#modal-id').modal('show');
+
+								$('#showModeData').html('<table border="1" cellpadding="10" cellspacing="10"><tr><td>Name</td><td>'+value.first_name+' '+value.last_name+'</td></tr><tr><td>Age</td><td>'+value.age+'</td></tr><tr><td>Tours</td><td>'+value.tours+'</td></tr><tr><td>Occupation</td><td>'+value.occupation+'</td></tr><tr><td>Blue Bedge</td><td>'+value.blue_bedge+'</td></tr></table>');
+							}
+							   	
+						});
+					});
+
+					localStorage.removeItem("names_"+id);
+
+			}
+
+			</script>
+
+
+
+
+  </body>
+</html>
+

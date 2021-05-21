@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<title>CityScoot</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css">
+	<!-- <link rel="stylesheet" href="css/styles.css"> -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  </head>
+  <body>
+	<header class="container mb-3">
+		<img class="navbar-brand navbar-brand-centered" src="images/city-scoot-logo.png" alt="CityScoot Logo">
+		<h1 class="navbar-brand navbar-brand-centered">CityScoot</h1>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-4">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 	aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto ">
+					<li><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item">
+						<a class="nav-link active" href="routes.html">Routes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="guides.html">Guides</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="safety.html">Safety</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="scooters.html">Scooters</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<nav class="d-none d-md-block" aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Routes</li>
+			</ol>
+		</nav>
+	</header>
+	<div class="container">
+		<article>
+			<div class="row">
+				<div class="col-lg-4">
+					<img class="img-fluid mb-4 d-none d-sm-block" src="images/routes-icon.png" alt="routes-icon-page">
+				</div>
+				<div class="col">
+					<p>CityScoot tours are designed around areas of London, such as Soho, Bloomsbury, Greenwich, Camden Town etc. Routes take in major highlights, but also explore off-the-beaten-track. Each tour takes approximately four hours to complete. There are always short stops for drinks and a longer stop for lunch or dinner. Bookings can be made up to two-hours before the tour starts. </p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th scope="col">Name of Tour</th>
+								<th scope="col">Day</th>
+								<th scope="col">Time</th>
+								<th scope="col">highlights</th>
+								<th scope="col">Details</th>
+								</tr>
+						</thead>
+						<tbody id="myTable"></tbody>
+					</table>
+				</div>
+			</div>
+	</div>
+	<footer class="container mt-3 border-top text-center">
+		<ul class="nav justify-content-end mb-3 small">
+			<li class="nav-item">
+				<a class="nav-link" href="accessibility.html">Accessibility</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Privacy</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Corporate</a>
+			</li>
+		</ul>
+		<p class="text-right small p-3">&copy; CityScoot</p>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+	        $.ajax({
+	            url:'json/route.json',
+	            datatype : 'JSON',
+	            success : function(data){
+	            data = data.route;
+	            localStorage.setItem("data",data.route);
+
+	                $.each(data,function(key,value){
+	                	$('#myTable').append('<tr><td>'+value.name+'</td><td>'+value.day+'</td><td>'+value.time+'</td><td>'+value.highlights+'</td><td><a href="route.html?'+value.id+'" class="btn btn-success">Details</a></td></tr>');
+	                });
+	            },
+	            statusCode : {
+	                404 : function() {
+	                   alert('There was a problem with the server.  Try again soon!');
+	                 }
+	            }
+
+	        });
+	    });
+	</script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="recipes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="recipeData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="recipeName" type="xs:string" />
+              <xs:element name="privideBy" type="xs:string" />
+              <xs:element name="ratingRate" type="xs:unsignedByte" />
+              <xs:element name="time">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="upperEstimate" type="xs:string" />
+                    <xs:element name="lowerEstimate" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="totalTime" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Serves" type="xs:string" />
+              <xs:element name="nutritionPerServing">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="nutrition">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="valueOf" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ingredients">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="ingredient">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="valueOf" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="nutrition">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="valueOf" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="method">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="step">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="valueOf" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:unsignedByte" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

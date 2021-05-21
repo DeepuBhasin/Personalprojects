@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<title>CityScoot</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css">
+	<!-- <link rel="stylesheet" href="css/styles.css"> -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  </head>
+  <body>
+	<header class="container mb-3">
+		<img class="navbar-brand navbar-brand-centered" src="images/city-scoot-logo.png" alt="CityScoot Logo">
+		<h1 class="navbar-brand navbar-brand-centered">CityScoot</h1>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-4">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 	aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto ">
+					<li><a class="nav-link" href="index.html">Home</a></li>
+					<li class="nav-item">
+						<a class="nav-link active" href="routes.html">Routes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="guides.html">Guides</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="safety.html">Safety</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="scooters.html">Scooters</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<nav class="d-none d-md-block" aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Authentication</li>
+			</ol>
+		</nav>
+	</header>
+	<div class="container">
+			<div class="alert" id="alertUserMessage" style="display: none;">
+				<span id="userMessage"></span>
+			</div>
+
+			<div class="alert" id="alertloggedMessage" style="display: none;">
+				<span id="loggedMessage"></span>
+				<button id="logoutButton" type="button" class="btn btn-danger">Logout</button>
+			</div>	
+
+
+
+
+			<div class="col" id="loginForm" style="display: none;">
+		
+					<div class="row">
+						<div class="form-group">
+							<lable>Email Id</lable>
+							<input class="form-control" type="email" name="email" required="" id="email" placeholder="Email id" />
+						</div>
+					</div>	
+					<div class="row">
+						<div class="form-group">
+							<lable>Password</lable>
+							<input class="form-control" type="password" name="password" required="" id="password" placeholder="password" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group">
+							<button class="btn btn-success" type="button" name="login" id="login" >Login</button>
+							<button class="btn btn-primary" type="button" name="signup" id="signup">Sign Up</button>
+						</div>
+					</div>
+			</div>
+	</div>
+	<footer class="container mt-3 border-top text-center">
+		<ul class="nav justify-content-end mb-3 small">
+			<li class="nav-item">
+				<a class="nav-link" href="accessibility.html">Accessibility</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Privacy</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Corporate</a>
+			</li>
+		</ul>
+		<p class="text-right small p-3">&copy; CityScoot</p>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	 
+
+	 <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+			  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+			  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+			  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+
+			  <!-- Add Firebase products that you want to use -->
+			  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+			  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+
+				<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
+			<script>
+			  // Your web app's Firebase configuration
+			  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+			  var firebaseConfig = {
+			    apiKey: "AIzaSyDwb4HlvCDvG4K4kUvHAmc_020K6L4o8iw",
+			    authDomain: "routesweb-a3bc0.firebaseapp.com",
+			    projectId: "routesweb-a3bc0",
+			    storageBucket: "routesweb-a3bc0.appspot.com",
+			    messagingSenderId: "174150830762",
+			    appId: "1:174150830762:web:45d3d8d6147256ff4b9ed3",
+			    measurementId: "G-W0MHV44XM8"
+			  };
+			  // Initialize Firebase
+			  firebase.initializeApp(firebaseConfig);
+			  var database = firebase.database();
+
+			   firebase.auth().onAuthStateChanged(function(user) {
+				  if (user) {
+
+				  	// console.log();
+				   //  console.log(user);
+				    $('#loginForm').css('display','none');
+				    $('#alertloggedMessage').css('display', 'block').removeClass('alert-warning').addClass('alert-success');
+					$('#loggedMessage').html(user.email+' is Currently Logged In');
+				    
+
+				  } else {
+				  	// console.log('No user is signed in.');
+				  	$('#loginForm').css('display','block');
+				  	$('#alertUserMessage').css('display', 'block').removeClass('alert-success').addClass('alert-warning');
+					$('#userMessage').html('No user is Logged in');
+				    
+				  }
+				});
+
+			   $('#logoutButton').on('click',function(){
+
+			   		firebase.auth().signOut().then(function() {
+						// console.log('Signed Out');
+						$('#loginForm').css('display','block');
+			   			$('#alertUserMessage').css('display', 'block').removeClass('alert-danger').addClass('alert-success');
+						$('#loggedMessage').html('Signed Out');
+						$('#logoutButton').css('display', 'none');
+					}, function(error) {
+					  
+					    $('#alertUserMessage').css('display', 'block').removeClass('alert-success').addClass('alert-danger');
+						$('#userMessage').html('Sign Out Error', error);
+					});
+			   });
+
+
+
+			  $('#signup').on('click',function(){
+
+			  		email = document.getElementById('email').value;
+			  		password = document.getElementById('password').value;
+
+			  		firebase.auth().createUserWithEmailAndPassword(email,password)
+				  .then((userCredential) => {
+				    // Signed in 
+				    var user = userCredential.user;
+
+				    $('#alertUserMessage').css('display', 'block').removeClass('alert-danger').addClass('alert-success');
+					$('#userMessage').html('Account Register Successfully');
+				    // ...
+				  })
+				  .catch((error) => {
+				    var errorCode = error.code;
+				    var errorMessage = error.message;
+				 //    console.log(errorCode);
+					// console.log(errorMessage);
+
+					$('#alertUserMessage').css('display', 'block').removeClass('alert-success').addClass('alert-danger');
+					$('#userMessage').html('Error Code : '+errorCode+' <br/> Error Message '+errorMessage);
+					
+
+
+				    // ..
+				  });
+
+				  
+			  });
+
+			   $('#login').on('click',function(){
+
+			  		email = document.getElementById('email').value;
+			  		password = document.getElementById('password').value;
+
+			  		firebase.auth().signInWithEmailAndPassword(email, password)
+				  .then((userCredential) => {
+				    // Signed in
+				    var user = userCredential.user;
+				    // console.log(user);
+				    $('#alertUserMessage').css('display', 'block').removeClass('alert-danger').addClass('alert-success');
+					$('#userMessage').html('Account Login Successfully');
+
+					// console.log(userCredential);
+				  })
+				  .catch((error) => {
+				    var errorCode = error.code;
+				    var errorMessage = error.message;
+				   //  	 console.log(errorCode);
+						 // console.log(errorMessage);
+
+					$('#alertUserMessage').css('display', 'block').removeClass('alert-success').addClass('alert-danger');
+					$('#userMessage').html('Error Code : '+errorCode+' <br/> Error Message '+errorMessage);
+
+				  });
+
+				  
+			  });
+
+
+
+
+			  
+				
+
+
+	</script>
+	
+  </body>
+</html>

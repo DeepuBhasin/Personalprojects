@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 29, 2021 at 10:03 PM
+-- Generation Time: Aug 03, 2021 at 07:21 PM
 -- Server version: 5.7.14
 -- PHP Version: 7.0.10
 
@@ -56,7 +56,17 @@ CREATE TABLE `price_table` (
   `price_per_person` varchar(150) NOT NULL,
   `availability_status` varchar(150) DEFAULT NULL,
   `availability_description` varchar(150) DEFAULT NULL,
-  `spaces_available` varchar(150) DEFAULT NULL
+  `spaces_available` varchar(150) DEFAULT NULL,
+  `price_per_person_usa` varchar(150) DEFAULT NULL,
+  `promo_price_per_person` varchar(150) DEFAULT NULL,
+  `currency_code` varchar(150) DEFAULT NULL,
+  `mandatory_transfer_price_per_person` varchar(150) DEFAULT NULL,
+  `promotions_id` varchar(150) DEFAULT NULL,
+  `promotions_promo_code` varchar(150) DEFAULT NULL,
+  `promotions_promo_name` varchar(150) DEFAULT NULL,
+  `promotions_promo_start_date` varchar(150) DEFAULT NULL,
+  `promotions_promo_end_date` varchar(150) DEFAULT NULL,
+  `promotions_promo_currency_code` varchar(150) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --

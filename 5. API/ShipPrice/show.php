@@ -48,8 +48,17 @@ include'__db.php';
 		        <th>availability_status</th>
 		        <th>availability_description</th>
 		        <th>spaces_available</th>
-
-		    </tr>
+				<th>Price Per Person USA</th>
+		        <th>Promo Price Per Person</th>
+		        <th>currency code</th>
+		        <th>Mandatory Transfer Price Per Person</th>
+		        <th>Promotions Id</th>
+		        <th>Promotions Promo Code</th>
+		        <th>Promotions Promo Name</th>
+		        <th>Promotions Promo Start Date</th>
+		        <th>Promotions Promo End Date</th>
+		        <th>Promotions Promo Currency Code</th>
+			</tr>
 		</thead>
 		<tbody>
 		<?php 
@@ -77,6 +86,18 @@ include'__db.php';
 					<td><?= $ab['availability_status']?></td>
 					<td><?= $ab['availability_description']?></td>
 					<td><?= $ab['spaces_available']?></td>
+
+					<td><?= $ab['price_per_person_usa']?></td>
+					<td><?= $ab['promo_price_per_person']?></td>
+					<td><?= $ab['currency_code']?></td>
+					<td><?= $ab['mandatory_transfer_price_per_person']?></td>
+					<td><?= $ab['promotions_id']?></td>
+					<td><?= $ab['promotions_promo_code']?></td>
+					<td><?= $ab['promotions_promo_name']?></td>
+					<td><?= $ab['promotions_promo_start_date']?></td>
+					<td><?= $ab['promotions_promo_end_date']?></td>
+					<td><?= $ab['promotions_promo_currency_code']?></td>
+
 
 				</tr>
 				
@@ -107,6 +128,7 @@ include'__db.php';
 $(document).ready(function() {
     $('#example').DataTable( {
         dom: 'Bfrtip',
+        "pagingType": "full_numbers",
         buttons: [
             'csv', 'excel', 'pdf'
         ]

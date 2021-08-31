@@ -39,8 +39,8 @@
 				$array_one_3 = $array2[$key2]['prices']['USD'];
 				$array_two_3 = isset($array2[$key2]['promotions']['USD'])?$array2[$key2]['promotions']['USD']:0;
 				
-				$array_two_one_3 = isset($array_two_3['promo_price_per_person'])?$array_two_3['promo_price_per_person']:0;
-				$array_two_two_3 = isset($array_two_3['promotions'][0])?$array_two_3['promotions'][0]:0;
+				$array_two_one_3 = $array_two_3['promo_price_per_person'];
+				$array_two_two_3 = $array_two_3['promotions'][0];
 
 				$data=[
 					$priceDocument[0],

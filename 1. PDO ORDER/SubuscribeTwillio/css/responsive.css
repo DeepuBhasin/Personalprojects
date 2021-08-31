@@ -1,0 +1,172 @@
+@media (max-width: 1199px) {
+    .mega-menu .row-medium div:nth-child(n+5) {
+        padding-top: 15px;
+    }
+    .index-grid .post {
+        width: 100%;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    #wrapper .main-wrap {
+        padding-top: 20px !important;
+        border: 0 !important;
+    }
+}
+@media (max-width: 767px) and (min-width: 480px) {
+    .container {
+        width: 90%;
+    }
+    #wrapper .main-wrap {
+        padding-top: 40px;
+    }
+    .instagram-widget li:nth-child(n+5) {
+        display: none;
+    }
+    .index-3 .featured-box-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .index-3 .featured-box-item:first-child {
+        margin-top: 0;
+    }
+    #coming-soon h1 {
+        font-size: 30px;
+        margin: 25px 0;
+    }
+    #countdown.countdown .count-down {
+        height: 100px;
+        padding-top: 5px;
+        text-align: center;
+        width: 60px;
+        height: 120px;
+    }
+    #coming-soon h1 span {
+        display: inline;
+        margin-left: 5px;
+    }
+    .soon-block.right p {
+        display: none;
+    }
+    #coming-soon h4 {
+        line-height: 25px;
+        margin-top: 26px;
+    }
+    #coming-soon input[type="text"] {
+        width: 100%;
+    }
+}
+@media (max-width: 479px) and (min-width: 320px) {
+    .container {
+        width: 90%;
+    }
+    #wrapper .main-wrap {
+        padding-top: 40px;
+    }
+    .featured-area .featured-cat {
+        display: none;
+    }
+    .featured-overlay .featured-title a {
+        font-size: 30px;
+    }
+    .totop {
+        font-size: 13px;
+        padding: 0 0 0 9px;
+        width: 25px;
+        height: 25px;
+    }
+    .footer p {
+        overflow: hidden;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .footer .footer-links {
+        text-align: center;
+        width: 100%;
+    }
+    .instagram-widget li:nth-child(n+5) {
+        display: none;
+    }
+    .index-grid .post-footer {
+        padding: 0;
+    }
+    .index-grid .post-footer .wrap-read-more {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .index-grid .post-footer .post-share {
+        width: 100%;
+        text-align: left;
+    }
+    .single-post .post-content .post-title {
+        letter-spacing: 1px;
+        line-height: 1.5em;
+    }
+    .single-post .post-author .avatar-author {
+        float: none;
+        height: auto;
+        width: auto;
+        margin: 0;
+        max-width: 100%;
+    }
+    .single-post .post-author .avatar-author img {
+        width: 100%;
+    }
+    .single-post .post-author .author-name h2 {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .single-post .post-author .avatar-content p {
+        text-align: center;
+        padding: 20px 0;
+        margin: 0;
+        line-height: 1.7;
+        font-style: italic;
+    }
+    .single-post .post-author .author-socials {
+        width: 100%;
+        text-align: center;
+    }
+    .post-relate-content h4 {
+        padding-bottom: 15px;
+    }
+    .post-comment .children {
+        padding-left: 0;
+    }
+    .index-3 .featured-box-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .index-3 .featured-box-item:first-child {
+        margin-top: 0;
+    }
+    #coming-soon h1 {
+        font-size: 30px;
+        margin: 25px 0;
+    }
+    #countdown.countdown .count-down {
+        height: 100px;
+        padding-top: 5px;
+        text-align: center;
+        width: 60px;
+        height: 120px;
+    }
+    #coming-soon h1 span {
+        display: inline;
+        margin-left: 5px;
+    }
+    .soon-block.right p {
+        display: none;
+    }
+    #coming-soon h4 {
+        line-height: 25px;
+        margin-top: 26px;
+    }
+    #coming-soon input[type="text"] {
+        width: 100%;
+    }
+}

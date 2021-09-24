@@ -1,0 +1,1 @@
+SELECT * FROM flight_table WHERE price=(SELECT MIN(price) FROM flight_table )

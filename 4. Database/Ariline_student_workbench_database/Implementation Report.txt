@@ -1,0 +1,20 @@
+You must also provide a short implementation report describing your experiences with 
+this assignment. You may discuss any of the following:
+1. Any two interesting things/procedures you learnt by doing this assignment.
+2. Any one requirement of the assignment that was relatively difficult / complex to solve 
+but successfully completed by you.
+Use the implementation report to demonstrate that you have thought carefully about the 
+issues that arise when implementing a relational database
+
+
+
+Answer 1.
+
+	a. Implemtation of Normalization which includes 1NF, 2NF, 3NF which helps me to learn various relations as we like one to many , many to many, with help of normalization I reduce the redundancy. 
+	b. Proper implimentation of Primary and Foreign Keys Concept which allows us to mantain the reference intigration. It help us to keep our database secure.
+
+Answer 2. 
+	
+	While Designing of the database like logically implemetation of Database Schema and also I add one or more column beacuse in the given ER diagram relation was no created successfully which makes problem while executing quries and joins.
+
+		 

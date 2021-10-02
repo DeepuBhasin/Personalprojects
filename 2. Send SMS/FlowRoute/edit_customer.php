@@ -17,6 +17,22 @@ $row = mysqli_fetch_object($query);
             <form role="form" action="program_file.php" method="post">
               <input type="hidden" name="user_id" v value="<?= $row->user_id; ?>">
               <div class="form-group">
+                <label for="media_option">Select Option *</label>
+                <select class="form-control" name="media_option" required="" id="media_option">
+                  <option value="">Select option </option>
+                  <option value="sms" <?php if ($row->media_option == 'sms') {
+                                        echo "SELECTED";
+                                      } ?>>SMS </option>
+                  <option value="voice" <?php if ($row->media_option == 'voice') {
+                                          echo "SELECTED";
+                                        } ?>>Voice </option>
+                  <option value="both" <?php if ($row->media_option == 'both') {
+                                          echo "SELECTED";
+                                        } ?>>Both </option>
+
+                </select>
+              </div>
+              <div class="form-group">
                 <label for="last_name">Select Group *</label>
                 <select class="form-control" name="group_id" required="">
                   <option value="">Select Group</option>
@@ -57,6 +73,19 @@ $row = mysqli_fetch_object($query);
               <div class="form-group">
                 <label for="remarks">Remarks *</label>
                 <textarea class="form-control" name="remarks" id="remarks" required="required" autocomplete="off" placeholder="Enter Remarks *"><?= $row->remarks; ?> </textarea>
+              </div>
+              <div class="form-group">
+                <label for="remarks">Status </label>
+                <select class="form-control" name="status" required="">
+                  <option value="">Select Status </option>
+                  <option <?php if ($row->status == 1) {
+                            echo "SELECTED";
+                          } ?> value="1">Active </option>
+                  <option <?php if ($row->status == 0) {
+                            echo "SELECTED";
+                          } ?> value="0">Inactive </option>
+
+                </select>
               </div>
 
               <button type="submit" class="btn btn-success" name="update_customer">UPDATE</button>

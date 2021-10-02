@@ -109,8 +109,8 @@
 				// print_r($excel->sheets[0]['cells']);
 				for($i=1;$i<=count($excel->sheets[0]['cells']);$i++)
 				{
-					$sid = 'ACebe73d08c191bceac793d4c5864a747a';
-		        	$auth = '065d18a9193f98cab2ccb887111ae926';
+					$sid = 'ACfd225605bd517b5edda7d3bb32e35544';
+		        	$auth = '475629d883684d362aec2c4e8d50fe41';
 		        	$from=SENDER_MESSAGE_BY;
 					
 					$api = curl_init("https://api.twilio.com/2010-04-01/Accounts/$sid/Messages.json");

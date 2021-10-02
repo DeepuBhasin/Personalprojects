@@ -3,15 +3,21 @@ session_start();
 include_once('database.php');
 
 if (isset($_POST['add_group'])) {
-	$group_name = addslashes(htmlentities(trim(strtolower($_POST['group_name']))));
+
+	$group_name = addslashes(htmlentities(trim($_POST['group_name'])));
+	$actual_number = $group_number = addslashes(htmlentities(trim($_POST['group_number'])));
 	$remarks = addslashes(htmlentities(trim($_POST['remarks'])));
 
 	$query = mysqli_query($con, "SELECT * FROM group_table where group_name='$group_name'");
 	if (mysqli_num_rows($query) == 0) {
+		$country_code = $_POST['country_id'];
+		$query = mysqli_fetch_array(mysqli_query($con, "SELECT phonecode FROM country where id=$country_code"))['phonecode'];
 
-		$check = $insert = mysqli_query($con, "INSERT into group_table values(null,'$group_name','$remarks',1,{$_SESSION['id']},'$get_time',null)");
+		$group_number = $query . $group_number;
+
+		$check = $insert = mysqli_query($con, "INSERT into group_table values(null,'$group_name','$group_number','$actual_number','$country_code','$remarks',1,{$_SESSION['id']},'$get_time',null)");
 		if ($check) {
-			header("location:add_group.php?page=index&color=success&message=" . ucwords($group_name) . " Group Added Successfully");
+			header("location:add_group.php?page=index&color=success&message=" . $group_name . " Group Added Successfully");
 		} else {
 			header("location:add_group.php?page=index&color=danger&message=Database Problem");
 		}
@@ -21,17 +27,24 @@ if (isset($_POST['add_group'])) {
 } else if (isset($_POST['update_group'])) {
 	$group_id = $_POST['group_id'];
 	$group_name = addslashes(htmlentities(trim(strtolower($_POST['group_name']))));
+	$actual_number = $group_number = addslashes(htmlentities(trim($_POST['group_number'])));
 	$remarks = addslashes(htmlentities(trim($_POST['remarks'])));
 	$status = $_POST['status'];
 
-	$check = mysqli_query($con, "UPDATE group_table set group_name='$group_name',remarks='$remarks',status='$status',update_dt='$get_time' where id='$group_id'");
+	$country_code = $_POST['country_id'];
+	$query = mysqli_fetch_array(mysqli_query($con, "SELECT phonecode FROM country where id=$country_code"))['phonecode'];
+
+	$group_number = $query . $group_number;
+
+	$check = mysqli_query($con, "UPDATE group_table set group_name='$group_name',mobile_number='$group_number',actual_number='$actual_number',country_code='$country_code',remarks='$remarks',status='$status',update_dt='$get_time' where id='$group_id'");
 	if ($check) {
-		header("location:view_group.php?page=index&color=success&message=" . ucwords($group_name) . " Group Updated Successfully");
+		header("location:view_group.php?page=index&color=success&message=" . $group_name . " Group Updated Successfully");
 	} else {
 		header("location:view_group.php?page=index&color=danger&message=Database Problem");
 	}
 } else if (isset($_POST['add_sms'])) {
 	$group_id = addslashes(htmlentities(trim($_POST['group_id'])));
+	$media_option = addslashes(htmlentities(trim($_POST['media_option'])));
 	$full_name = addslashes(htmlentities(trim($_POST['full_name'])));
 	$actual_number = $mobile_number = addslashes(htmlentities(trim($_POST['mobile_number'])));
 	$remarks = addslashes(htmlentities(trim($_POST['remarks'])));
@@ -43,7 +56,7 @@ if (isset($_POST['add_group'])) {
 
 		$mobile_number = $query . $mobile_number;
 
-		$check = $insert = mysqli_query($con, "INSERT into user values(null,'$group_id','$full_name','$mobile_number',$country_code,'$actual_number','$remarks',1,{$_SESSION['id']},'$get_time',null)");
+		$check = $insert = mysqli_query($con, "INSERT into user values(null,'$group_id','$media_option','$full_name','$mobile_number',$country_code,'$actual_number','$remarks',1,{$_SESSION['id']},'$get_time',null)");
 		if ($check) {
 			header("location:add_contact_sms.php?page=index&color=success&message=$full_name ($actual_number) Contact Added Successfully");
 		} else {
@@ -52,28 +65,21 @@ if (isset($_POST['add_group'])) {
 	} else {
 		header("location:add_contact_sms.php?page=index&color=warning&message=Contact already Added");
 	}
-} else if (isset($_GET['delete_customer_id'])) {
-	$delete_customer_id = $_GET['delete_customer_id'];
-
-	$x = mysqli_query($con, "UPDATE user set status=0 where user_id=$delete_customer_id");
-	if ($x) {
-		header("location:view_contact_sms.php?page=index&color=success&message=Contect Deleted Successfully");
-	} else {
-		header("location:view_contact_sms.php?page=index&color=danger&message=Database Problem");
-	}
 } else if (isset($_POST['update_customer'])) {
 
 	$group_id = $_POST['group_id'];
 	$full_name = addslashes(htmlentities(trim($_POST['full_name'])));
+	$media_option = addslashes(htmlentities(trim($_POST['media_option'])));
 	$actual_number = $mobile_number = addslashes(htmlentities(trim($_POST['mobile_number'])));
 	$remarks = addslashes(htmlentities(trim($_POST['remarks'])));
 	$country_code = $_POST['country_id'];
 	$query = mysqli_fetch_array(mysqli_query($con, "SELECT phonecode FROM country where id=$country_code"))['phonecode'];
 	$mobile_number = $query . $mobile_number;
 	$user_id = $_POST['user_id'];
+	$status = $_POST['status'];
 
 
-	$x = mysqli_query($con, "UPDATE user set group_id='$group_id',full_name='$full_name',mobile_number='$mobile_number',country_code='$country_code',actual_number='$actual_number',remarks='$remarks',update_dt='$get_time' where user_id=$user_id");
+	$x = mysqli_query($con, "UPDATE user set group_id='$group_id',media_option='$media_option',full_name='$full_name',mobile_number='$mobile_number',country_code='$country_code',actual_number='$actual_number',remarks='$remarks',status='$status',update_dt='$get_time' where user_id=$user_id");
 
 	if ($x) {
 		$_SESSION['first_name'] = $first_name;

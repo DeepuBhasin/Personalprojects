@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 16, 2021 at 09:09 PM
+-- Generation Time: Oct 02, 2021 at 01:14 PM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 7.4.22
 
@@ -302,12 +302,23 @@ INSERT INTO `country` (`id`, `iso`, `name`, `phonecode`) VALUES
 CREATE TABLE `group_table` (
   `id` int(11) NOT NULL,
   `group_name` varchar(150) DEFAULT NULL,
+  `mobile_number` varchar(150) DEFAULT NULL,
+  `actual_number` varchar(150) DEFAULT NULL,
+  `country_code` int(11) DEFAULT NULL,
   `remarks` varchar(225) DEFAULT NULL,
   `status` int(11) NOT NULL,
   `created_by` int(11) NOT NULL,
   `created_dt` datetime NOT NULL,
   `update_dt` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `group_table`
+--
+
+INSERT INTO `group_table` (`id`, `group_name`, `mobile_number`, `actual_number`, `country_code`, `remarks`, `status`, `created_by`, `created_dt`, `update_dt`) VALUES
+(1, 'indian', '919915099247', '9915099247', 99, 'indian', 1, 1, '2021-09-18 23:08:05', '2021-09-28 22:16:49'),
+(2, 'jake', '19894799590', '9894799590', NULL, 'ok', 1, 1, '2021-09-18 23:24:27', NULL);
 
 -- --------------------------------------------------------
 
@@ -330,7 +341,7 @@ CREATE TABLE `login` (
 --
 
 INSERT INTO `login` (`id`, `first_name`, `last_name`, `email_id`, `password`, `login_time`, `login_address`) VALUES
-(1, 'Admin', 'main', 'admin@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', '2021-09-16 22:19:31', '::1'),
+(1, 'Admin', 'main', 'admin@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', '2021-09-28 22:11:59', '::1'),
 (2, 'deepinder', 'Singh', 'deepinder999@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', '2021-09-16 22:19:31', '::1');
 
 -- --------------------------------------------------------
@@ -365,6 +376,7 @@ CREATE TABLE `sms_history` (
 CREATE TABLE `user` (
   `user_id` int(11) NOT NULL,
   `group_id` int(11) DEFAULT NULL,
+  `media_option` varchar(150) DEFAULT NULL,
   `full_name` varchar(150) DEFAULT NULL,
   `mobile_number` varchar(50) DEFAULT NULL,
   `country_code` int(11) DEFAULT NULL,
@@ -375,6 +387,28 @@ CREATE TABLE `user` (
   `created_dt` datetime DEFAULT NULL,
   `update_dt` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`user_id`, `group_id`, `media_option`, `full_name`, `mobile_number`, `country_code`, `actual_number`, `remarks`, `status`, `created_by`, `created_dt`, `update_dt`) VALUES
+(2, 2, 'both', 'jake Personal', '19069343017', 226, '9069343017', 'ok', 1, 1, '2021-09-18 23:24:47', '2021-10-02 15:56:57'),
+(3, 2, 'both', 'jake google', '12693400011', 226, '2693400011', 'ookok', 1, 1, '2021-09-19 01:27:45', '2021-10-02 15:51:59'),
+(5, 1, 'both', 'Deepinder Sinfh', '919915099247', 99, '9915099247', 'oko', 1, 1, '2021-09-25 01:08:45', '2021-10-02 15:51:53'),
+(6, 1, 'both', 'Deepu Bhasin', '919876543210', 99, '9876543210', 'okokokok', 1, 1, '2021-10-02 15:07:28', '2021-10-02 15:51:56');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `voice_call`
+--
+
+CREATE TABLE `voice_call` (
+  `id` int(11) NOT NULL,
+  `from_number` varchar(150) DEFAULT NULL,
+  `to_number` varchar(150) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Indexes for dumped tables
@@ -411,6 +445,12 @@ ALTER TABLE `user`
   ADD PRIMARY KEY (`user_id`);
 
 --
+-- Indexes for table `voice_call`
+--
+ALTER TABLE `voice_call`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -424,7 +464,7 @@ ALTER TABLE `country`
 -- AUTO_INCREMENT for table `group_table`
 --
 ALTER TABLE `group_table`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `login`
@@ -442,7 +482,13 @@ ALTER TABLE `sms_history`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- AUTO_INCREMENT for table `voice_call`
+--
+ALTER TABLE `voice_call`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

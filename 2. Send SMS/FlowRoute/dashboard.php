@@ -64,7 +64,7 @@
                                               $row = mysqli_fetch_object($total_sms_count);
                                               echo $row->sms_count;
                                               ?></p>
-                <p>Total Number of SMS Sent Successfully : <?php $sent_count = mysqli_query($con, "SELECT count(sms_id) as sms_count FROM sms_history where status='success'");
+                <p>Total Number of SMS Sent Successfully : <?php $sent_count = mysqli_query($con, "SELECT count(sms_id) as sms_count FROM sms_history where status in ('success with 200','success with 404','success')");
                                                             $row = mysqli_fetch_object($sent_count);
                                                             echo $row->sms_count;
                                                             ?></p>

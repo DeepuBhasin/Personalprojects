@@ -25,6 +25,16 @@
                 </select>
               </div>
               <div class="form-group">
+                <label for="media_option">Select Option *</label>
+                <select class="form-control" name="media_option" required="" id="media_option">
+                  <option value="">Select option </option>
+                  <option value="sms">SMS </option>
+                  <option value="voice">Voice </option>
+                  <option value="both">Both </option>
+
+                </select>
+              </div>
+              <div class="form-group">
                 <label for="full_name">Full Name *</label>
                 <input type="text" class="form-control" name="full_name" id="full_name" required="required" autocomplete="off" placeholder="Enter Full Name *">
               </div>

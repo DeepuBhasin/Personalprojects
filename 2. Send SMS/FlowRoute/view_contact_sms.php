@@ -18,6 +18,7 @@
                   <tr>
                     <th>Sri No.</th>
                     <th>Group Name</th>
+                    <th>Media Option</th>
                     <th>Full Name</th>
                     <th>Phone Number</th>
                     <th>Remarks</th>
@@ -29,20 +30,21 @@
                 </thead>
                 <tbody>
                   <?php
-                  $query = mysqli_query($con, "SELECT u.*,gt.group_name FROM user as u INNER JOIN group_table as gt ON gt.id=u.group_id where u.mobile_number IS NOT NULL  and u.status=1 order by u.full_name ASC");
+                  $query = mysqli_query($con, "SELECT u.*,gt.group_name FROM user as u INNER JOIN group_table as gt ON gt.id=u.group_id where u.mobile_number IS NOT NULL order by u.full_name ASC");
                   $c = 0;
                   while ($ab = mysqli_fetch_array($query)) {  ?>
 
                     <tr>
                       <td><?= ++$c ?></td>
-                      <td><?= ucwords($ab['group_name']); ?></td>
+                      <td><?= $ab['group_name']; ?></td>
+                      <td><?= $ab['media_option'] ?></td>
                       <td><?= $ab['full_name'] ?></td>
                       <td>+<?= $ab['mobile_number'] ?></td>
                       <td><?= $ab['remarks'] ?></td>
                       <td><?= $ab['created_dt']; ?></td>
                       <td><?= (!empty($ab['updated_dt'])) ? $ab['updated_dt'] : 'Not Available'; ?></td>
                       <td><?= ($ab['status'] == 1) ? 'Active' : 'Inactive'; ?></td>
-                      <td><a href="edit_customer.php?id=<?= $ab['user_id'] ?>" class="btn btn-sm btn-success" onclick="return confirm('Are you sure you want to Edit <?= $ab['full_name'] ?> (<?= $ab['mobile_number'] ?>) Contact ?');">Edit</a> <a href="program_file.php?delete_customer_id=<?= $ab['user_id'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to Delete <?= $ab['full_name'] ?> (<?= $ab['mobile_number'] ?>) Contact ?');">Delete</a> </td>
+                      <td><a href="edit_customer.php?id=<?= $ab['user_id'] ?>" class="btn btn-sm btn-success" onclick="return confirm('Are you sure you want to Edit <?= $ab['full_name'] ?> (<?= $ab['mobile_number'] ?>) Contact ?');">Edit</a> </td>
                     </tr>
 
                   <?php

@@ -18,6 +18,7 @@
                                     <tr>
                                         <th>Sri No.</th>
                                         <th>Group Name</th>
+                                        <th>Group Number</th>
                                         <th>Remarks</th>
                                         <th>Created Date</th>
                                         <th>Updated Date</th>
@@ -33,12 +34,13 @@
 
                                         <tr>
                                             <td><?= ++$c ?></td>
-                                            <td><?= ucwords($ab['group_name']); ?></td>
+                                            <td><?= $ab['group_name']; ?></td>
+                                            <td><?= (!empty($ab['mobile_number'])) ? '+'.$ab['mobile_number'] : '-' ?></td>
                                             <td><?= (!empty($ab['remarks'])) ? $ab['remarks'] : '-' ?></td>
                                             <td><?= $ab['created_dt']; ?></td>
                                             <td><?= (!empty($ab['update_dt'])) ? $ab['update_dt'] : 'Not Available'; ?></td>
                                             <td><?= ($ab['status'] == 1) ? 'Active' : 'Inactive'; ?></td>
-                                            <td><a href="edit_group.php?id=<?= $ab['id'] ?>" class="btn btn-sm btn-success" onclick="return confirm('Are you sure you want to Edit <?= ucwords($ab['group_name']); ?> Group ?');">Edit</a> </td>
+                                            <td><a href="edit_group.php?id=<?= $ab['id'] ?>" class="btn btn-sm btn-success" onclick="return confirm('Are you sure you want to Edit <?= $ab['group_name']; ?> Group ?');">Edit</a> </td>
                                         </tr>
 
                                     <?php

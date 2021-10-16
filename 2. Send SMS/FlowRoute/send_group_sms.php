@@ -143,7 +143,7 @@ if (isset($_POST['send_sms'])) {
                                     <?php
                                     $query = mysqli_query($con, "SELECT id,group_name,mobile_number FROM group_table where status=1 order by group_name ASC");
                                     while ($a = mysqli_fetch_array($query)) { ?>
-                                        <option value="<?= $a['id'] ?>"><?= ucfirst($a['group_name']); ?> ( +<?= ucfirst($a['mobile_number']); ?> )</option>
+                                        <option value="<?= $a['id'] ?>" <?php if($a['id']==1){echo "SELECTED";}?>><?= ucfirst($a['group_name']); ?> ( +<?= ucfirst($a['mobile_number']); ?> )</option>
                                     <?php
                                     }
                                     ?>

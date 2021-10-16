@@ -22,7 +22,7 @@
                                   <?php
                                   $query = mysqli_query($con, "SELECT * FROM country ORDER BY name ASC");
                                   while ($a = mysqli_fetch_array($query)) { ?>
-                                    <option value="<?= $a['id'] ?>"><?= ucfirst(strtolower($a['name'])); ?> ( +<?= $a['phonecode']; ?> )</option>
+                                    <option value="<?= $a['id'] ?>" <?php if($a['id']==226){echo "SELECTED";}?>  ><?= ucfirst(strtolower($a['name'])); ?> ( +<?= $a['phonecode']; ?> )</option>
                                   <?php
                                   }
                                   ?>

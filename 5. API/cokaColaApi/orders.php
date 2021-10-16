@@ -151,7 +151,7 @@ include_once '__db.php';
 			$orderid =  mysqli_real_escape_string($conn,dataFilter($endString));
 			
 
-			$sql1 = "SELECT oc.order_id,oc.store_name,oc.store_id,oc.date_added,oc.comment,oc.user_agent,oc.customer_id,oc.firstname,oc.lastname,oc.email,oc.telephone,oc.commission,oc.total,oc.shipping_method,oc.shipping_address_1,oc.email,oc.shipping_city,oc.shipping_zone,oc.shipping_postcode,oc.payment_method,oc.payment_company,oc.payment_address_1,ocs.name as status,oo.order_product_id,oot.code,ooh.comment as history_comment,oos.order_shipment_id 
+			$sql1 = "SELECT oc.order_id,oc.store_name,oc.store_id,oc.date_added,oc.comment,oc.user_agent,oc.customer_id,oc.firstname,oc.lastname,oc.email,oc.custom_field,oc.telephone,oc.commission,oc.total,oc.shipping_method,oc.shipping_address_1,oc.email,oc.shipping_city,oc.shipping_zone,oc.shipping_postcode,oc.payment_method,oc.payment_company,oc.payment_address_1,ocs.name as status,oo.order_product_id,oot.code,ooh.comment as history_comment,oos.order_shipment_id 
 		FROM oc_order as oc INNER JOIN oc_order_status as ocs ON ocs.order_status_id=oc.order_status_id INNER JOIN oc_order_option as oo ON oo.order_product_id=oc.order_id INNER JOIN oc_order_total as oot ON oot.order_id=oc.order_id INNER JOIN oc_order_history as ooh ON ooh.order_id=oc.order_id LEFT JOIN oc_order_shipment as oos on oos.order_id=oc.order_id  WHERE oc.language_id=ocs.language_id and oot.code='total' and oc.order_id=$orderid";
 
 			$sql2 = "SELECT oop.*,oo.commission,op.sku FROM oc_order_option as ooo LEFT JOIN oc_order_product as oop ON oop.order_product_id=ooo.order_product_id INNER JOIN oc_order as oo ON oop.order_id=oo.order_id LEFT JOIN oc_product as op ON op.product_id=oop.product_id WHERE ooo.order_id=$orderid";
@@ -177,6 +177,8 @@ include_once '__db.php';
 			$price = 0;
 			$total = 0;
 
+			$custom_field=json_decode($rows['custom_field'],true);
+
 			if(isset($rows2) && !empty($rows2))
 			{
 
@@ -188,7 +190,7 @@ include_once '__db.php';
 							'name'=>$value['name'],
 							'presentation'=>$value['name'],
 							'sku'=>$value['sku'],
-							'erpCode'=>null,
+							'erpCode'=>$custom_field[6],
 							'adjustmentsTotal'=> empty($value['commission']) ? $value['commission'] : null,
 					];
 					$reward += $value['reward'];
@@ -205,7 +207,7 @@ include_once '__db.php';
 						'name'=>null,
 						'presentation'=>null,
 						'sku'=>null,
-						'erpCode'=>null,
+						'erpCode'=>$custom_field[6],
 						'adjustmentsTotal'=>null,
 				];
 			}
@@ -213,12 +215,12 @@ include_once '__db.php';
 		$data=[
 			'id'=>$rows['order_id'],
 			'code'=>'IND'.$rows['order_id'],
-			'erpCode'=>$rows['order_id'],
+			'erpCode'=>$custom_field[6],
 			'status'=>$rows['status'],
 			'vendor'=>[
 						'name'=>$rows['store_name'],
 						'ubigeo'=>null,
-						'erpcode'=>$rows['store_id']
+						'erpcode'=>$custom_field[6],
 					  ],
 			'createdAt'=>$rows['date_added'],
 			'creationDate'=>$rows['date_added'],
@@ -235,7 +237,7 @@ include_once '__db.php';
 							'email'=>$rows['email'],
 							'phone'=>$rows['telephone'],
 							'vendorCode'=>null,
-							'erpCode'=>null,
+							'erpCode'=>$custom_field[6],
 						],
 			'lineItems'=>$lineItems,
 			// 'allAdjustments'=>[
@@ -252,9 +254,9 @@ include_once '__db.php';
 								'value'=>null
 							],			
 			'pricing'=>[
-							'adjustmentsTotal'=> (!empty($reward)) ? $reward : "0.00",
-							'subtotal'=> (!empty($total)) ? $total : "0.00",
-							'tax'=> (!empty($tax)) ? $tax : "0.00",
+							'adjustmentsTotal'=> (!empty($reward)) ? (string) $reward : "0.00",
+							'subtotal'=> (!empty($total)) ? (string) $total : "0.00",
+							'tax'=> (!empty($tax)) ? (string) $tax : "0.00",
 							'deliveryCost'=>null,
 							'total'=>$rows['total'],	
 						],
@@ -264,7 +266,7 @@ include_once '__db.php';
 							'deliveryAddress'=>[
 													'id'=>$rows['order_shipment_id'],
 													'address'=>$rows['shipping_address_1'],
-														'erpCode'=>null,
+													'erpCode'=>$custom_field[6],
 													'apartment'=>null,
 													'reference'=>null,
 													'coordinates'=>null,
@@ -281,37 +283,33 @@ include_once '__db.php';
 							'territory'=>[
 												'name'=>$rows['shipping_postcode'],
 												'metadata'=>[
-														'RUTA'=>null,
-														'ZONA'=>null,
-														'MODULO'=>null,
-														'COMPANIA'=>null,
+														'RUTA'=>$custom_field[4],
+														'ZONA'=>$custom_field[3],
+														'MODULO'=>$custom_field[5],
+														'COMPANIA'=>$custom_field[1],
 														'SUCURSAL'=>null,
 														'DESCOMPAN'=>null,
 														'DESUCURSAL'=>null,
-										]					
+															],					
 
-						],
+										],
+						],				
 			'payment'=>[
 							'name'=>$rows['payment_method'],
 							'transactionId'=>$rows['history_comment'],
 						],
 			'invoicing'=>[
-							'name'=>null,
-							'documentNumber'=>null,
-							'fiscalName'=>(!empty($rows['payment_company'])) ? $rows['payment_company'] : null ,
+							'name'=>$rows['firstname'],
+							'documentNumber'=>$rows['order_id'],
+							'fiscalName'=>$rows['firstname'],
 							'fiscalAddress'=>(!empty($rows['payment_address_1'])) ? $rows['payment_address_1'] : null ,
 							'email'=>(!empty($rows['email'])) ? $rows['email'] : null ,
 
 						],
 			'creator'=>[
-							'name'=>null,
-							'erpCode'=>null,
+							'name'=>$rows['firstname'],
+							'erpCode'=>$custom_field[6]
 					   ]						
-
-
-
-
-				],
 				];
 				die(successMessage($data));
 			}else

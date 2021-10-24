@@ -151,8 +151,8 @@ include_once '__db.php';
 			$orderid =  mysqli_real_escape_string($conn,dataFilter($endString));
 			
 
-			$sql1 = "SELECT oc.order_id,oc.store_name,oc.store_id,oc.date_added,oc.comment,oc.user_agent,oc.customer_id,oc.firstname,oc.lastname,oc.email,oc.custom_field,oc.telephone,oc.commission,oc.total,oc.shipping_method,oc.shipping_address_1,oc.email,oc.shipping_city,oc.shipping_zone,oc.shipping_postcode,oc.payment_method,oc.payment_company,oc.payment_address_1,ocs.name as status,oo.order_product_id,oot.code,ooh.comment as history_comment,oos.order_shipment_id 
-		FROM oc_order as oc INNER JOIN oc_order_status as ocs ON ocs.order_status_id=oc.order_status_id INNER JOIN oc_order_option as oo ON oo.order_product_id=oc.order_id INNER JOIN oc_order_total as oot ON oot.order_id=oc.order_id INNER JOIN oc_order_history as ooh ON ooh.order_id=oc.order_id LEFT JOIN oc_order_shipment as oos on oos.order_id=oc.order_id  WHERE oc.language_id=ocs.language_id and oot.code='total' and oc.order_id=$orderid";
+			$sql1 = "SELECT oc.order_id,oc.store_name,oc.store_id,oc.date_added,oc.comment,oc.user_agent,oc.customer_id,oc.firstname,oc.lastname,oc.email,ocm.custom_field,oc.ip,oc.telephone,oc.commission,oc.total,oc.shipping_method,oc.shipping_address_1,oc.email,oc.shipping_city,oc.shipping_zone,oc.shipping_postcode,oc.payment_method,oc.payment_company,oc.payment_address_1,ocs.name as status,oo.order_product_id,oot.code,ooh.comment as history_comment,oos.order_shipment_id 
+		FROM oc_order as oc INNER JOIN oc_order_status as ocs ON ocs.order_status_id=oc.order_status_id INNER JOIN oc_order_option as oo ON oo.order_product_id=oc.order_id INNER JOIN oc_order_total as oot ON oot.order_id=oc.order_id INNER JOIN oc_order_history as ooh ON ooh.order_id=oc.order_id INNER JOIN oc_customer as ocm ON ocm.customer_id=oc.customer_id LEFT JOIN oc_order_shipment as oos on oos.order_id=oc.order_id  WHERE oc.order_id=$orderid";
 
 			$sql2 = "SELECT oop.*,oo.commission,op.sku FROM oc_order_option as ooo LEFT JOIN oc_order_product as oop ON oop.order_product_id=ooo.order_product_id INNER JOIN oc_order as oo ON oop.order_id=oo.order_id LEFT JOIN oc_product as op ON op.product_id=oop.product_id WHERE ooo.order_id=$orderid";
 
@@ -178,7 +178,7 @@ include_once '__db.php';
 			$total = 0;
 
 			$custom_field=json_decode($rows['custom_field'],true);
-
+			
 			if(isset($rows2) && !empty($rows2))
 			{
 
@@ -287,9 +287,9 @@ include_once '__db.php';
 														'ZONA'=>$custom_field[3],
 														'MODULO'=>$custom_field[5],
 														'COMPANIA'=>$custom_field[1],
-														'SUCURSAL'=>null,
-														'DESCOMPAN'=>null,
-														'DESUCURSAL'=>null,
+														'SUCURSAL'=>$custom_field[2],
+														'DESCOMPAN'=>$custom_field[8],
+														'DESUCURSAL'=>$custom_field[7],
 															],					
 
 										],

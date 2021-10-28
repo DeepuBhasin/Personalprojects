@@ -223,8 +223,8 @@ include_once '__db.php';
 						'erpcode'=>$custom_field[6],
 					  ],
 			'createdAt'=>$rows['date_added'],
-			'creationDate'=>$rows['date_added'],
-			'creationTime'=>$rows['date_added'],
+			'creationDate'=>date('Y-m-d',strtotime($rows['date_added'])),
+			'creationTime'=>date('H:i:s',strtotime($rows['date_added'])),
 			'total'=>$rows['total'],
 			'extraFields'=>null,
 			'channel'=>'Ecommerce',
@@ -262,7 +262,7 @@ include_once '__db.php';
 						],
 			'shipping'=>[
 							'name'=>$rows['shipping_method'],
-							'deliveryDate'=>'',
+							'deliveryDate'=>date('Y-m-d',strtotime($rows['date_added'])),
 							'deliveryAddress'=>[
 													'id'=>$rows['order_shipment_id'],
 													'address'=>$rows['shipping_address_1'],

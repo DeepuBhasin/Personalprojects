@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="searchproduct.xsl"?>
+<products>
+   <book code="101-11">
+      <category>Computer</category>
+      <name>XML Developer's Guide</name>
+      <description>An in-depth look at creating applications with XML.</description>
+      <quantity>3</quantity>
+      <unitPrice>44.95</unitPrice>
+   </book>
+   <book code="102-12">
+      <category>Fantasy</category>
+      <name>Midnight Rain</name>
+      <description>A former architect battles corporate zombies,an evil sorceress, and her own childhood to become queen of the world.</description>
+      <quantity>4</quantity>
+      <unitPrice>5.95</unitPrice>
+   </book>
+   <book code="103-13">
+      <category>Fantasy</category>
+      <name>Maeve Ascendant</name>
+      <description>After the collapse of a nanotechnology society in England, the young survivors lay the foundation for a new society.</description>
+      <quantity>4</quantity>
+      <unitPrice>5.95</unitPrice>
+   </book>
+   <book code="104-14">
+      <category>Fantasy</category>
+      <name>Oberon's Legacy</name>
+      <description>In post-apocalypse England, the mysterious agent known only as Oberon helps to create a new life for the inhabitants of London. Sequel to Maeve Ascendant.</description>
+      <quantity>2</quantity>
+      <unitPrice>5.95</unitPrice>
+   </book>
+   <book code="105-15">
+      <category>Fantasy</category>
+      <name>The Sundered Grail</name>
+      <description>The two daughters of Maeve, half-sisters, battle one another for control of England. Sequel to Oberon's Legacy.</description>
+      <quantity>3</quantity>
+      <unitPrice>5.95</unitPrice>
+   </book>
+   <book code="106-16">
+      <category>Romance</category>
+      <name>Lover Birds</name>
+      <description>When Carla meets Paul at an ornithology conference, tempers fly as feathers get ruffled.</description>
+      <quantity>5</quantity>
+      <unitPrice>4.95</unitPrice>
+   </book>
+   <book code="107-17">
+      <category>Romance</category>
+      <name>Splish Splash</name>
+      <description>A deep sea diver finds true love twenty thousand leagues beneath the sea.</description>
+      <quantity>1</quantity>
+      <unitPrice>4.95</unitPrice>
+   </book>
+   <book code="108-18">
+      <category>Horror</category>
+      <name>Creepy Crawlies</name>
+       <description>An anthology of horror stories about roaches, centipedes, scorpions  and other insects.</description>
+      <quantity>2</quantity>
+      <unitPrice>4.95</unitPrice>
+   </book>
+   <book code="109-19">
+      <category>Science Fiction</category>
+      <name>Paradox Lost</name>
+      <description>After an inadvertant trip through a Heisenberg Uncertainty Device, James Salway discovers the problems of being quantum.</description>
+      <quantity>5</quantity>
+      <unitPrice>6.95</unitPrice>
+   </book>
+   <book code="110-20">
+      <category>Computer</category>
+      <name>Microsoft .NET: The Programming Bible</name>
+      <description>Microsoft's .NET initiative is explored in detail in this deep programmer's reference.</description>
+      <quantity>2</quantity>
+      <unitPrice>36.95</unitPrice>
+   </book>
+   <book code="111-21">
+      <category>Computer</category>
+      <name>MSXML3: A Comprehensive Guide</name>
+      <description>The Microsoft MSXML3 parser is covered in detail, with attention to XML DOM interfaces, XSLT processing, SAX and more.</description>
+      <quantity>9</quantity>
+      <unitPrice>36.95</unitPrice>
+   </book>
+   <book code="112-22">
+      <category>Computer</category>
+      <name>Visual Studio 7: A Comprehensive Guide</name>
+      <description>Microsoft Visual Studio 7 is explored in depth, looking at how Visual Basic, Visual C++, C#, and ASP+ are integrated into a comprehensive development environment.</description>
+      <quantity>7</quantity>
+      <unitPrice>49.95</unitPrice>
+   </book>
+</products>

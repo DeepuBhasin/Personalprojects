@@ -1,0 +1,15 @@
+body{padding:20px;margin:0px auto;}
+
+h1,h3{font-family:calibri;}
+
+table{width:1200px;
+      border:solid 1px black;
+}
+
+th{background-color:lightgrey;}
+
+td{border:solid 2px lightgrey;}
+
+header {margin-top:30px;}
+header a{text-decoration:none; display:in-line; font-size:30px; margin:10px; background-color:skyblue; padding:10px; color: white; border-radius: 4px;}
+header a:hover{background-color: grey;}

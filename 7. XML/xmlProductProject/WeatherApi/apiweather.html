@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Project</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.php">Wether Api</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+    </nav>
+    <br/>
+    <div class="container">
+        <div class="row">
+            <h2 class="text-info">Weather Api Result Using json </h2><br/><br/><br/>
+        </div>    
+        <div class="row">
+            <div class="form-group col-md-7">
+                <label for="countryName">Select City *</label>
+                <select class="form-control" name="cityName" id="cityName" required="" onchange="CityFunction(this);">
+                    <option>Select a City</option>
+                    <option value="Armagh">Armagh</option>
+                    <option value="Belfast">Belfast</option>
+                    <option value="Londonderry">Londonderry</option>
+                    <option value="Lisburn">Lisburn</option>
+                    <option value="Newry">Newry</option>
+                    <option value="Bath">Bath</option>
+                    <option value="Bristol">Bristol</option>
+                    <option value="Birmingham">Birmingham</option>
+                    <option value="Bradford">Bradford</option>
+                    <option value="Bournemouth">Bournemouth</option>
+                    <option value="Cambridge">Cambridge</option>
+                    <option value="Canterbury">Canterbury</option>
+                    <option value="Chester">Chester</option>
+                    <option value="Derby">Derby</option>
+                    <option value="Exeter">Exeter</option>
+                    <option value="Gloucester">Gloucester</option>
+                    <option value="Lancaster">Lancaster</option>
+                    <option value="Leeds">Leeds</option>
+                    <option value="Liverpool">Liverpool</option>
+                    <option value="London">London</option>
+                    <option value="Manchester">Manchester</option>
+                    <option value="Newcastle upon Tyne">Newcastle upon Tyne</option>
+                    <option value="Norwich">Norwich</option>
+                    <option value="Nottingham">Nottingham</option>
+                    <option value="Oxford">Oxford</option>
+                    <option value="Plymouth">Plymouth</option>
+                    <option value="Ripon">Ripon</option>
+                    <option value="Salford">Salford</option>
+                    <option value="Sheffield">Sheffield</option>
+                    <option value="Wakefield">Wakefield</option>
+                    <option value="Wolverhampton">Wolverhampton</option>
+                    <option value="Worcester">Worcester</option>
+                    <option value="Aberdeen">Aberdeen</option>
+                    <option value="Dundee">Dundee</option>
+                    <option value="Edinburgh">Edinburgh</option>
+                    <option value="Glasgow">Glasgow</option>
+                    <option value="Inverness">Inverness</option>
+                    <option value="Bangor">Bangor </option>
+                    <option value="Cardiff">Cardiff</option>
+                    <option value="Newport">Newport</option>
+                    <option value="Swansea">Swansea </option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="myTable">
+                <table class="table-responsive table-striped table-hover" border="1" cellpadding="25">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Sri No</th>
+                            <th>City Id</th>
+                            <th>City Name</th>
+                            <th>Date & Time</th>
+                            <th>Temprature</th>
+                            <th>Humidity</th>
+                            <th>Weather Main</th>
+                            <th>Weather Condition</th>
+                            <th>Wind Speed</th>
+                            <th>Wind deg</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTable"></tbody>
+                </table>
+            </div>
+        </div>
+        <br/>
+        <br/><br/>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="weather.js"></script>
+    </div>
+  
+</body>
+
+</html>

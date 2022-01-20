@@ -88,7 +88,7 @@
 			for($x=0;$x<count($number);$x++)
 			{	
 
-				$url='https://platform.clickatell.com/messages/http/send?apiKey=Yp2My1OmQMan04RwaiBW4w==&to='.$number[$x].'&content='.$message;
+				$url='https://platform.clickatell.com/messages/http/send?apiKey=0UGe8BaVSsCV7ap7BRqpOw==&to='.$number[$x].'&content='.$message;
 				$response=file_get_contents($url);
 				// print_r($response);
 				// exit;

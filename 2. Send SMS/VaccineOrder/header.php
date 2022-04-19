@@ -83,6 +83,7 @@ include_once('database.php');
                     <li class="collapse" id="message">
                       <a href="send_single_sms.php" class="list-group-item"><i class="glyphicon glyphicon-minus"></i> Send Single SMS</a>
                       <a href="send_contact_sms.php" class="list-group-item"><i class="glyphicon glyphicon-minus"></i> Send Contact SMS</a>
+                      <a href="send_bulk_sms.php" class="list-group-item"><i class="glyphicon glyphicon-minus"></i> Send Bulk SMS</a>
                       <a href="inbox.php" class="list-group-item"><i class="glyphicon glyphicon-minus"></i>All Received SMS</a>
                       <a href="sent_sms.php" class="list-group-item"><i class="glyphicon glyphicon-minus"></i>All Sent SMS</a>
                       <a href="sms_report.php" class="list-group-item"><i class="glyphicon glyphicon-minus"></i> All SMS Report</a>

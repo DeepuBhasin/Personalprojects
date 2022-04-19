@@ -109,7 +109,7 @@
                         
                         <div class="form-group">
                           <label for="message">Enter Message *</label>
-                          <textarea id="message" name="message" placeholder="Enter Message" required="" class="form-control">Time to take your medication. Select 1 to confirm or Select 2 to skip a dose.</textarea>
+                          <textarea id="message" name="message" placeholder="Enter Message" required="" class="form-control"></textarea>
                         </div>
                         
                         <button type="submit" class="btn btn-success" name="send">Send</button> <button type="reset" class="btn btn-info">Reset</button>

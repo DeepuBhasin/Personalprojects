@@ -2,7 +2,7 @@
 $hostname = 'localhost';
 $username = 'root';
 $password = '';
-$databaseName = 'itech3108_30342987_a1';
+$databaseName = 'shop';
 
 $con = mysqli_connect($hostname,$username,$password,$databaseName);
 

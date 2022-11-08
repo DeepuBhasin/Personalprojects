@@ -56,9 +56,9 @@
 			for($i=0;$i<count($send_to);$i++)
 			{
 
-				$auth_id = 'MAODJLMMNHYMFMN2Q1NJ';
-	        	$auth_token = 'OWY2ZmEyZGYzNGFiZmRiOTdjNGM5Nzc1Y2IxNmQy';
-	        	$from="+1".$send_from;
+				$auth_id = 'MAMWZIYTU0OTMYYJHINZ ';
+	        	$auth_token = 'NjNiYmQ3N2U4YWI2MjA4NzhmM2YwZDQxYWMyZmQx';
+	        	$from=$send_from;
 				
 				$api = curl_init("https://api.plivo.com/v1/Account/$auth_id/Message/");
 		        curl_setopt_array($api, array(
@@ -67,7 +67,7 @@
 		            CURLOPT_HTTPHEADER => array("Authorization: Basic ".base64_encode($auth_id.':'.$auth_token)),
 		            CURLOPT_POSTFIELDS => array(
 		            	'src' =>$from,
-		                'dst' => '+1'.$send_to[$i],
+		                'dst' => $send_to[$i],
 		                'text' => $_POST['message']
 		            )
 		        ));
@@ -76,16 +76,20 @@
 				curl_close($api);
 		        $resp=json_decode($resp, true);
 
+				echo "<pre>";
+				print_r($resp);
+				exit;
+
 		        if(isset($resp['error']))
 				{
-		        	 $success[$i]='+1'.$send_to[$i];
+		        	 $success[$i]=$send_to[$i];
 		        	 $status[$i]="Failed";
 		        	 $reason[$i]=$resp['error'];
 		        	 $yes=true;
 		        }
 		        else
 		        {
-		        	$success[$i]='+1'.$send_to[$i];
+		        	$success[$i]=$send_to[$i];
 		        	$reason[$i]="Sent Successfully";
 		        	$status[$i]="Sent";
 		        	$yes=true;
@@ -142,11 +146,11 @@
 		<form action="<?= $_SERVER['PHP_SELF'];?>" method="post" autocomplete="off" enctype="multipart/form-data" id="testing">
 		    <div class="form-group">
 		   		 <label for="send_to" class="control-label" style="color: #fff;">Send To (To Send bulk use comma separation) *</label>
-				 <input type="text" class="form-control" name="send_to" required="required" id="send_to" placeholder="Please Enter Numbers *">
+				 <input type="text" class="form-control" name="send_to" required="required" id="send_to" placeholder="Please Enter Numbers *" value="+18049994008">
 		    </div>
 		    <div class="form-group">
 		   		 <label for="send_from" class="control-label" style="color: #fff;">Send Number *</label>
-				 <input type="input" id="send_from" class="form-control" name="send_from" placeholder="Please Enter Send Number *" required=""  maxlength="11">
+				 <input type="input" id="send_from" class="form-control" name="send_from" placeholder="Please Enter Send Number *" required=""  value="+17608525017">
 		    </div>
 		    <div class="form-group">
 		   		 <label for="message" class="control-label" style="color: #fff;">Message *</label>

@@ -35,7 +35,7 @@
 
 		$number=explode(',',$_POST['number']);
 		$message=$_POST['message'];
-		$from='+13235535387';
+		$from='+16802136349';
 
 		if(empty($number) && empty($message))
 		{?>
@@ -55,8 +55,8 @@
 
 			for($i=0;$i<$count;$i++)
 			{
-				$sid = 'AC07e2a3cd5171f62728e304b313598365';
-	        	$auth = 'c87a9bbdf738cd40f550e030932de8b3';
+				$sid = 'ACa845b41a0a550723528272099c43ec57';
+	        	$auth = '338f62414a84116adbb2dec511dbe46c';
 	        	
 	        	$api = curl_init("https://api.twilio.com/2010-04-01/Accounts/$sid/Messages.json");
 		        curl_setopt_array($api, array(
@@ -72,6 +72,10 @@
 			    
 				$resp = curl_exec($api);
 		        $resp=json_decode($resp, true);
+
+		        echo "<pre>";
+		        print_r($resp);
+		        exit;
 
 		        if(isset($resp['sid']))
 		        {

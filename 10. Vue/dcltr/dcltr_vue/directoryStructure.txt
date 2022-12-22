@@ -1,0 +1,8 @@
+https://www.nightprogrammer.com/vue-js/architect-structure-large-scale-vue-js-application-example/
+https://ideafoundation.atlassian.net/browse/DCLUT-18
+
+for Directory Structure
+https://freecoursesite.com/vue-js-2-the-complete-guide-incl-vue-router-vuex-24/
+
+for Validation
+https://learnvue.co/2020/01/getting-smart-with-vue-form-validation-vuelidate-tutorial/#running-validate-on-our-form

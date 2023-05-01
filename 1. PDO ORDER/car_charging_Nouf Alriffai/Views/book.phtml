@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to Borrow my Charger Web Application|Charger Booking Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assests/style.css" rel="stylesheet">
+    <script src="assests/jquery-1.11.1.min.js"></script>
+    <script src="assests/bootstrap.min.js"></script>
+</head>
+
+<body background="images/bg.jpeg">
+    <div align="center">
+        <form class="form-horizontal" action='<?= $_SERVER['PHP_SELF']; ?>' method="POST">
+            <fieldset>
+                <div id="legend" align="center" style="background-color:#023020;  height:40px">
+                    <legend class="" style="color:#FFFFFF">Welcome to Borrow my Charger Web Application|Charger Booking Page</legend>
+                </div>
+                <br><br><br><br><br>
+                <div class="control-group">
+                    <!-- Fullname -->
+                    <div class="control-group">
+                        <!-- Fullname -->
+
+                        <div class="">
+                            <label style="color:#FFFFFF">Start Date</label>
+                            <input type="date" id="start_date" name="start_date" placeholder="Start Date" class="input-xlarge" >
+                        </div>
+                    </div>
+                    <div class="">
+                        <label style="color:#FFFFFF">End Date</label>
+                        <input type="date" id="end_date" name="end_date" placeholder="End Date" class="input-xlarge" >
+                    </div>
+                </div>
+                <!-- <div class="control-group">
+                    <div class="controls">
+                        <label style="color:#FFFFFF">Name</label>
+                        <input type="text" id="display_name" name="display_name" value="<?php echo  $_SESSION['fname']; ?>" class="input-xlarge" required="true">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="controls">
+                        <input type="text" id="user_id" name="user_id" value="<?php echo  $_SESSION['uid']; ?>" placeholder="Owner Name" class="input-xlarge" required="true">
+                    </div>
+                </div> -->
+                <div class="control-group">
+                    <!-- Button -->
+                    <div class="">
+                        <input type="hidden" name="charger_id" value="<?php echo  $_GET['charger_id']; ?>">
+                        <button class="btn btn-success" type="submit" id="submit" name="submit">Add Booking</button>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="">
+                        Do you want to see <a href="list.php">Charger List</a>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <br><br><br><br>
+    <?php require("Views/template/footer.phtml"); ?>
+    <script src="js/validBooking.js"></script>
+</body>
+</html>

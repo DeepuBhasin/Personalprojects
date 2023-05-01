@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Welcome to Borrow my Charger Web Application|Charger List</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="assests/style.css" rel="stylesheet">
+  <script src="assests/jquery-1.11.1.min.js"></script>
+  <script src="assests/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+</head>
+
+<body background="images/bg.jpeg">
+
+  <fieldset>
+    <div id="legend" style="background-color:#023020; height:40px">
+      <legend class="" align="center" style="color:#FFFFFF">Login User Name : <?php echo  $_SESSION['fname']; ?></legend>
+
+    </div>
+    <br>
+    <div class="control-group" align="center">
+      <!-- Button -->
+      <div class="controls">
+        <a href="logout.php" class="btn btn-success" type="submit" name="signin">Logout</a>
+
+        <?php if ($_SESSION['user_type'] == 'Home Owner') { ?>
+          <a href="add_charger.php" class="btn btn-success" type="submit" name="signin">Add Charger</a>
+          <?php
+          if (isset($myChargerPage)) { ?>
+            <a href="list.php" class="btn btn-success" type="submit" name="signin">All Charger</a><?php
+
+                                                                                                } else { ?>
+            <a href="my_charger.php" class="btn btn-success" type="submit" name="signin">My Charger</a><?php
+                                                                                                      }
+                                                                                                    } else { ?>
+          <a href="my_Booking.php" class="btn btn-success" type="submit" name="signin">My Booking</a>
+          <a href="list.php" class="btn btn-success" type="submit" name="signin">All chargers</a>
+
+        <?php
+                                                                                                    } ?>
+      </div>
+
+    </div>
+
+  </fieldset>
+
+  <div class="container">
+    <div align="center">
+      <div id="map" style="width: 60%; height: 400px;">
+      </div>
+    </div>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br>
+  <?php require("Views/template/footer.phtml"); ?>
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <script src="./js/nearYou.js" type="text/javascript"></script>
+</body>
+
+</html>

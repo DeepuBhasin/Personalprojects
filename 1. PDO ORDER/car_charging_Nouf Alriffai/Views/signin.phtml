@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to Borrow my Charger Web Application|User Login Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assests/style.css" rel="stylesheet">
+    <script src="assests/jquery-1.11.1.min.js"></script>
+    <script src="assests/bootstrap.min.js"></script>
+</head>
+
+<body background="images/bg.jpeg">
+    <div align="center">
+        <form class="form-horizontal" action='<?= $_SERVER['PHP_SELF']; ?>' method="POST">
+            <fieldset>
+                <div id="legend" style="background-color:#023020; height:40px">
+                    <legend class="" style="color:#FFFFFF">Welcome to Borrow my Charger Web Application|User Login Page</legend>
+                </div>
+                <br><br><br><br><br>
+                <div class="control-group">
+                    <div class="">
+                        <input type="text" id="username" name="username" placeholder="Enter User Name" class="input-xlarge">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="">
+                        <input type="password" id="password" name="password" placeholder="Enter Password" class="input-xlarge">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="">
+                        <button class="btn btn-success" type="submit" name="signin">Signin</button>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="">
+                        Not Registered yet? <a href="index.php">Register Here</a>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <?php require("Views/template/footer.phtml"); ?>
+
+    <script src="js/validSignin.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to Borrow my Charged Application|User Registration Page </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assests/style.css" rel="stylesheet">
+    <script src="assests/jquery-1.11.1.min.js"></script>
+    <script src="assests/bootstrap.min.js"></script>
+</head>
+
+<body background="images/bg.jpeg">
+    <div align="center">
+        <form class="form-horizontal" action='<?= $_SERVER['PHP_SELF']; ?>' method="POST">
+            <fieldset>
+                <div id="legend" align="center" style="background-color:#023020; height:40px">
+                    <legend class="" style="color:#FFFFFF">Welcome to Borrow my Charged Application|User Registration Page</legend>
+                </div>
+                <br><br><br><br><br>
+                <div class="control-group">
+                    <!-- Fullname -->
+                    <div class="">
+                        <input type="text" id="username" name="fullname" placeholder="Enter Your Full Name" class="input-xlarge" >
+                    </div>
+                </div>
+                <div class="control-group">
+                    <!-- Username -->
+
+                    <div class="">
+                        <input type="text" id="username" name="username" placeholder="Enter Your User Name/Email" class="input-xlarge">
+
+                    </div>
+                </div>
+                <div class="control-group">
+                    <!-- Password-->
+
+                    <div class="">
+                        <input type="password" id="password" name="password" placeholder="Enter Your Password" class="input-xlarge" >
+                    </div>
+                </div>
+                <div class="control-group">
+                    <!-- E-mail -->
+
+                    <div class="">
+                        <select class="input-xlarge" name="user_type">
+                            <option value="Select User Type">Select User Type</option>
+                            <option value="Home Owner">Home Owner</option>
+                            <option value="Rental User">Rental User</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <!-- Button -->
+                    <div class="">
+                        <button class="btn btn-success" type="submit" id="submit" name="submit">Register</button>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="">
+                        Already registered <a href="signin.php">Signin</a>
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+    <br><br><br><br><br><br><br>
+    <?php require("Views/template/footer.phtml"); ?>
+    <script src="js/validSignup.js"></script>
+</body>
+
+</html>

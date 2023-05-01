@@ -1,0 +1,117 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to Borrow my Charger Web Application|Charger List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assests/style.css" rel="stylesheet">
+    <script src="assests/jquery-1.11.1.min.js"></script>
+    <script src="assests/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body background="images/bg.jpeg">
+
+    <fieldset>
+        <div id="legend" style="background-color:#023020; height:40px">
+            <legend class="" align="center" style="color:#FFFFFF">Login User Name : <?php echo  $_SESSION['fname']; ?></legend>
+
+        </div>
+        <br>
+        <div class="control-group" align="center">
+            <!-- Button -->
+            <div class="controls">
+                <a href="logout.php" class="btn btn-success" type="submit" name="signin">Logout</a>
+
+                <?php if ($_SESSION['user_type'] == 'Home Owner') { ?>
+                    <a href="add_charger.php" class="btn btn-success" type="submit" name="signin">Add Charger</a>
+                    <?php
+                    if (isset($myChargerPage)) { ?>
+                        <a href="list.php" class="btn btn-success" type="submit" name="signin">All Charger</a><?php
+
+                                                                                                            } else { ?>
+                        <a href="my_charger.php" class="btn btn-success" type="submit" name="signin">My Charger</a><?php
+                                                                                                                }
+                                                                                                            } else { ?>
+                    <a href="my_Booking.php" class="btn btn-success" type="submit" name="signin">My Booking</a>
+                    <a href="nearYou.php" class="btn btn-success" type="submit" name="signin">Charge Point</a>
+                <?php
+                                                                                                            } ?>
+            </div>
+
+        </div>
+
+    </fieldset>
+
+    <div class="container">
+        <form name='frmSearch' action='<?php echo $_SERVER['PHP_SELF']; ?>' method='get' class="form-inline my-2 my-lg-0">
+            <div style='text-align:left; margin:20px 0px; width: 90%'>
+                <input type="text" name="query" class="form-control form-control-lg" placeholder="Type Here..." id="search_box" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" />
+                <button class="btn btn-success my-2" type="submit" name="search">Search</button>
+                <span id="search_result"></span>
+            </div>
+        </form>
+        <h2 style="color:#FFFFFF">Available Charger List</h2>
+        <table class="order-table table" style="color:#FFFFFF">
+            <thead>
+                <tr style="color:#FFFFFF">
+                    <th>Sr. No</th>
+                    <th>Owner Name</th>
+                    <th>Location</th>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                    <th>Price/KWh</th>
+                    <?php if ($_SESSION['user_type'] == 'Home Owner') { ?>
+                        <th>Action</th>
+                    <?php } ?>
+                    <?php if ($_SESSION['user_type'] != 'Home Owner') { ?>
+                        <th>Book Charger</th>
+                    <?php } ?>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                $counter = 1;
+                foreach ($view->chargerList as $charger) {
+
+                ?>
+                    <tr>
+                        <td><?php echo $counter; ?></td>
+                        <td><?php echo $charger->getOwnerName(); ?></td>
+                        <td><?php echo $charger->getLocation(); ?> </td>
+                        <td><?php echo $charger->getLat(); ?></td>
+                        <td><?php echo $charger->getLog(); ?></td>
+                        <td><?php echo $charger->getPrice(); ?></td>
+                        <?php if ($_SESSION['user_type'] == 'Home Owner') { ?>
+                            <td><?php
+                                if ($charger->getOwnerID() == $_SESSION['uid']) { ?>
+                                    <a href="update.php?id=<?php echo $charger->getChargerID(); ?>">EDIT</a>
+                                    <a href="my_booking.php?charger_id=<?php echo $charger->getChargerID(); ?> " class="btn btn-success" type="submit" name="signin">view Bookings</a>
+                                    <a href="leafletmap.php?lat=<?php echo $charger->getLat(); ?>&long=<?php echo $charger->getLog(); ?>&price=<?php echo $charger->getPrice(); ?> " class="btn btn-success" type="submit" name="signin">view</a><?php
+                                                                                                                                                                                                                                                } ?>
+                            </td>
+                        <?php } ?>
+                        <?php if ($_SESSION['user_type'] != 'Home Owner') { ?>
+                            <td>
+                                <a href="book.php?charger_id=<?php echo $charger->getChargerID(); ?>">Book Charger</a>
+                                <a href="leafletmap.php?lat=<?php echo $charger->getLat(); ?>&long=<?php echo $charger->getLog(); ?>&price=<?php echo $charger->getPrice(); ?> " class="btn btn-success" type="submit" name="signin">view</a>
+
+                            </td>
+                        <?php } ?>
+                    </tr>
+                <?php
+                    $counter++;
+                } ?>
+            </tbody>
+        </table><?php
+                echo $view->pagination->paginationLink(); ?>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <script src="js/search.js"></script>
+    <?php require("Views/template/footer.phtml"); ?>
+
+</body>
+
+</html>

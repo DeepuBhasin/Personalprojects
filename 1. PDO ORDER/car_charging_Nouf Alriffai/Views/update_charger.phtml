@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to Borrow my Charger Web Application|Update Charger Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assests/style.css" rel="stylesheet">
+    <script src="assests/jquery-1.11.1.min.js"></script>
+    <script src="assests/bootstrap.min.js"></script>
+</head>
+
+<body background="images/bg.jpeg">
+    <div align="center">
+        <form class="form-horizontal" action='<?= $_SERVER['PHP_SELF']; ?>' method="POST">
+            <fieldset>
+                <div id="legend" align="center" style="background-color:#023020;  height:40px">
+                    <legend class="" style="color:#FFFFFF">Welcome to Borrow my Charger Web Application|Update Charger Page</legend>
+                </div>
+                <br><br><br><br><br>
+                <div class="control-group">
+                    <div class="control-group">
+                        <div class="">
+                            <input type="text" id="loc" name="loc" placeholder="Enter Charger Point Location" class="input-xlarge" required="true" value="<?php echo $view->charger->getLocation(); ?>">
+                        </div>
+                    </div>
+                    <div class="">
+                        <input type="text" id="lat" name="lat" placeholder="Enter Charger Latitude value" class="input-xlarge" required="true" value="<?php echo $view->charger->getLat(); ?>">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="">
+                        <input type="text" id="lng" name="lng" placeholder="Enter Charger Langitude value" class="input-xlarge" required="true" value="<?php echo $view->charger->getLog(); ?>">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="">
+                        <input type="text" id="price" name="price" placeholder="Enter Charge Price/ KWH" class="input-xlarge" required="true" value="<?php echo $view->charger->getPrice(); ?>">
+
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="">
+                        <input type="hidden" id="owner_id" name="charger_id" value="<?php echo  $id; ?>" placeholder="Owner Name" class="input-xlarge" required="true">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="">
+                        <button class="btn btn-success" type="submit" id="submit" name="submit">Update Charger</button>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="">
+                        Do you want to see <a href="list.php">Charger List</a>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <br><br><br><br>
+    <?php require("Views/template/footer.phtml"); ?>
+</body>
+
+</html>

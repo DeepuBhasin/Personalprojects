@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>XML Project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " href="./upload.html">Upload Xml</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./all-product.html">All Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./search-details.html">Search Details </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <h1>Upload Xml Data</h1>
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="form-group">
+                <label>Upload and Process XML File</label><br />
+                <input type="file" id="fileInput" accept=".xml" />
+                <button class="btn btn-success" id="processButton">Process</button>
+                <pre id="fileContents" style="visibility: hidden;"></pre>
+                <button id="ClearStore">Clear Stored Data</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelector('#ClearStore').addEventListener('click', function () {
+            localStorage.clear();
+            alert('All Stored Data clear')
+        })
+
+        document.getElementById("processButton").addEventListener("click", function () {
+            const fileInput = document.getElementById("fileInput");
+            const file = fileInput.files[0];
+
+            if (!file) {
+                alert("Please select an XML file to upload.");
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                const xmlContent = e.target.result;
+                document.getElementById("fileContents").textContent = xmlContent;
+
+                if (validateXml(xmlContent)) {
+                    parseXML(xmlContent);
+                } else {
+                    alert("XML data does not adhere to the specified format.");
+                }
+            };
+
+            reader.readAsText(file);
+        });
+
+        function validateXml(xmlContent) {
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlContent, "application/xml");
+            const productElements = xmlDoc.getElementsByTagName("product");
+
+            for (let i = 0; i < productElements.length; i++) {
+                const product = productElements[i];
+                if (product.querySelectorAll('*').length !== 5) {
+                    alert(`Product entry ${i + 1} is not in the specified format.`);
+                    return false;
+                }
+
+                const code = product.getAttribute("code");
+                const category = product.querySelector("category").textContent;
+                const name = product.querySelector("name").textContent;
+                const description = product.querySelector("description").textContent;
+                const quantity = parseInt(product.querySelector("quantity").textContent, 10);
+                const unitPrice = parseInt(product.querySelector("unitPrice").textContent, 10);
+
+                if (!/^\d{4}-\d{2}$/.test(code) || !category || !name || !description || isNaN(quantity) || quantity < 0 || isNaN(unitPrice) || unitPrice < 0) {
+                    alert(`Product entry ${i + 1} is not in the specified format.`);
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        function parseXML(xmlContent) {
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(xmlContent, "application/xml");
+            const productNames = xmlDoc.querySelectorAll("product");
+
+            const products = [];
+
+            productNames.forEach(nameElement => {
+                const code = nameElement.getAttribute("code");
+                const category = nameElement.querySelector("category").textContent;
+                const name = nameElement.querySelector("name").textContent;
+                const description = nameElement.querySelector("description").textContent;
+                const quantity = parseInt(nameElement.querySelector("quantity").textContent, 10);
+                const unitPrice = parseInt(nameElement.querySelector("unitPrice").textContent, 10);
+
+                products.push({
+                    code,
+                    category,
+                    name,
+                    description,
+                    quantity,
+                    unitPrice
+                });
+            });
+
+            localStorage.setItem('xmlData', JSON.stringify(products));
+            alert('Data Upload Successfully');
+            window.location.href = 'all-product.html';
+        }
+
+    </script>
+</body>
+
+</html>

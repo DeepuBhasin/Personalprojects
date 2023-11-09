@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>XML Project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " href="./upload.html">Upload Xml</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./all-product.html">All Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./search-details.html">Search Details </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <h1>There are no products</h1>
+        </div>
+    </div>
+</body>
+<script>
+    var check = localStorage.getItem("xmlData");
+
+    if (check) {
+        var data = JSON.parse(check);
+        var str = `
+        <h1>All Product Data</h1>
+        <br/><br/>
+        <table class="table">
+            <tr>
+                <th>Sr.</th>
+                <th>Code</th>
+                <th>Category</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Quantity</th>
+                <th>UnitPrice</th>
+            </tr>
+    `;
+
+        data.forEach((element, index) => {
+            str += `
+            <tr>
+                <td>${index + 1}</td>
+                <td>${element.code}</td>
+                <td>${element.category}</td>
+                <td>${element.name}</td>
+                <td>${element.description}</td>
+                <td>${element.quantity}</td>
+                <td>${element.unitPrice}</td>
+            </tr>
+        `;
+        });
+
+        str += `</table>`;
+        document.querySelector('.row').innerHTML = str;
+    }
+
+</script>
+
+</html>

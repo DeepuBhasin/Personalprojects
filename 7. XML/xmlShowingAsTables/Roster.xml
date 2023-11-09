@@ -1,0 +1,929 @@
+<?xml version='1.0'?>
+<scorepadmessage>
+	<visteam>
+		<team teamtricode="PHI" teamname="Phillies" teamlocale="Philadelphia">
+			<player playernumber="46" firstname="José" lastname="Alvarado" fullname="José Alvarado" battinghandltr="L" throwinghandltr="L" battinghand="Left" throwinghand="Left" games="0" playerbirthplace="Maracaibo, Venezuela" playerdebutdate="05/03/2017">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="44.4" centerinplaypct="25.9" rightinplaypct="29.6"/>
+					<contact softcontactpct="14.8" medcontactpct="33.3" hardcontactpct="51.9"/>
+					<trajectories groundballpct="40.7" flyballpct="3.7" linedrivepct="55.6"/>
+					<hitballpcts avgexitvelo="92.9" avglchangle="8.9" brlhitballpct="3.7" hardcontactpct="51.9"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="42" era="1.74" oba=".196" ops=".536" inningspitched="41.1" runsallowed="15" earnedruns="8" walks="18" strikeouts="64" wins="0" losses="2" record="0-2" walksper9="3.9" fip="2.32" hitbatsmen="0" hits="30" hrallowed="3" intentwalks="1" saves="10" strikeoutsper9="13.9" kstowalkspct="3.56" whip="1.16" gbpct="40.7" hitsper9="6.5" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="64" firstname="Andrew" lastname="Bellatti" fullname="Andrew Bellatti" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="San Diego, CA" playerdebutdate="05/09/2015">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="42.9" centerinplaypct="28.6" rightinplaypct="28.6"/>
+					<contact softcontactpct="14.3" medcontactpct="38.1" hardcontactpct="47.6"/>
+					<trajectories groundballpct="28.6" flyballpct="14.3" linedrivepct="52.4"/>
+					<hitballpcts avgexitvelo="91.0" avglchangle="11.0" brlhitballpct="4.8" hardcontactpct="47.6"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="27" era="5.11" oba=".250" ops=".697" inningspitched="24.2" runsallowed="15" earnedruns="14" walks="12" strikeouts="25" wins="1" losses="0" record="1-0" walksper9="4.4" fip="4.71" hitbatsmen="0" hits="25" hrallowed="4" intentwalks="0" saves="0" strikeoutsper9="9.1" kstowalkspct="2.08" whip="1.50" gbpct="30.0" hitsper9="9.1" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="28" firstname="Alec" lastname="Bohm" fullname="Alec Bohm" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="145" playerbirthplace="Omaha, NE" playerdebutdate="08/13/2020">
+				<bseasonstats avg=".274" onbasepct=".327" sluggingpct=".436" ops=".763" atbats="559" hits="153" doubles="31" triples="0" hr="20" rbi="97" walks="42" strikeouts="94" runs="74" steals="4" sopercent="15.4" bbpercent="6.9" plateapp="611" totalbases="244">
+					<hitfields leftinplaypct="34.6" centerinplaypct="30.9" rightinplaypct="34.6"/>
+					<contact softcontactpct="14.7" medcontactpct="31.6" hardcontactpct="53.7"/>
+					<trajectories groundballpct="33.8" flyballpct="5.9" linedrivepct="57.4"/>
+					<hitballpcts avgexitvelo="93.4" avglchangle="9.4" brlhitballpct="2.2" hardcontactpct="53.7"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="75" firstname="Connor" lastname="Brogdon" fullname="Connor Brogdon" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Clovis, CA" playerdebutdate="08/13/2020">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="37.5" centerinplaypct="16.7" rightinplaypct="45.8"/>
+					<contact softcontactpct="50.0" medcontactpct="25.0" hardcontactpct="25.0"/>
+					<trajectories groundballpct="41.7" flyballpct="20.8" linedrivepct="33.3"/>
+					<hitballpcts avgexitvelo="81.1" avglchangle="7.0" brlhitballpct="8.3" hardcontactpct="25.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="27" era="4.03" oba=".264" ops=".739" inningspitched="29.0" runsallowed="14" earnedruns="13" walks="13" strikeouts="26" wins="2" losses="1" record="2-1" walksper9="4.0" fip="5.06" hitbatsmen="1" hits="29" hrallowed="5" intentwalks="0" saves="0" strikeoutsper9="8.1" kstowalkspct="2.00" whip="1.45" gbpct="43.5" hitsper9="9.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="8" firstname="Nick" lastname="Castellanos" fullname="Nick Castellanos" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="157" playerbirthplace="Hialeah, FL" playerdebutdate="09/01/2013">
+				<bseasonstats avg=".272" onbasepct=".311" sluggingpct=".476" ops=".787" atbats="626" hits="170" doubles="37" triples="2" hr="29" rbi="106" walks="36" strikeouts="185" runs="79" steals="11" sopercent="27.6" bbpercent="5.4" plateapp="671" totalbases="298">
+					<hitfields leftinplaypct="50.0" centerinplaypct="25.7" rightinplaypct="24.3"/>
+					<contact softcontactpct="18.8" medcontactpct="25.0" hardcontactpct="56.2"/>
+					<trajectories groundballpct="35.4" flyballpct="8.3" linedrivepct="52.8"/>
+					<hitballpcts avgexitvelo="92.4" avglchangle="12.6" brlhitballpct="7.6" hardcontactpct="56.2"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="29" firstname="Rodolfo" lastname="Castro" fullname="Rodolfo Castro" battinghandltr="S" throwinghandltr="R" battinghand="Switch" throwinghand="Right" games="92" playerbirthplace="Los Llanos, DR" playerdebutdate="04/21/2021">
+				<bseasonstats avg=".211" onbasepct=".297" sluggingpct=".322" ops=".619" atbats="227" hits="48" doubles="7" triples="0" hr="6" rbi="24" walks="23" strikeouts="74" runs="21" steals="1" sopercent="28.9" bbpercent="9.0" plateapp="256" totalbases="73">
+					<hitfields leftinplaypct="54.8" centerinplaypct="14.3" rightinplaypct="31.0"/>
+					<contact softcontactpct="21.4" medcontactpct="26.2" hardcontactpct="52.4"/>
+					<trajectories groundballpct="52.4" flyballpct="14.3" linedrivepct="31.0"/>
+					<hitballpcts avgexitvelo="90.5" avglchangle="5.8" brlhitballpct="2.4" hardcontactpct="52.4"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="44" firstname="Jake" lastname="Cave" fullname="Jake Cave" battinghandltr="L" throwinghandltr="L" battinghand="Left" throwinghand="Left" games="65" playerbirthplace="Hampton, VA" playerdebutdate="05/19/2018">
+				<bseasonstats avg=".212" onbasepct=".272" sluggingpct=".348" ops=".620" atbats="184" hits="39" doubles="8" triples="1" hr="5" rbi="21" walks="15" strikeouts="55" runs="18" steals="3" sopercent="27.2" bbpercent="7.4" plateapp="203" totalbases="64">
+					<hitfields leftinplaypct="36.1" centerinplaypct="27.8" rightinplaypct="36.1"/>
+					<contact softcontactpct="13.9" medcontactpct="30.6" hardcontactpct="55.6"/>
+					<trajectories groundballpct="33.3" flyballpct="11.1" linedrivepct="50.0"/>
+					<hitballpcts avgexitvelo="92.9" avglchangle="8.9" brlhitballpct="5.6" hardcontactpct="55.6"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="23" firstname="Kody" lastname="Clemens" fullname="Kody Clemens" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="49" playerbirthplace="Houston, TX" playerdebutdate="05/31/2022">
+				<bseasonstats avg=".230" onbasepct=".277" sluggingpct=".367" ops=".644" atbats="139" hits="32" doubles="7" triples="0" hr="4" rbi="13" walks="8" strikeouts="40" runs="15" steals="0" sopercent="27.0" bbpercent="5.4" plateapp="148" totalbases="51">
+					<hitfields leftinplaypct="21.4" centerinplaypct="32.1" rightinplaypct="46.4"/>
+					<contact softcontactpct="10.7" medcontactpct="42.9" hardcontactpct="46.4"/>
+					<trajectories groundballpct="35.7" flyballpct="7.1" linedrivepct="57.1"/>
+					<hitballpcts avgexitvelo="93.1" avglchangle="8.7" brlhitballpct="7.1" hardcontactpct="46.4"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="4" era="3.38" oba=".333" ops=".800" inningspitched="2.2" runsallowed="1" earnedruns="1" walks="3" strikeouts="1" wins="0" losses="0" record="0-0" walksper9="10.1" fip="5.79" hitbatsmen="0" hits="4" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="3.4" kstowalkspct="0.33" whip="2.63" gbpct="0.0" hitsper9="13.5" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="54" firstname="Dylan" lastname="Covey" fullname="Dylan Covey" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Glendale, CA" playerdebutdate="04/14/2017">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="32.6" centerinplaypct="37.2" rightinplaypct="30.2"/>
+					<contact softcontactpct="30.2" medcontactpct="18.6" hardcontactpct="51.2"/>
+					<trajectories groundballpct="39.5" flyballpct="7.0" linedrivepct="48.8"/>
+					<hitballpcts avgexitvelo="88.8" avglchangle="8.8" brlhitballpct="2.3" hardcontactpct="51.2"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="29" era="3.77" oba=".282" ops=".722" inningspitched="43.0" runsallowed="22" earnedruns="18" walks="17" strikeouts="30" wins="1" losses="3" record="1-3" walksper9="3.6" fip="4.61" hitbatsmen="2" hits="48" hrallowed="5" intentwalks="1" saves="0" strikeoutsper9="6.3" kstowalkspct="1.76" whip="1.51" gbpct="40.5" hitsper9="10.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="58" firstname="Seranthony" lastname="Domínguez" fullname="Seranthony Domínguez" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Esperanza Valverde Mao, DR" playerdebutdate="05/07/2018">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="39.0" centerinplaypct="19.5" rightinplaypct="41.5"/>
+					<contact softcontactpct="26.8" medcontactpct="26.8" hardcontactpct="46.3"/>
+					<trajectories groundballpct="41.5" flyballpct="4.9" linedrivepct="48.8"/>
+					<hitballpcts avgexitvelo="89.1" avglchangle="5.7" brlhitballpct="2.4" hardcontactpct="46.3"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="57" era="3.78" oba=".246" ops=".693" inningspitched="50.0" runsallowed="25" earnedruns="21" walks="22" strikeouts="48" wins="5" losses="5" record="5-5" walksper9="4.0" fip="4.75" hitbatsmen="6" hits="48" hrallowed="7" intentwalks="0" saves="2" strikeoutsper9="8.6" kstowalkspct="2.18" whip="1.40" gbpct="90.0" hitsper9="8.6" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="35" firstname="Drew" lastname="Ellis" fullname="Drew Ellis" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="12" playerbirthplace="Louisville, KY" playerdebutdate="07/30/2021">
+				<bseasonstats avg=".217" onbasepct=".379" sluggingpct=".478" ops=".857" atbats="23" hits="5" doubles="0" triples="0" hr="2" rbi="4" walks="6" strikeouts="7" runs="4" steals="0" sopercent="24.1" bbpercent="20.7" plateapp="29" totalbases="11">
+					<hitfields leftinplaypct="100.0" centerinplaypct="0.0" rightinplaypct="0.0"/>
+					<contact softcontactpct="33.3" medcontactpct="33.3" hardcontactpct="33.3"/>
+					<trajectories groundballpct="66.7" flyballpct="0.0" linedrivepct="33.3"/>
+					<hitballpcts avgexitvelo="89.7" avglchangle="4.0" brlhitballpct="0.0" hardcontactpct="33.3"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="70" firstname="Bailey" lastname="Falter" fullname="Bailey Falter" battinghandltr="R" throwinghandltr="L" battinghand="Right" throwinghand="Left" games="0" playerbirthplace="Chino Hills, CA" playerdebutdate="04/25/2021">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="57.1" centerinplaypct="13.0" rightinplaypct="29.9"/>
+					<contact softcontactpct="16.9" medcontactpct="29.9" hardcontactpct="53.2"/>
+					<trajectories groundballpct="35.1" flyballpct="13.0" linedrivepct="51.9"/>
+					<hitballpcts avgexitvelo="92.5" avglchangle="10.4" brlhitballpct="6.5" hardcontactpct="53.2"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="18" era="5.36" oba=".288" ops=".774" inningspitched="80.2" runsallowed="55" earnedruns="48" walks="20" strikeouts="60" wins="2" losses="9" record="2-9" walksper9="2.2" fip="5.16" hitbatsmen="0" hits="94" hrallowed="17" intentwalks="0" saves="0" strikeoutsper9="6.7" kstowalkspct="3.00" whip="1.41" gbpct="35.1" hitsper9="10.5" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="18" firstname="Dalton" lastname="Guthrie" fullname="Dalton Guthrie" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="59" playerbirthplace="Sarasota, FL" playerdebutdate="09/06/2022">
+				<bseasonstats avg=".302" onbasepct=".342" sluggingpct=".430" ops=".772" atbats="149" hits="45" doubles="9" triples="2" hr="2" rbi="23" walks="5" strikeouts="42" runs="24" steals="14" sopercent="26.6" bbpercent="3.2" plateapp="164" totalbases="64">
+					<hitfields leftinplaypct="50.0" centerinplaypct="34.8" rightinplaypct="15.2"/>
+					<contact softcontactpct="32.6" medcontactpct="32.6" hardcontactpct="34.8"/>
+					<trajectories groundballpct="39.1" flyballpct="10.9" linedrivepct="34.8"/>
+					<hitballpcts avgexitvelo="82.8" avglchangle="2.4" brlhitballpct="0.0" hardcontactpct="34.8"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="24" firstname="Darick" lastname="Hall" fullname="Darick Hall" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="18" playerbirthplace="Hereford, AZ" playerdebutdate="06/29/2022">
+				<bseasonstats avg=".167" onbasepct=".196" sluggingpct=".241" ops=".437" atbats="54" hits="9" doubles="1" triples="0" hr="1" rbi="3" walks="2" strikeouts="18" runs="2" steals="0" sopercent="32.1" bbpercent="3.6" plateapp="56" totalbases="13">
+					<hitfields leftinplaypct="12.5" centerinplaypct="25.0" rightinplaypct="62.5"/>
+					<contact softcontactpct="12.5" medcontactpct="12.5" hardcontactpct="75.0"/>
+					<trajectories groundballpct="0.0" flyballpct="0.0" linedrivepct="100.0"/>
+					<hitballpcts avgexitvelo="98.5" avglchangle="13.4" brlhitballpct="0.0" hardcontactpct="75.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="3" firstname="Bryce" lastname="Harper" fullname="Bryce Harper" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="126" playerbirthplace="Las Vegas, NV" playerdebutdate="04/28/2012">
+				<bseasonstats avg=".293" onbasepct=".401" sluggingpct=".499" ops=".900" atbats="457" hits="134" doubles="29" triples="1" hr="21" rbi="72" walks="80" strikeouts="119" runs="84" steals="11" sopercent="21.8" bbpercent="14.7" plateapp="546" totalbases="228">
+					<hitfields leftinplaypct="29.2" centerinplaypct="30.1" rightinplaypct="40.7"/>
+					<contact softcontactpct="15.9" medcontactpct="21.2" hardcontactpct="62.8"/>
+					<trajectories groundballpct="34.5" flyballpct="9.7" linedrivepct="54.9"/>
+					<hitballpcts avgexitvelo="95.5" avglchangle="9.0" brlhitballpct="10.6" hardcontactpct="62.8"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="2" firstname="Josh" lastname="Harrison" fullname="Josh Harrison" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="41" playerbirthplace="Cincinnati, OH" playerdebutdate="05/31/2011">
+				<bseasonstats avg=".204" onbasepct=".263" sluggingpct=".291" ops=".554" atbats="103" hits="21" doubles="3" triples="0" hr="2" rbi="10" walks="3" strikeouts="20" runs="8" steals="0" sopercent="17.5" bbpercent="2.6" plateapp="114" totalbases="30">
+					<hitfields leftinplaypct="47.4" centerinplaypct="21.1" rightinplaypct="31.6"/>
+					<contact softcontactpct="26.3" medcontactpct="42.1" hardcontactpct="31.6"/>
+					<trajectories groundballpct="31.6" flyballpct="15.8" linedrivepct="52.6"/>
+					<hitballpcts avgexitvelo="88.5" avglchangle="12.3" brlhitballpct="0.0" hardcontactpct="31.6"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="2" era="27.00" oba=".727" ops="1.394" inningspitched="1.2" runsallowed="5" earnedruns="5" walks="2" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="10.8" fip="6.77" hitbatsmen="0" hits="8" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="6.00" gbpct="0.0" hitsper9="43.2" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="68" firstname="Jeff" lastname="Hoffman" fullname="Jeff Hoffman" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Latham, NY" playerdebutdate="08/20/2016">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="34.6" centerinplaypct="30.8" rightinplaypct="34.6"/>
+					<contact softcontactpct="11.5" medcontactpct="46.2" hardcontactpct="42.3"/>
+					<trajectories groundballpct="34.6" flyballpct="7.7" linedrivepct="57.7"/>
+					<hitballpcts avgexitvelo="93.8" avglchangle="11.6" brlhitballpct="0.0" hardcontactpct="42.3"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="54" era="2.41" oba=".158" ops=".452" inningspitched="52.1" runsallowed="16" earnedruns="14" walks="19" strikeouts="69" wins="5" losses="2" record="5-2" walksper9="3.3" fip="2.48" hitbatsmen="2" hits="29" hrallowed="3" intentwalks="1" saves="1" strikeoutsper9="11.9" kstowalkspct="3.63" whip="0.92" gbpct="34.6" hitsper9="5.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="50" firstname="Orion" lastname="Kerkering" fullname="Orion Kerkering" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Huntington Beach, CA" playerdebutdate="09/24/2023">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="100.0" centerinplaypct="0.0" rightinplaypct="0.0"/>
+					<contact softcontactpct="0.0" medcontactpct="50.0" hardcontactpct="50.0"/>
+					<trajectories groundballpct="0.0" flyballpct="0.0" linedrivepct="100.0"/>
+					<hitballpcts avgexitvelo="93.0" avglchangle="11.5" brlhitballpct="0.0" hardcontactpct="50.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="3" era="0.00" oba=".167" ops=".453" inningspitched="3.0" runsallowed="1" earnedruns="0" walks="2" strikeouts="6" wins="1" losses="0" record="1-0" walksper9="6.0" fip="1.17" hitbatsmen="0" hits="2" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="18.0" kstowalkspct="3.00" whip="1.33" gbpct="0.0" hitsper9="6.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="31" firstname="Craig" lastname="Kimbrel" fullname="Craig Kimbrel" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Huntsville, AL" playerdebutdate="05/07/2010">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="32.4" centerinplaypct="29.4" rightinplaypct="38.2"/>
+					<contact softcontactpct="23.5" medcontactpct="20.6" hardcontactpct="55.9"/>
+					<trajectories groundballpct="38.2" flyballpct="0.0" linedrivepct="61.8"/>
+					<hitballpcts avgexitvelo="91.9" avglchangle="8.7" brlhitballpct="0.0" hardcontactpct="55.9"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="71" era="3.26" oba=".181" ops=".578" inningspitched="69.0" runsallowed="28" earnedruns="25" walks="28" strikeouts="94" wins="8" losses="6" record="8-6" walksper9="3.7" fip="3.72" hitbatsmen="4" hits="44" hrallowed="10" intentwalks="1" saves="23" strikeoutsper9="12.3" kstowalkspct="3.36" whip="1.04" gbpct="38.2" hitsper9="5.7" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="22" firstname="Michael" lastname="Lorenzen" fullname="Michael Lorenzen" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Anaheim, CA" playerdebutdate="04/29/2015">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="38.3" centerinplaypct="25.2" rightinplaypct="36.5"/>
+					<contact softcontactpct="11.3" medcontactpct="33.0" hardcontactpct="55.7"/>
+					<trajectories groundballpct="38.3" flyballpct="4.3" linedrivepct="56.5"/>
+					<hitballpcts avgexitvelo="94.2" avglchangle="6.9" brlhitballpct="7.0" hardcontactpct="55.7"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="29" era="4.18" oba=".243" ops=".651" inningspitched="153.0" runsallowed="76" earnedruns="71" walks="47" strikeouts="111" wins="9" losses="9" record="9-9" walksper9="2.8" fip="4.38" hitbatsmen="2" hits="138" hrallowed="20" intentwalks="0" saves="1" strikeoutsper9="6.5" kstowalkspct="2.36" whip="1.21" gbpct="86.3" hitsper9="8.1" firstpitchstrikepct="66.7" firstpitchstrikes="2"/>
+			</player>
+			<player playernumber="16" firstname="Brandon" lastname="Marsh" fullname="Brandon Marsh" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="137" playerbirthplace="Buford, GA" playerdebutdate="07/18/2021">
+				<bseasonstats avg=".277" onbasepct=".372" sluggingpct=".458" ops=".830" atbats="404" hits="112" doubles="25" triples="6" hr="12" rbi="60" walks="59" strikeouts="144" runs="58" steals="10" sopercent="30.6" bbpercent="12.5" plateapp="472" totalbases="185">
+					<hitfields leftinplaypct="42.3" centerinplaypct="16.3" rightinplaypct="41.3"/>
+					<contact softcontactpct="12.5" medcontactpct="26.9" hardcontactpct="60.6"/>
+					<trajectories groundballpct="40.4" flyballpct="12.5" linedrivepct="41.3"/>
+					<hitballpcts avgexitvelo="93.8" avglchangle="12.0" brlhitballpct="6.7" hardcontactpct="60.6"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="43" firstname="Yunior" lastname="Marte" fullname="Yunior Marte" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Santo Domingo, DR" playerdebutdate="04/12/2022">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="34.1" centerinplaypct="34.1" rightinplaypct="31.7"/>
+					<contact softcontactpct="22.0" medcontactpct="36.6" hardcontactpct="41.5"/>
+					<trajectories groundballpct="43.9" flyballpct="12.2" linedrivepct="43.9"/>
+					<hitballpcts avgexitvelo="90.0" avglchangle="9.6" brlhitballpct="7.3" hardcontactpct="41.5"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="40" era="5.03" oba=".288" ops=".756" inningspitched="39.1" runsallowed="27" earnedruns="22" walks="17" strikeouts="38" wins="1" losses="1" record="1-1" walksper9="3.9" fip="4.59" hitbatsmen="1" hits="47" hrallowed="6" intentwalks="0" saves="2" strikeoutsper9="8.7" kstowalkspct="2.23" whip="1.63" gbpct="43.9" hitsper9="10.8" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="79" firstname="McKinley" lastname="Moore" fullname="McKinley Moore" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Houston, TX" playerdebutdate="04/10/2023">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="75.0" centerinplaypct="25.0" rightinplaypct="0.0"/>
+					<contact softcontactpct="0.0" medcontactpct="25.0" hardcontactpct="75.0"/>
+					<trajectories groundballpct="25.0" flyballpct="0.0" linedrivepct="75.0"/>
+					<hitballpcts avgexitvelo="94.8" avglchangle="8.5" brlhitballpct="0.0" hardcontactpct="75.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="3" era="18.90" oba=".357" ops="1.142" inningspitched="3.1" runsallowed="7" earnedruns="7" walks="5" strikeouts="2" wins="0" losses="0" record="0-0" walksper9="13.5" fip="12.17" hitbatsmen="2" hits="5" hrallowed="1" intentwalks="0" saves="0" strikeoutsper9="5.4" kstowalkspct="0.40" whip="3.00" gbpct="25.0" hitsper9="13.5" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="57" firstname="Nick" lastname="Nelson" fullname="Nick Nelson" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace=" " playerdebutdate=" ">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="0.0" centerinplaypct="0.0" rightinplaypct="0.0"/>
+					<contact softcontactpct="0.0" medcontactpct="0.0" hardcontactpct="0.0"/>
+					<trajectories groundballpct="0.0" flyballpct="0.0" linedrivepct="0.0"/>
+					<hitballpcts avgexitvelo="0.0" avglchangle="0.0" brlhitballpct="0.0" hardcontactpct="0.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="1" era="0.00" oba=".000" ops=".-31469" inningspitched="1.0" runsallowed="0" earnedruns="0" walks="2" strikeouts="1" wins="1" losses="0" record="1-0" walksper9="18.0" fip="7.17" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="9.0" kstowalkspct="0.50" whip="2.00" gbpct="50.0" hitsper9="0.0" firstpitchstrikepct="80.0" firstpitchstrikes="4"/>
+			</player>
+			<player playernumber="27" firstname="Aaron" lastname="Nola" fullname="Aaron Nola" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Baton Rouge, LA" playerdebutdate="07/21/2015">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="43.8" centerinplaypct="24.0" rightinplaypct="32.2"/>
+					<contact softcontactpct="19.2" medcontactpct="28.8" hardcontactpct="52.1"/>
+					<trajectories groundballpct="34.2" flyballpct="13.0" linedrivepct="52.1"/>
+					<hitballpcts avgexitvelo="92.0" avglchangle="9.7" brlhitballpct="6.8" hardcontactpct="52.1"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="32" era="4.46" oba=".240" ops=".653" inningspitched="193.2" runsallowed="105" earnedruns="96" walks="45" strikeouts="202" wins="12" losses="9" record="12-9" walksper9="2.1" fip="3.94" hitbatsmen="1" hits="178" hrallowed="32" intentwalks="0" saves="0" strikeoutsper9="9.4" kstowalkspct="4.49" whip="1.15" gbpct="34.5" hitsper9="8.3" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="19" firstname="Cristian" lastname="Pache" fullname="Cristian Pache" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="50" playerbirthplace="Santo Domingo Centro, DR" playerdebutdate="08/21/2020">
+				<bseasonstats avg=".238" onbasepct=".319" sluggingpct=".417" ops=".736" atbats="84" hits="20" doubles="7" triples="1" hr="2" rbi="11" walks="10" strikeouts="27" runs="12" steals="2" sopercent="28.7" bbpercent="10.6" plateapp="95" totalbases="35">
+					<hitfields leftinplaypct="55.6" centerinplaypct="22.2" rightinplaypct="22.2"/>
+					<contact softcontactpct="11.1" medcontactpct="22.2" hardcontactpct="66.7"/>
+					<trajectories groundballpct="27.8" flyballpct="5.6" linedrivepct="61.1"/>
+					<hitballpcts avgexitvelo="94.8" avglchangle="11.8" brlhitballpct="11.1" hardcontactpct="66.7"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="49" firstname="Michael" lastname="Plassmeyer" fullname="Michael Plassmeyer" battinghandltr="L" throwinghandltr="L" battinghand="Left" throwinghand="Left" games="0" playerbirthplace="St. Louis, MO" playerdebutdate="08/23/2022">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="60.0" centerinplaypct="20.0" rightinplaypct="20.0"/>
+					<contact softcontactpct="40.0" medcontactpct="20.0" hardcontactpct="40.0"/>
+					<trajectories groundballpct="40.0" flyballpct="20.0" linedrivepct="40.0"/>
+					<hitballpcts avgexitvelo="89.4" avglchangle="13.0" brlhitballpct="20.0" hardcontactpct="40.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="1" era="22.09" oba=".400" ops="1.328" inningspitched="3.2" runsallowed="10" earnedruns="9" walks="0" strikeouts="4" wins="0" losses="1" record="0-1" walksper9="0.0" fip="14.08" hitbatsmen="3" hits="8" hrallowed="3" intentwalks="0" saves="0" strikeoutsper9="9.8" kstowalkspct="0.00" whip="2.18" gbpct="40.0" hitsper9="19.6" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="10" firstname="J.T." lastname="Realmuto" fullname="J.T. Realmuto" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="135" playerbirthplace="Del City, OK" playerdebutdate="06/05/2014">
+				<bseasonstats avg=".252" onbasepct=".310" sluggingpct=".452" ops=".762" atbats="489" hits="123" doubles="28" triples="5" hr="20" rbi="63" walks="35" strikeouts="138" runs="70" steals="16" sopercent="25.7" bbpercent="6.5" plateapp="540" totalbases="221">
+					<hitfields leftinplaypct="46.6" centerinplaypct="23.3" rightinplaypct="30.1"/>
+					<contact softcontactpct="18.4" medcontactpct="25.2" hardcontactpct="56.3"/>
+					<trajectories groundballpct="33.0" flyballpct="9.7" linedrivepct="56.3"/>
+					<hitballpcts avgexitvelo="93.7" avglchangle="9.8" brlhitballpct="13.6" hardcontactpct="56.3"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="18" firstname="Johan" lastname="Rojas" fullname="Johan Rojas" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="59" playerbirthplace="San Francisco de Macoris, DR" playerdebutdate="07/15/2023">
+				<bseasonstats avg=".302" onbasepct=".342" sluggingpct=".430" ops=".772" atbats="149" hits="45" doubles="9" triples="2" hr="2" rbi="23" walks="5" strikeouts="42" runs="24" steals="14" sopercent="26.6" bbpercent="3.2" plateapp="164" totalbases="64">
+					<hitfields leftinplaypct="50.0" centerinplaypct="34.8" rightinplaypct="15.2"/>
+					<contact softcontactpct="32.6" medcontactpct="32.6" hardcontactpct="34.8"/>
+					<trajectories groundballpct="39.1" flyballpct="10.9" linedrivepct="34.8"/>
+					<hitballpcts avgexitvelo="82.8" avglchangle="2.4" brlhitballpct="0.0" hardcontactpct="34.8"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="61" firstname="Cristopher" lastname="Sánchez" fullname="Cristopher Sánchez" battinghandltr="L" throwinghandltr="L" battinghand="Left" throwinghand="Left" games="0" playerbirthplace="La Romana, DR" playerdebutdate="06/06/2021">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="40.3" centerinplaypct="31.9" rightinplaypct="27.8"/>
+					<contact softcontactpct="23.6" medcontactpct="22.2" hardcontactpct="54.2"/>
+					<trajectories groundballpct="41.7" flyballpct="8.3" linedrivepct="45.8"/>
+					<hitballpcts avgexitvelo="90.7" avglchangle="3.6" brlhitballpct="6.9" hardcontactpct="54.2"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="19" era="3.44" oba=".235" ops=".634" inningspitched="99.1" runsallowed="44" earnedruns="38" walks="16" strikeouts="96" wins="3" losses="5" record="3-5" walksper9="1.4" fip="3.90" hitbatsmen="3" hits="88" hrallowed="16" intentwalks="0" saves="0" strikeoutsper9="8.7" kstowalkspct="6.00" whip="1.05" gbpct="43.5" hitsper9="8.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="12" firstname="Kyle" lastname="Schwarber" fullname="Kyle Schwarber" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="160" playerbirthplace="Middletown, OH" playerdebutdate="06/16/2015">
+				<bseasonstats avg=".197" onbasepct=".343" sluggingpct=".474" ops=".817" atbats="585" hits="115" doubles="19" triples="1" hr="47" rbi="104" walks="126" strikeouts="215" runs="108" steals="0" sopercent="29.9" bbpercent="17.5" plateapp="720" totalbases="277">
+					<hitfields leftinplaypct="15.7" centerinplaypct="17.1" rightinplaypct="67.1"/>
+					<contact softcontactpct="8.6" medcontactpct="31.4" hardcontactpct="60.0"/>
+					<trajectories groundballpct="30.0" flyballpct="10.0" linedrivepct="57.1"/>
+					<hitballpcts avgexitvelo="95.8" avglchangle="12.8" brlhitballpct="10.0" hardcontactpct="60.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="33" firstname="Edmundo" lastname="Sosa" fullname="Edmundo Sosa" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="104" playerbirthplace="Panama City, Panama" playerdebutdate="09/23/2018">
+				<bseasonstats avg=".251" onbasepct=".293" sluggingpct=".427" ops=".720" atbats="279" hits="70" doubles="15" triples="2" hr="10" rbi="30" walks="8" strikeouts="74" runs="34" steals="4" sopercent="24.9" bbpercent="2.7" plateapp="300" totalbases="119">
+					<hitfields leftinplaypct="51.6" centerinplaypct="25.8" rightinplaypct="22.6"/>
+					<contact softcontactpct="22.6" medcontactpct="35.5" hardcontactpct="41.9"/>
+					<trajectories groundballpct="32.3" flyballpct="9.7" linedrivepct="53.2"/>
+					<hitballpcts avgexitvelo="90.7" avglchangle="12.0" brlhitballpct="8.1" hardcontactpct="41.9"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="30" firstname="Gregory" lastname="Soto" fullname="Gregory Soto" battinghandltr="L" throwinghandltr="L" battinghand="Left" throwinghand="Left" games="0" playerbirthplace="Haina, DR" playerdebutdate="05/11/2019">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="34.1" centerinplaypct="31.7" rightinplaypct="34.1"/>
+					<contact softcontactpct="24.4" medcontactpct="17.1" hardcontactpct="58.5"/>
+					<trajectories groundballpct="46.3" flyballpct="9.8" linedrivepct="41.5"/>
+					<hitballpcts avgexitvelo="91.9" avglchangle="1.9" brlhitballpct="2.4" hardcontactpct="58.5"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="69" era="4.62" oba=".210" ops=".574" inningspitched="60.1" runsallowed="34" earnedruns="31" walks="22" strikeouts="65" wins="3" losses="4" record="3-4" walksper9="3.3" fip="3.50" hitbatsmen="2" hits="47" hrallowed="6" intentwalks="0" saves="3" strikeoutsper9="9.7" kstowalkspct="2.96" whip="1.14" gbpct="83.3" hitsper9="7.0" firstpitchstrikepct="100.0" firstpitchstrikes="3"/>
+			</player>
+			<player playernumber="5" firstname="Bryson" lastname="Stott" fullname="Bryson Stott" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="151" playerbirthplace="Las Vegas, NV" playerdebutdate="04/08/2022">
+				<bseasonstats avg=".280" onbasepct=".329" sluggingpct=".419" ops=".748" atbats="585" hits="164" doubles="32" triples="2" hr="15" rbi="62" walks="39" strikeouts="100" runs="78" steals="31" sopercent="15.6" bbpercent="6.1" plateapp="640" totalbases="245">
+					<hitfields leftinplaypct="40.7" centerinplaypct="23.3" rightinplaypct="36.0"/>
+					<contact softcontactpct="18.0" medcontactpct="32.7" hardcontactpct="49.3"/>
+					<trajectories groundballpct="38.7" flyballpct="9.3" linedrivepct="47.3"/>
+					<hitballpcts avgexitvelo="90.0" avglchangle="7.5" brlhitballpct="2.7" hardcontactpct="49.3"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="25" firstname="Matt" lastname="Strahm" fullname="Matt Strahm" battinghandltr="R" throwinghandltr="L" battinghand="Right" throwinghand="Left" games="0" playerbirthplace="West Fargo, ND" playerdebutdate="07/31/2016">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="46.3" centerinplaypct="22.2" rightinplaypct="31.5"/>
+					<contact softcontactpct="20.4" medcontactpct="29.6" hardcontactpct="50.0"/>
+					<trajectories groundballpct="38.9" flyballpct="3.7" linedrivepct="53.7"/>
+					<hitballpcts avgexitvelo="91.6" avglchangle="11.5" brlhitballpct="1.9" hardcontactpct="50.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="56" era="3.29" oba=".213" ops=".579" inningspitched="87.2" runsallowed="34" earnedruns="32" walks="21" strikeouts="108" wins="9" losses="5" record="9-5" walksper9="2.2" fip="3.15" hitbatsmen="3" hits="68" hrallowed="11" intentwalks="0" saves="2" strikeoutsper9="11.1" kstowalkspct="5.14" whip="1.02" gbpct="91.7" hitsper9="7.0" firstpitchstrikepct="33.3" firstpitchstrikes="1"/>
+			</player>
+			<player playernumber="21" firstname="Garrett" lastname="Stubbs" fullname="Garrett Stubbs" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="41" playerbirthplace="San Diego, CA" playerdebutdate="05/28/2019">
+				<bseasonstats avg=".204" onbasepct=".274" sluggingpct=".283" ops=".557" atbats="113" hits="23" doubles="4" triples="1" hr="1" rbi="12" walks="9" strikeouts="29" runs="15" steals="2" sopercent="23.4" bbpercent="7.3" plateapp="125" totalbases="32">
+					<hitfields leftinplaypct="36.4" centerinplaypct="4.5" rightinplaypct="59.1"/>
+					<contact softcontactpct="54.5" medcontactpct="13.6" hardcontactpct="31.8"/>
+					<trajectories groundballpct="22.7" flyballpct="4.5" linedrivepct="31.8"/>
+					<hitballpcts avgexitvelo="70.9" avglchangle="3.5" brlhitballpct="0.0" hardcontactpct="31.8"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="55" firstname="Ranger" lastname="Suárez" fullname="Ranger Suárez" battinghandltr="L" throwinghandltr="L" battinghand="Left" throwinghand="Left" games="0" playerbirthplace="Pie de Cuesta, Venezuela" playerdebutdate="07/26/2018">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="46.6" centerinplaypct="22.4" rightinplaypct="31.0"/>
+					<contact softcontactpct="25.9" medcontactpct="30.2" hardcontactpct="44.0"/>
+					<trajectories groundballpct="44.0" flyballpct="6.9" linedrivepct="49.1"/>
+					<hitballpcts avgexitvelo="90.0" avglchangle="6.1" brlhitballpct="6.0" hardcontactpct="44.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="22" era="4.18" oba=".267" ops=".681" inningspitched="125.0" runsallowed="59" earnedruns="58" walks="48" strikeouts="119" wins="4" losses="6" record="4-6" walksper9="3.5" fip="3.81" hitbatsmen="2" hits="129" hrallowed="13" intentwalks="0" saves="0" strikeoutsper9="8.6" kstowalkspct="2.48" whip="1.42" gbpct="44.0" hitsper9="9.3" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="7" firstname="Trea" lastname="Turner" fullname="Trea Turner" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="155" playerbirthplace="Boynton Beach, FL" playerdebutdate="08/21/2015">
+				<bseasonstats avg=".266" onbasepct=".320" sluggingpct=".459" ops=".779" atbats="639" hits="170" doubles="35" triples="5" hr="26" rbi="76" walks="45" strikeouts="150" runs="102" steals="30" sopercent="21.7" bbpercent="6.5" plateapp="691" totalbases="293">
+					<hitfields leftinplaypct="45.8" centerinplaypct="25.7" rightinplaypct="28.5"/>
+					<contact softcontactpct="18.1" medcontactpct="25.7" hardcontactpct="56.2"/>
+					<trajectories groundballpct="37.5" flyballpct="7.6" linedrivepct="54.9"/>
+					<hitballpcts avgexitvelo="93.3" avglchangle="5.8" brlhitballpct="7.6" hardcontactpct="56.2"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="47" firstname="Erich" lastname="Uelmen" fullname="Erich Uelmen" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Las Vegas, NV" playerdebutdate="07/22/2022">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="66.7" centerinplaypct="0.0" rightinplaypct="33.3"/>
+					<contact softcontactpct="0.0" medcontactpct="33.3" hardcontactpct="66.7"/>
+					<trajectories groundballpct="33.3" flyballpct="0.0" linedrivepct="66.7"/>
+					<hitballpcts avgexitvelo="97.7" avglchangle="2.3" brlhitballpct="0.0" hardcontactpct="66.7"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="1" era="36.00" oba=".600" ops="1.225" inningspitched="1.0" runsallowed="4" earnedruns="4" walks="2" strikeouts="1" wins="0" losses="0" record="0-0" walksper9="18.0" fip="7.17" hitbatsmen="0" hits="3" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="9.0" kstowalkspct="0.50" whip="5.00" gbpct="33.3" hitsper9="27.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="--" firstname=" " lastname="Unknown" fullname="Unknown" battinghandltr="L" throwinghandltr="L" battinghand="Left" throwinghand="Left" games="0" playerbirthplace=" " playerdebutdate=" ">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="0.0" centerinplaypct="0.0" rightinplaypct="0.0"/>
+					<contact softcontactpct="0.0" medcontactpct="0.0" hardcontactpct="0.0"/>
+					<trajectories groundballpct="0.0" flyballpct="0.0" linedrivepct="0.0"/>
+					<hitballpcts avgexitvelo="0.0" avglchangle="0.0" brlhitballpct="0.0" hardcontactpct="0.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="37" firstname="Andrew" lastname="Vasquez" fullname="Andrew Vasquez" battinghandltr="L" throwinghandltr="L" battinghand="Left" throwinghand="Left" games="8" playerbirthplace="Rancho Cucamonga, CA" playerdebutdate="09/01/2018">
+				<bseasonstats avg=".313" onbasepct=".500" sluggingpct=".500" ops="1.000" atbats="16" hits="5" doubles="0" triples="0" hr="1" rbi="2" walks="6" strikeouts="5" runs="5" steals="3" sopercent="22.7" bbpercent="27.3" plateapp="22" totalbases="8">
+					<hitfields leftinplaypct="40.0" centerinplaypct="40.0" rightinplaypct="20.0"/>
+					<contact softcontactpct="60.0" medcontactpct="0.0" hardcontactpct="40.0"/>
+					<trajectories groundballpct="40.0" flyballpct="0.0" linedrivepct="20.0"/>
+					<hitballpcts avgexitvelo="79.6" avglchangle="-12.6" brlhitballpct="0.0" hardcontactpct="40.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="99" firstname="Taijuan" lastname="Walker" fullname="Taijuan Walker" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Shreveport, LA" playerdebutdate="08/30/2013">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="34.1" centerinplaypct="28.9" rightinplaypct="37.0"/>
+					<contact softcontactpct="11.9" medcontactpct="34.8" hardcontactpct="53.3"/>
+					<trajectories groundballpct="38.5" flyballpct="9.6" linedrivepct="50.4"/>
+					<hitballpcts avgexitvelo="93.4" avglchangle="9.9" brlhitballpct="3.0" hardcontactpct="53.3"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="31" era="4.38" oba=".238" ops=".651" inningspitched="172.2" runsallowed="87" earnedruns="84" walks="71" strikeouts="138" wins="15" losses="6" record="15-6" walksper9="3.7" fip="4.45" hitbatsmen="8" hits="155" hrallowed="20" intentwalks="1" saves="0" strikeoutsper9="7.2" kstowalkspct="1.94" whip="1.31" gbpct="38.8" hitsper9="8.1" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="45" firstname="Zack" lastname="Wheeler" fullname="Zack Wheeler" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="0" playerbirthplace="Smyrna, GA" playerdebutdate="06/18/2013">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="31.9" centerinplaypct="27.1" rightinplaypct="41.0"/>
+					<contact softcontactpct="29.2" medcontactpct="24.3" hardcontactpct="46.5"/>
+					<trajectories groundballpct="34.0" flyballpct="13.2" linedrivepct="50.7"/>
+					<hitballpcts avgexitvelo="89.0" avglchangle="11.4" brlhitballpct="2.8" hardcontactpct="46.5"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="32" era="3.61" oba=".229" ops=".585" inningspitched="192.0" runsallowed="82" earnedruns="77" walks="39" strikeouts="212" wins="13" losses="6" record="13-6" walksper9="1.8" fip="3.06" hitbatsmen="9" hits="168" hrallowed="20" intentwalks="0" saves="0" strikeoutsper9="9.9" kstowalkspct="5.44" whip="1.08" gbpct="34.5" hitsper9="7.9" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="37" firstname="Weston" lastname="Wilson" fullname="Weston Wilson" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="8" playerbirthplace="High Point, NC" playerdebutdate="08/09/2023">
+				<bseasonstats avg=".313" onbasepct=".500" sluggingpct=".500" ops="1.000" atbats="16" hits="5" doubles="0" triples="0" hr="1" rbi="2" walks="6" strikeouts="5" runs="5" steals="3" sopercent="22.7" bbpercent="27.3" plateapp="22" totalbases="8">
+					<hitfields leftinplaypct="40.0" centerinplaypct="40.0" rightinplaypct="20.0"/>
+					<contact softcontactpct="60.0" medcontactpct="0.0" hardcontactpct="40.0"/>
+					<trajectories groundballpct="40.0" flyballpct="0.0" linedrivepct="20.0"/>
+					<hitballpcts avgexitvelo="79.6" avglchangle="-12.6" brlhitballpct="0.0" hardcontactpct="40.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber=" " firstname=" " lastname=" " fullname=" " battinghandltr=" " throwinghandltr=" " battinghand=" " throwinghand=" " games=" " playerbirthplace=" " playerdebutdate=" ">
+				<bseasonstats avg=" " onbasepct=" " sluggingpct=" " ops=" " atbats=" " hits=" " doubles=" " triples=" " hr=" " rbi=" " walks=" " strikeouts=" " runs=" " steals=" " sopercent=" " bbpercent=" " plateapp=" " totalbases=" ">
+					<hitfields leftinplaypct=" " centerinplaypct=" " rightinplaypct=" "/>
+					<contact softcontactpct=" " medcontactpct=" " hardcontactpct=" "/>
+					<trajectories groundballpct=" " flyballpct=" " linedrivepct=" "/>
+					<hitballpcts avgexitvelo=" " avglchangle=" " brlhitballpct=" " hardcontactpct=" "/>
+				</bseasonstats>
+				<pseasonstats gamesplayed=" " era=" " oba=" " ops=" " inningspitched=" " runsallowed=" " earnedruns=" " walks=" " strikeouts=" " wins=" " losses=" " record=" " walksper9=" " fip=" " hitbatsmen=" " hits=" " hrallowed=" " intentwalks=" " saves=" " strikeoutsper9=" " kstowalkspct=" " whip=" " gbpct=" " hitsper9=" " firstpitchstrikepct=" " firstpitchstrikes=" "/>
+			</player>
+			<player playernumber=" " firstname=" " lastname=" " fullname=" " battinghandltr=" " throwinghandltr=" " battinghand=" " throwinghand=" " games=" " playerbirthplace=" " playerdebutdate=" ">
+				<bseasonstats avg=" " onbasepct=" " sluggingpct=" " ops=" " atbats=" " hits=" " doubles=" " triples=" " hr=" " rbi=" " walks=" " strikeouts=" " runs=" " steals=" " sopercent=" " bbpercent=" " plateapp=" " totalbases=" ">
+					<hitfields leftinplaypct=" " centerinplaypct=" " rightinplaypct=" "/>
+					<contact softcontactpct=" " medcontactpct=" " hardcontactpct=" "/>
+					<trajectories groundballpct=" " flyballpct=" " linedrivepct=" "/>
+					<hitballpcts avgexitvelo=" " avglchangle=" " brlhitballpct=" " hardcontactpct=" "/>
+				</bseasonstats>
+				<pseasonstats gamesplayed=" " era=" " oba=" " ops=" " inningspitched=" " runsallowed=" " earnedruns=" " walks=" " strikeouts=" " wins=" " losses=" " record=" " walksper9=" " fip=" " hitbatsmen=" " hits=" " hrallowed=" " intentwalks=" " saves=" " strikeoutsper9=" " kstowalkspct=" " whip=" " gbpct=" " hitsper9=" " firstpitchstrikepct=" " firstpitchstrikes=" "/>
+			</player>
+			<player playernumber=" " firstname=" " lastname=" " fullname=" " battinghandltr=" " throwinghandltr=" " battinghand=" " throwinghand=" " games=" " playerbirthplace=" " playerdebutdate=" ">
+				<bseasonstats avg=" " onbasepct=" " sluggingpct=" " ops=" " atbats=" " hits=" " doubles=" " triples=" " hr=" " rbi=" " walks=" " strikeouts=" " runs=" " steals=" " sopercent=" " bbpercent=" " plateapp=" " totalbases=" ">
+					<hitfields leftinplaypct=" " centerinplaypct=" " rightinplaypct=" "/>
+					<contact softcontactpct=" " medcontactpct=" " hardcontactpct=" "/>
+					<trajectories groundballpct=" " flyballpct=" " linedrivepct=" "/>
+					<hitballpcts avgexitvelo=" " avglchangle=" " brlhitballpct=" " hardcontactpct=" "/>
+				</bseasonstats>
+				<pseasonstats gamesplayed=" " era=" " oba=" " ops=" " inningspitched=" " runsallowed=" " earnedruns=" " walks=" " strikeouts=" " wins=" " losses=" " record=" " walksper9=" " fip=" " hitbatsmen=" " hits=" " hrallowed=" " intentwalks=" " saves=" " strikeoutsper9=" " kstowalkspct=" " whip=" " gbpct=" " hitsper9=" " firstpitchstrikepct=" " firstpitchstrikes=" "/>
+			</player>
+			<player playernumber=" " firstname=" " lastname=" " fullname=" " battinghandltr=" " throwinghandltr=" " battinghand=" " throwinghand=" " games=" " playerbirthplace=" " playerdebutdate=" ">
+				<bseasonstats avg=" " onbasepct=" " sluggingpct=" " ops=" " atbats=" " hits=" " doubles=" " triples=" " hr=" " rbi=" " walks=" " strikeouts=" " runs=" " steals=" " sopercent=" " bbpercent=" " plateapp=" " totalbases=" ">
+					<hitfields leftinplaypct=" " centerinplaypct=" " rightinplaypct=" "/>
+					<contact softcontactpct=" " medcontactpct=" " hardcontactpct=" "/>
+					<trajectories groundballpct=" " flyballpct=" " linedrivepct=" "/>
+					<hitballpcts avgexitvelo=" " avglchangle=" " brlhitballpct=" " hardcontactpct=" "/>
+				</bseasonstats>
+				<pseasonstats gamesplayed=" " era=" " oba=" " ops=" " inningspitched=" " runsallowed=" " earnedruns=" " walks=" " strikeouts=" " wins=" " losses=" " record=" " walksper9=" " fip=" " hitbatsmen=" " hits=" " hrallowed=" " intentwalks=" " saves=" " strikeoutsper9=" " kstowalkspct=" " whip=" " gbpct=" " hitsper9=" " firstpitchstrikepct=" " firstpitchstrikes=" "/>
+			</player>
+			<player playernumber=" " firstname=" " lastname=" " fullname=" " battinghandltr=" " throwinghandltr=" " battinghand=" " throwinghand=" " games=" " playerbirthplace=" " playerdebutdate=" ">
+				<bseasonstats avg=" " onbasepct=" " sluggingpct=" " ops=" " atbats=" " hits=" " doubles=" " triples=" " hr=" " rbi=" " walks=" " strikeouts=" " runs=" " steals=" " sopercent=" " bbpercent=" " plateapp=" " totalbases=" ">
+					<hitfields leftinplaypct=" " centerinplaypct=" " rightinplaypct=" "/>
+					<contact softcontactpct=" " medcontactpct=" " hardcontactpct=" "/>
+					<trajectories groundballpct=" " flyballpct=" " linedrivepct=" "/>
+					<hitballpcts avgexitvelo=" " avglchangle=" " brlhitballpct=" " hardcontactpct=" "/>
+				</bseasonstats>
+				<pseasonstats gamesplayed=" " era=" " oba=" " ops=" " inningspitched=" " runsallowed=" " earnedruns=" " walks=" " strikeouts=" " wins=" " losses=" " record=" " walksper9=" " fip=" " hitbatsmen=" " hits=" " hrallowed=" " intentwalks=" " saves=" " strikeoutsper9=" " kstowalkspct=" " whip=" " gbpct=" " hitsper9=" " firstpitchstrikepct=" " firstpitchstrikes=" "/>
+			</player>
+			<player playernumber=" " firstname=" " lastname=" " fullname=" " battinghandltr=" " throwinghandltr=" " battinghand=" " throwinghand=" " games=" " playerbirthplace=" " playerdebutdate=" ">
+				<bseasonstats avg=" " onbasepct=" " sluggingpct=" " ops=" " atbats=" " hits=" " doubles=" " triples=" " hr=" " rbi=" " walks=" " strikeouts=" " runs=" " steals=" " sopercent=" " bbpercent=" " plateapp=" " totalbases=" ">
+					<hitfields leftinplaypct=" " centerinplaypct=" " rightinplaypct=" "/>
+					<contact softcontactpct=" " medcontactpct=" " hardcontactpct=" "/>
+					<trajectories groundballpct=" " flyballpct=" " linedrivepct=" "/>
+					<hitballpcts avgexitvelo=" " avglchangle=" " brlhitballpct=" " hardcontactpct=" "/>
+				</bseasonstats>
+				<pseasonstats gamesplayed=" " era=" " oba=" " ops=" " inningspitched=" " runsallowed=" " earnedruns=" " walks=" " strikeouts=" " wins=" " losses=" " record=" " walksper9=" " fip=" " hitbatsmen=" " hits=" " hrallowed=" " intentwalks=" " saves=" " strikeoutsper9=" " kstowalkspct=" " whip=" " gbpct=" " hitsper9=" " firstpitchstrikepct=" " firstpitchstrikes=" "/>
+			</player>
+			<player playernumber=" " firstname=" " lastname=" " fullname=" " battinghandltr=" " throwinghandltr=" " battinghand=" " throwinghand=" " games=" " playerbirthplace=" " playerdebutdate=" ">
+				<bseasonstats avg=" " onbasepct=" " sluggingpct=" " ops=" " atbats=" " hits=" " doubles=" " triples=" " hr=" " rbi=" " walks=" " strikeouts=" " runs=" " steals=" " sopercent=" " bbpercent=" " plateapp=" " totalbases=" ">
+					<hitfields leftinplaypct=" " centerinplaypct=" " rightinplaypct=" "/>
+					<contact softcontactpct=" " medcontactpct=" " hardcontactpct=" "/>
+					<trajectories groundballpct=" " flyballpct=" " linedrivepct=" "/>
+					<hitballpcts avgexitvelo=" " avglchangle=" " brlhitballpct=" " hardcontactpct=" "/>
+				</bseasonstats>
+				<pseasonstats gamesplayed=" " era=" " oba=" " ops=" " inningspitched=" " runsallowed=" " earnedruns=" " walks=" " strikeouts=" " wins=" " losses=" " record=" " walksper9=" " fip=" " hitbatsmen=" " hits=" " hrallowed=" " intentwalks=" " saves=" " strikeoutsper9=" " kstowalkspct=" " whip=" " gbpct=" " hitsper9=" " firstpitchstrikepct=" " firstpitchstrikes=" "/>
+			</player>
+		</team>
+	</visteam>
+	<homteam>
+		<team teamtricode="NYM" teamname="Mets" teamlocale="New York">
+			<player playernumber="20" firstname="Pete" lastname="Alonso" fullname="Pete Alonso" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="154" playerbirthplace="Tampa, FL" playerdebutdate="03/28/2019">
+				<bseasonstats avg=".217" onbasepct=".318" sluggingpct=".504" ops=".822" atbats="568" hits="123" doubles="21" triples="2" hr="46" rbi="118" walks="65" strikeouts="151" runs="92" steals="4" sopercent="22.9" bbpercent="9.9" plateapp="658" totalbases="286">
+					<hitfields leftinplaypct="48.7" centerinplaypct="26.7" rightinplaypct="24.7"/>
+					<contact softcontactpct="20.0" medcontactpct="30.7" hardcontactpct="49.3"/>
+					<trajectories groundballpct="32.0" flyballpct="30.0" linedrivepct="30.7"/>
+					<hitballpcts avgexitvelo="92.1" avglchangle="15.4" brlhitballpct="13.3" hardcontactpct="49.3"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="4" firstname="Francisco" lastname="Alvarez" fullname="Francisco Alvarez" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="123" playerbirthplace="Guatire, Venezuela" playerdebutdate="09/30/2022">
+				<bseasonstats avg=".209" onbasepct=".284" sluggingpct=".437" ops=".721" atbats="382" hits="80" doubles="12" triples="0" hr="25" rbi="63" walks="34" strikeouts="110" runs="51" steals="2" sopercent="26.0" bbpercent="8.0" plateapp="423" totalbases="167">
+					<hitfields leftinplaypct="50.7" centerinplaypct="24.0" rightinplaypct="25.3"/>
+					<contact softcontactpct="24.0" medcontactpct="29.3" hardcontactpct="46.7"/>
+					<trajectories groundballpct="40.0" flyballpct="14.7" linedrivepct="40.0"/>
+					<hitballpcts avgexitvelo="90.7" avglchangle="5.9" brlhitballpct="9.3" hardcontactpct="46.7"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="19" firstname="Jonathan" lastname="Araúz" fullname="Jonathan Araúz" battinghandltr="S" throwinghandltr="R" battinghand="Switch" throwinghand="Right" games="27" playerbirthplace="Alanje, Panama" playerdebutdate="07/24/2020">
+				<bseasonstats avg=".136" onbasepct=".203" sluggingpct=".288" ops=".491" atbats="59" hits="8" doubles="0" triples="0" hr="3" rbi="9" walks="5" strikeouts="18" runs="3" steals="0" sopercent="28.1" bbpercent="7.8" plateapp="66" totalbases="17">
+					<hitfields leftinplaypct="40.0" centerinplaypct="20.0" rightinplaypct="40.0"/>
+					<contact softcontactpct="0.0" medcontactpct="40.0" hardcontactpct="60.0"/>
+					<trajectories groundballpct="40.0" flyballpct="0.0" linedrivepct="60.0"/>
+					<hitballpcts avgexitvelo="98.8" avglchangle="1.4" brlhitballpct="0.0" hardcontactpct="60.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="22" firstname="Brett" lastname="Baty" fullname="Brett Baty" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="108" playerbirthplace="Round Rock, TX" playerdebutdate="08/17/2022">
+				<bseasonstats avg=".212" onbasepct=".275" sluggingpct=".323" ops=".598" atbats="353" hits="75" doubles="12" triples="0" hr="9" rbi="34" walks="29" strikeouts="109" runs="41" steals="2" sopercent="28.3" bbpercent="7.5" plateapp="389" totalbases="114">
+					<hitfields leftinplaypct="30.0" centerinplaypct="27.8" rightinplaypct="42.2"/>
+					<contact softcontactpct="11.1" medcontactpct="28.9" hardcontactpct="60.0"/>
+					<trajectories groundballpct="37.8" flyballpct="8.9" linedrivepct="46.7"/>
+					<hitballpcts avgexitvelo="94.4" avglchangle="9.8" brlhitballpct="6.7" hardcontactpct="60.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="50" firstname="Phil" lastname="Bickford" fullname="Phil Bickford" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Ventura, CA" playerdebutdate="09/01/2020">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="47.1" centerinplaypct="21.6" rightinplaypct="31.4"/>
+					<contact softcontactpct="19.6" medcontactpct="23.5" hardcontactpct="56.9"/>
+					<trajectories groundballpct="33.3" flyballpct="7.8" linedrivepct="54.9"/>
+					<hitballpcts avgexitvelo="92.4" avglchangle="10.7" brlhitballpct="7.8" hardcontactpct="56.9"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="61" era="4.95" oba=".230" ops=".662" inningspitched="67.1" runsallowed="41" earnedruns="37" walks="39" strikeouts="76" wins="5" losses="5" record="5-5" walksper9="5.2" fip="4.37" hitbatsmen="4" hits="59" hrallowed="8" intentwalks="4" saves="1" strikeoutsper9="10.2" kstowalkspct="1.95" whip="1.46" gbpct="34.0" hitsper9="7.9" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="43" firstname="Jeff" lastname="Brigham" fullname="Jeff Brigham" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Federal Way, WA" playerdebutdate="09/02/2018">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="52.9" centerinplaypct="17.6" rightinplaypct="29.4"/>
+					<contact softcontactpct="11.8" medcontactpct="35.3" hardcontactpct="52.9"/>
+					<trajectories groundballpct="41.2" flyballpct="5.9" linedrivepct="52.9"/>
+					<hitballpcts avgexitvelo="94.2" avglchangle="9.6" brlhitballpct="0.0" hardcontactpct="52.9"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="37" era="5.26" oba=".191" ops=".696" inningspitched="37.2" runsallowed="23" earnedruns="22" walks="18" strikeouts="42" wins="1" losses="3" record="1-3" walksper9="4.3" fip="5.87" hitbatsmen="5" hits="26" hrallowed="9" intentwalks="0" saves="0" strikeoutsper9="10.0" kstowalkspct="2.33" whip="1.17" gbpct="41.2" hitsper9="6.2" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="70" firstname="José" lastname="Butto" fullname="José Butto" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Cumana, Venezuela" playerdebutdate="08/21/2022">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="38.5" centerinplaypct="34.6" rightinplaypct="26.9"/>
+					<contact softcontactpct="23.1" medcontactpct="11.5" hardcontactpct="65.4"/>
+					<trajectories groundballpct="38.5" flyballpct="7.7" linedrivepct="53.8"/>
+					<hitballpcts avgexitvelo="94.7" avglchangle="7.4" brlhitballpct="3.8" hardcontactpct="65.4"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="9" era="3.64" oba=".212" ops=".582" inningspitched="42.0" runsallowed="17" earnedruns="17" walks="23" strikeouts="38" wins="1" losses="4" record="1-4" walksper9="4.9" fip="3.93" hitbatsmen="0" hits="33" hrallowed="3" intentwalks="0" saves="0" strikeoutsper9="8.1" kstowalkspct="1.65" whip="1.33" gbpct="41.9" hitsper9="7.1" firstpitchstrikepct="76.0" firstpitchstrikes="19"/>
+			</player>
+			<player playernumber="59" firstname="Carlos" lastname="Carrasco" fullname="Carlos Carrasco" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Barquisimeto, Venezuela" playerdebutdate="09/01/2009">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="44.3" centerinplaypct="30.9" rightinplaypct="24.7"/>
+					<contact softcontactpct="14.4" medcontactpct="18.6" hardcontactpct="67.0"/>
+					<trajectories groundballpct="28.9" flyballpct="6.2" linedrivepct="64.9"/>
+					<hitballpcts avgexitvelo="96.5" avglchangle="10.1" brlhitballpct="5.2" hardcontactpct="67.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="20" era="6.80" oba=".310" ops=".837" inningspitched="90.0" runsallowed="71" earnedruns="68" walks="38" strikeouts="66" wins="3" losses="8" record="3-8" walksper9="3.8" fip="5.77" hitbatsmen="6" hits="115" hrallowed="18" intentwalks="0" saves="0" strikeoutsper9="6.6" kstowalkspct="1.74" whip="1.70" gbpct="28.9" hitsper9="11.5" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="45" firstname="Sam" lastname="Coonrod" fullname="Sam Coonrod" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="St. Louis, MO" playerdebutdate="05/26/2019">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="40.0" centerinplaypct="20.0" rightinplaypct="40.0"/>
+					<contact softcontactpct="60.0" medcontactpct="0.0" hardcontactpct="40.0"/>
+					<trajectories groundballpct="60.0" flyballpct="20.0" linedrivepct="20.0"/>
+					<hitballpcts avgexitvelo="74.0" avglchangle="-3.2" brlhitballpct="0.0" hardcontactpct="40.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="10" era="9.45" oba=".208" ops=".649" inningspitched="6.2" runsallowed="7" earnedruns="7" walks="8" strikeouts="6" wins="0" losses="0" record="0-0" walksper9="10.8" fip="5.87" hitbatsmen="2" hits="5" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="8.1" kstowalkspct="0.75" whip="1.95" gbpct="60.0" hitsper9="6.8" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="46" firstname="John" lastname="Curtiss" fullname="John Curtiss" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Dallas, TX" playerdebutdate="08/25/2017">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="42.9" centerinplaypct="35.7" rightinplaypct="21.4"/>
+					<contact softcontactpct="14.3" medcontactpct="28.6" hardcontactpct="57.1"/>
+					<trajectories groundballpct="57.1" flyballpct="7.1" linedrivepct="35.7"/>
+					<hitballpcts avgexitvelo="93.6" avglchangle="5.1" brlhitballpct="0.0" hardcontactpct="57.1"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="15" era="4.58" oba=".236" ops=".670" inningspitched="19.2" runsallowed="10" earnedruns="10" walks="8" strikeouts="16" wins="0" losses="0" record="0-0" walksper9="3.7" fip="4.74" hitbatsmen="0" hits="17" hrallowed="3" intentwalks="0" saves="0" strikeoutsper9="7.3" kstowalkspct="2.00" whip="1.27" gbpct="57.1" hitsper9="7.8" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="75" firstname="Reed" lastname="Garrett" fullname="Reed Garrett" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Henrico, VA" playerdebutdate="03/29/2019">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="25.0" centerinplaypct="45.0" rightinplaypct="30.0"/>
+					<contact softcontactpct="20.0" medcontactpct="20.0" hardcontactpct="60.0"/>
+					<trajectories groundballpct="45.0" flyballpct="0.0" linedrivepct="55.0"/>
+					<hitballpcts avgexitvelo="94.2" avglchangle="7.2" brlhitballpct="10.0" hardcontactpct="60.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="12" era="6.41" oba=".291" ops=".757" inningspitched="19.2" runsallowed="14" earnedruns="14" walks="7" strikeouts="16" wins="1" losses="0" record="1-0" walksper9="3.2" fip="4.74" hitbatsmen="1" hits="23" hrallowed="3" intentwalks="0" saves="0" strikeoutsper9="7.3" kstowalkspct="2.29" whip="1.53" gbpct="45.0" hitsper9="10.5" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="33" firstname="Trevor" lastname="Gott" fullname="Trevor Gott" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Lexington, KY" playerdebutdate="06/14/2015">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="28.3" centerinplaypct="31.7" rightinplaypct="40.0"/>
+					<contact softcontactpct="21.7" medcontactpct="20.0" hardcontactpct="58.3"/>
+					<trajectories groundballpct="36.7" flyballpct="10.0" linedrivepct="51.7"/>
+					<hitballpcts avgexitvelo="92.3" avglchangle="8.1" brlhitballpct="6.7" hardcontactpct="58.3"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="64" era="4.19" oba=".267" ops=".649" inningspitched="58.0" runsallowed="34" earnedruns="27" walks="19" strikeouts="62" wins="0" losses="5" record="0-5" walksper9="2.9" fip="3.11" hitbatsmen="4" hits="63" hrallowed="4" intentwalks="3" saves="1" strikeoutsper9="9.6" kstowalkspct="3.26" whip="1.41" gbpct="37.3" hitsper9="9.8" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="13" firstname="Luis" lastname="Guillorme" fullname="Luis Guillorme" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="54" playerbirthplace="Caracas, Venezuela" playerdebutdate="05/11/2018">
+				<bseasonstats avg=".224" onbasepct=".288" sluggingpct=".327" ops=".615" atbats="107" hits="24" doubles="6" triples="1" hr="1" rbi="9" walks="10" strikeouts="28" runs="12" steals="0" sopercent="23.7" bbpercent="8.5" plateapp="120" totalbases="35">
+					<hitfields leftinplaypct="41.3" centerinplaypct="26.1" rightinplaypct="32.6"/>
+					<contact softcontactpct="23.9" medcontactpct="43.5" hardcontactpct="32.6"/>
+					<trajectories groundballpct="43.5" flyballpct="10.9" linedrivepct="39.1"/>
+					<hitballpcts avgexitvelo="86.0" avglchangle="4.2" brlhitballpct="0.0" hardcontactpct="32.6"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="1" era="0.00" oba=".250" ops=".500" inningspitched="1.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="3.17" hitbatsmen="0" hits="1" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="1.00" gbpct="0.0" hitsper9="9.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="93" firstname="Grant" lastname="Hartwig" fullname="Grant Hartwig" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Detroit, MI" playerdebutdate="06/19/2023">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="56.2" centerinplaypct="21.9" rightinplaypct="21.9"/>
+					<contact softcontactpct="18.8" medcontactpct="31.2" hardcontactpct="50.0"/>
+					<trajectories groundballpct="21.9" flyballpct="9.4" linedrivepct="65.6"/>
+					<hitballpcts avgexitvelo="91.4" avglchangle="9.2" brlhitballpct="6.2" hardcontactpct="50.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="28" era="5.05" oba=".254" ops=".669" inningspitched="35.2" runsallowed="24" earnedruns="20" walks="15" strikeouts="31" wins="4" losses="2" record="4-2" walksper9="3.8" fip="4.29" hitbatsmen="6" hits="35" hrallowed="3" intentwalks="1" saves="0" strikeoutsper9="7.8" kstowalkspct="2.07" whip="1.40" gbpct="22.6" hitsper9="8.8" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="64" firstname="Anthony" lastname="Kay" fullname="Anthony Kay" battinghandltr="L" throwinghandltr="L" battinghand="Left" throwinghand="Left" games="13" playerbirthplace="Stony Brook, NY" playerdebutdate="09/07/2019">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="63.6" centerinplaypct="36.4" rightinplaypct="0.0"/>
+					<contact softcontactpct="9.1" medcontactpct="27.3" hardcontactpct="63.6"/>
+					<trajectories groundballpct="36.4" flyballpct="0.0" linedrivepct="63.6"/>
+					<hitballpcts avgexitvelo="99.2" avglchangle="9.7" brlhitballpct="9.1" hardcontactpct="63.6"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="17" era="6.60" oba=".259" ops="1.015" inningspitched="15.0" runsallowed="11" earnedruns="11" walks="9" strikeouts="11" wins="0" losses="0" record="0-0" walksper9="5.4" fip="5.63" hitbatsmen="2" hits="15" hrallowed="2" intentwalks="0" saves="0" strikeoutsper9="6.6" kstowalkspct="1.22" whip="1.60" gbpct="66.7" hitsper9="9.0" firstpitchstrikepct="50.0" firstpitchstrikes="2"/>
+			</player>
+			<player playernumber="66" firstname="Adam" lastname="Kolarek" fullname="Adam Kolarek" battinghandltr="L" throwinghandltr="L" battinghand="Left" throwinghand="Left" games="0" playerbirthplace="Baltimore, MD" playerdebutdate="06/29/2017">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="100.0" centerinplaypct="0.0" rightinplaypct="0.0"/>
+					<contact softcontactpct="100.0" medcontactpct="0.0" hardcontactpct="0.0"/>
+					<trajectories groundballpct="50.0" flyballpct="50.0" linedrivepct="0.0"/>
+					<hitballpcts avgexitvelo="75.0" avglchangle="-6.0" brlhitballpct="0.0" hardcontactpct="0.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="5" era="0.00" oba=".105" ops=".295" inningspitched="6.0" runsallowed="0" earnedruns="0" walks="1" strikeouts="7" wins="0" losses="0" record="0-0" walksper9="1.5" fip="1.83" hitbatsmen="1" hits="2" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="10.5" kstowalkspct="7.00" whip="0.50" gbpct="50.0" hitsper9="3.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="50" firstname="Dominic" lastname="Leone" fullname="Dominic Leone" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Norwich, CT" playerdebutdate="04/06/2014">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="28.6" centerinplaypct="25.7" rightinplaypct="45.7"/>
+					<contact softcontactpct="22.9" medcontactpct="20.0" hardcontactpct="57.1"/>
+					<trajectories groundballpct="28.6" flyballpct="2.9" linedrivepct="65.7"/>
+					<hitballpcts avgexitvelo="92.1" avglchangle="6.6" brlhitballpct="5.7" hardcontactpct="57.1"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="51" era="4.67" oba=".244" ops=".789" inningspitched="54.0" runsallowed="28" earnedruns="28" walks="28" strikeouts="54" wins="1" losses="3" record="1-3" walksper9="4.7" fip="6.20" hitbatsmen="2" hits="49" hrallowed="14" intentwalks="3" saves="1" strikeoutsper9="9.0" kstowalkspct="1.93" whip="1.43" gbpct="28.6" hitsper9="8.2" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="12" firstname="Francisco" lastname="Lindor" fullname="Francisco Lindor" battinghandltr="S" throwinghandltr="R" battinghand="Switch" throwinghand="Right" games="160" playerbirthplace="Caguas, Puerto Rico" playerdebutdate="06/14/2015">
+				<bseasonstats avg=".254" onbasepct=".336" sluggingpct=".470" ops=".806" atbats="602" hits="153" doubles="33" triples="2" hr="31" rbi="98" walks="66" strikeouts="137" runs="108" steals="31" sopercent="19.9" bbpercent="9.6" plateapp="687" totalbases="283">
+					<hitfields leftinplaypct="37.8" centerinplaypct="19.7" rightinplaypct="42.6"/>
+					<contact softcontactpct="20.7" medcontactpct="30.9" hardcontactpct="48.4"/>
+					<trajectories groundballpct="32.4" flyballpct="19.1" linedrivepct="42.6"/>
+					<hitballpcts avgexitvelo="91.2" avglchangle="13.6" brlhitballpct="6.9" hardcontactpct="48.4"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="26" firstname="Tim" lastname="Locastro" fullname="Tim Locastro" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="43" playerbirthplace="Syracuse, NY" playerdebutdate="09/29/2017">
+				<bseasonstats avg=".232" onbasepct=".338" sluggingpct=".393" ops=".731" atbats="56" hits="13" doubles="3" triples="0" hr="2" rbi="3" walks="3" strikeouts="22" runs="13" steals="6" sopercent="33.8" bbpercent="4.6" plateapp="67" totalbases="22">
+					<hitfields leftinplaypct="56.2" centerinplaypct="12.5" rightinplaypct="31.2"/>
+					<contact softcontactpct="37.5" medcontactpct="37.5" hardcontactpct="25.0"/>
+					<trajectories groundballpct="18.8" flyballpct="31.2" linedrivepct="37.5"/>
+					<hitballpcts avgexitvelo="82.6" avglchangle="19.2" brlhitballpct="6.2" hardcontactpct="25.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="47" firstname="Joey" lastname="Lucchesi" fullname="Joey Lucchesi" battinghandltr="L" throwinghandltr="L" battinghand="Left" throwinghand="Left" games="0" playerbirthplace="Newark, CA" playerdebutdate="03/30/2018">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="32.5" centerinplaypct="30.0" rightinplaypct="37.5"/>
+					<contact softcontactpct="25.0" medcontactpct="15.0" hardcontactpct="60.0"/>
+					<trajectories groundballpct="35.0" flyballpct="10.0" linedrivepct="45.0"/>
+					<hitballpcts avgexitvelo="89.3" avglchangle="5.8" brlhitballpct="10.0" hardcontactpct="60.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="9" era="2.89" oba=".251" ops=".645" inningspitched="46.2" runsallowed="17" earnedruns="15" walks="17" strikeouts="32" wins="4" losses="0" record="4-0" walksper9="3.3" fip="4.13" hitbatsmen="2" hits="44" hrallowed="4" intentwalks="0" saves="0" strikeoutsper9="6.2" kstowalkspct="1.88" whip="1.31" gbpct="38.9" hitsper9="8.5" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="6" firstname="Starling" lastname="Marte" fullname="Starling Marte" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="86" playerbirthplace="Santo Domingo, DR" playerdebutdate="07/26/2012">
+				<bseasonstats avg=".248" onbasepct=".301" sluggingpct=".324" ops=".625" atbats="315" hits="78" doubles="7" triples="1" hr="5" rbi="28" walks="16" strikeouts="69" runs="38" steals="24" sopercent="20.4" bbpercent="4.7" plateapp="341" totalbases="102">
+					<hitfields leftinplaypct="37.2" centerinplaypct="21.7" rightinplaypct="41.1"/>
+					<contact softcontactpct="26.4" medcontactpct="32.6" hardcontactpct="41.1"/>
+					<trajectories groundballpct="41.1" flyballpct="23.3" linedrivepct="31.8"/>
+					<hitballpcts avgexitvelo="88.9" avglchangle="9.5" brlhitballpct="3.9" hardcontactpct="41.1"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="10" firstname="Ronny" lastname="Mauricio" fullname="Ronny Mauricio" battinghandltr="S" throwinghandltr="R" battinghand="Switch" throwinghand="Right" games="26" playerbirthplace="San Pedro de Macoris, DR" playerdebutdate="09/01/2023">
+				<bseasonstats avg=".240" onbasepct=".290" sluggingpct=".340" ops=".630" atbats="100" hits="24" doubles="4" triples="0" hr="2" rbi="9" walks="7" strikeouts="31" runs="12" steals="6" sopercent="29.0" bbpercent="6.5" plateapp="108" totalbases="34">
+					<hitfields leftinplaypct="25.0" centerinplaypct="37.5" rightinplaypct="37.5"/>
+					<contact softcontactpct="29.2" medcontactpct="20.8" hardcontactpct="50.0"/>
+					<trajectories groundballpct="37.5" flyballpct="0.0" linedrivepct="54.2"/>
+					<hitballpcts avgexitvelo="93.3" avglchangle="7.8" brlhitballpct="8.3" hardcontactpct="50.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="44" firstname="T.J." lastname="McFarland" fullname="T.J. McFarland" battinghandltr="L" throwinghandltr="L" battinghand="Left" throwinghand="Left" games="0" playerbirthplace="Palos Park, IL" playerdebutdate="04/06/2013">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="100.0" centerinplaypct="0.0" rightinplaypct="0.0"/>
+					<contact softcontactpct="25.0" medcontactpct="0.0" hardcontactpct="75.0"/>
+					<trajectories groundballpct="50.0" flyballpct="0.0" linedrivepct="50.0"/>
+					<hitballpcts avgexitvelo="93.5" avglchangle="-12.8" brlhitballpct="25.0" hardcontactpct="75.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="3" era="5.40" oba=".444" ops=".989" inningspitched="1.2" runsallowed="2" earnedruns="1" walks="1" strikeouts="2" wins="0" losses="1" record="0-1" walksper9="5.4" fip="4.37" hitbatsmen="1" hits="4" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="10.8" kstowalkspct="2.00" whip="3.00" gbpct="50.0" hitsper9="21.6" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="1" firstname="Jeff" lastname="McNeil" fullname="Jeff McNeil" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="156" playerbirthplace="Santa Barbara, CA" playerdebutdate="07/24/2018">
+				<bseasonstats avg=".270" onbasepct=".333" sluggingpct=".378" ops=".711" atbats="585" hits="158" doubles="25" triples="4" hr="10" rbi="55" walks="39" strikeouts="65" runs="75" steals="10" sopercent="10.1" bbpercent="6.0" plateapp="648" totalbases="221">
+					<hitfields leftinplaypct="28.4" centerinplaypct="24.7" rightinplaypct="47.0"/>
+					<contact softcontactpct="27.0" medcontactpct="39.1" hardcontactpct="34.0"/>
+					<trajectories groundballpct="40.0" flyballpct="9.8" linedrivepct="44.2"/>
+					<hitballpcts avgexitvelo="86.3" avglchangle="9.5" brlhitballpct="1.4" hardcontactpct="34.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="38" firstname="Tylor" lastname="Megill" fullname="Tylor Megill" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Long Beach, CA" playerdebutdate="06/23/2021">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="43.9" centerinplaypct="22.0" rightinplaypct="34.1"/>
+					<contact softcontactpct="21.1" medcontactpct="26.8" hardcontactpct="52.0"/>
+					<trajectories groundballpct="35.0" flyballpct="8.1" linedrivepct="54.5"/>
+					<hitballpcts avgexitvelo="91.6" avglchangle="6.5" brlhitballpct="4.9" hardcontactpct="52.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="25" era="4.70" oba=".282" ops=".752" inningspitched="126.1" runsallowed="76" earnedruns="66" walks="58" strikeouts="105" wins="9" losses="8" record="9-8" walksper9="4.1" fip="4.88" hitbatsmen="6" hits="141" hrallowed="18" intentwalks="0" saves="0" strikeoutsper9="7.5" kstowalkspct="1.81" whip="1.58" gbpct="35.8" hitsper9="10.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="15" firstname="Danny" lastname="Mendick" fullname="Danny Mendick" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="35" playerbirthplace="Rochester, NY" playerdebutdate="09/03/2019">
+				<bseasonstats avg=".185" onbasepct=".232" sluggingpct=".277" ops=".509" atbats="65" hits="12" doubles="3" triples="0" hr="1" rbi="4" walks="4" strikeouts="15" runs="4" steals="1" sopercent="21.7" bbpercent="5.8" plateapp="69" totalbases="18">
+					<hitfields leftinplaypct="45.5" centerinplaypct="18.2" rightinplaypct="36.4"/>
+					<contact softcontactpct="18.2" medcontactpct="27.3" hardcontactpct="54.5"/>
+					<trajectories groundballpct="36.4" flyballpct="18.2" linedrivepct="45.5"/>
+					<hitballpcts avgexitvelo="92.3" avglchangle="12.0" brlhitballpct="0.0" hardcontactpct="54.5"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="2" era="36.00" oba=".600" ops="1.600" inningspitched="2.0" runsallowed="8" earnedruns="8" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="16.17" hitbatsmen="0" hits="9" hrallowed="2" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="4.50" gbpct="0.0" hitsper9="40.5" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="67" firstname="Tyson" lastname="Miller" fullname="Tyson Miller" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Fairfield, CA" playerdebutdate="08/17/2020">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="9.1" centerinplaypct="54.5" rightinplaypct="36.4"/>
+					<contact softcontactpct="9.1" medcontactpct="54.5" hardcontactpct="36.4"/>
+					<trajectories groundballpct="18.2" flyballpct="0.0" linedrivepct="81.8"/>
+					<hitballpcts avgexitvelo="93.7" avglchangle="13.2" brlhitballpct="0.0" hardcontactpct="36.4"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="10" era="4.70" oba=".232" ops=".652" inningspitched="15.1" runsallowed="8" earnedruns="8" walks="6" strikeouts="10" wins="1" losses="0" record="1-0" walksper9="3.5" fip="4.93" hitbatsmen="1" hits="13" hrallowed="2" intentwalks="0" saves="0" strikeoutsper9="5.9" kstowalkspct="1.67" whip="1.24" gbpct="18.2" hitsper9="7.6" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="2" firstname="Omar" lastname="Narváez" fullname="Omar Narváez" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="49" playerbirthplace="Maracay, Venezuela" playerdebutdate="07/17/2016">
+				<bseasonstats avg=".211" onbasepct=".283" sluggingpct=".297" ops=".580" atbats="128" hits="27" doubles="5" triples="0" hr="2" rbi="7" walks="14" strikeouts="27" runs="12" steals="0" sopercent="18.6" bbpercent="9.7" plateapp="146" totalbases="38">
+					<hitfields leftinplaypct="15.6" centerinplaypct="28.1" rightinplaypct="56.2"/>
+					<contact softcontactpct="21.9" medcontactpct="43.8" hardcontactpct="34.4"/>
+					<trajectories groundballpct="28.1" flyballpct="25.0" linedrivepct="46.9"/>
+					<hitballpcts avgexitvelo="88.9" avglchangle="14.8" brlhitballpct="3.1" hardcontactpct="34.4"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="3" firstname="Tomás" lastname="Nido" fullname="Tomás Nido" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="22" playerbirthplace="Guaynabo, Puerto Rico" playerdebutdate="09/13/2017">
+				<bseasonstats avg=".125" onbasepct=".153" sluggingpct=".125" ops=".278" atbats="56" hits="7" doubles="0" triples="0" hr="0" rbi="1" walks="2" strikeouts="18" runs="5" steals="0" sopercent="30.5" bbpercent="3.4" plateapp="61" totalbases="7">
+					<hitfields leftinplaypct="43.8" centerinplaypct="28.1" rightinplaypct="28.1"/>
+					<contact softcontactpct="31.2" medcontactpct="50.0" hardcontactpct="18.8"/>
+					<trajectories groundballpct="46.9" flyballpct="15.6" linedrivepct="25.0"/>
+					<hitballpcts avgexitvelo="82.4" avglchangle="3.8" brlhitballpct="0.0" hardcontactpct="18.8"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="9" firstname="Brandon" lastname="Nimmo" fullname="Brandon Nimmo" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="152" playerbirthplace="Cheyenne, WY" playerdebutdate="06/26/2016">
+				<bseasonstats avg=".274" onbasepct=".363" sluggingpct=".466" ops=".829" atbats="592" hits="162" doubles="30" triples="6" hr="24" rbi="68" walks="74" strikeouts="146" runs="89" steals="3" sopercent="21.4" bbpercent="10.9" plateapp="682" totalbases="276">
+					<hitfields leftinplaypct="41.1" centerinplaypct="22.6" rightinplaypct="36.3"/>
+					<contact softcontactpct="14.7" medcontactpct="26.3" hardcontactpct="58.9"/>
+					<trajectories groundballpct="42.6" flyballpct="12.1" linedrivepct="42.1"/>
+					<hitballpcts avgexitvelo="93.4" avglchangle="6.9" brlhitballpct="6.3" hardcontactpct="58.9"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="68" firstname="Vinny" lastname="Nittoli" fullname="Vinny Nittoli" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Tempe, AZ" playerdebutdate="06/23/2021">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="75.0" centerinplaypct="0.0" rightinplaypct="25.0"/>
+					<contact softcontactpct="25.0" medcontactpct="0.0" hardcontactpct="75.0"/>
+					<trajectories groundballpct="50.0" flyballpct="25.0" linedrivepct="25.0"/>
+					<hitballpcts avgexitvelo="94.0" avglchangle="14.8" brlhitballpct="0.0" hardcontactpct="75.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="3" era="2.45" oba=".286" ops=".619" inningspitched="3.2" runsallowed="1" earnedruns="1" walks="0" strikeouts="3" wins="0" losses="0" record="0-0" walksper9="0.0" fip="2.35" hitbatsmen="1" hits="4" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="7.4" kstowalkspct="0.00" whip="1.09" gbpct="50.0" hitsper9="9.8" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="85" firstname="Stephen" lastname="Nogosek" fullname="Stephen Nogosek" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Roseville, CA" playerdebutdate="06/19/2019">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="36.4" centerinplaypct="22.7" rightinplaypct="40.9"/>
+					<contact softcontactpct="22.7" medcontactpct="22.7" hardcontactpct="54.5"/>
+					<trajectories groundballpct="36.4" flyballpct="4.5" linedrivepct="54.5"/>
+					<hitballpcts avgexitvelo="90.1" avglchangle="5.1" brlhitballpct="13.6" hardcontactpct="54.5"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="13" era="5.61" oba=".280" ops=".833" inningspitched="25.2" runsallowed="16" earnedruns="16" walks="14" strikeouts="25" wins="0" losses="1" record="0-1" walksper9="4.9" fip="6.13" hitbatsmen="2" hits="28" hrallowed="6" intentwalks="0" saves="0" strikeoutsper9="8.8" kstowalkspct="1.79" whip="1.64" gbpct="36.4" hitsper9="9.8" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="30" firstname="Rafael" lastname="Ortega" fullname="Rafael Ortega" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="47" playerbirthplace="El Tigre, Venezuela" playerdebutdate="09/30/2012">
+				<bseasonstats avg=".219" onbasepct=".341" sluggingpct=".272" ops=".613" atbats="114" hits="25" doubles="3" triples="0" hr="1" rbi="8" walks="20" strikeouts="33" runs="16" steals="6" sopercent="24.4" bbpercent="14.8" plateapp="136" totalbases="31">
+					<hitfields leftinplaypct="38.5" centerinplaypct="15.4" rightinplaypct="46.2"/>
+					<contact softcontactpct="23.1" medcontactpct="42.3" hardcontactpct="34.6"/>
+					<trajectories groundballpct="30.8" flyballpct="11.5" linedrivepct="46.2"/>
+					<hitballpcts avgexitvelo="86.5" avglchangle="9.6" brlhitballpct="0.0" hardcontactpct="34.6"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="0" firstname="Adam" lastname="Ottavino" fullname="Adam Ottavino" battinghandltr="S" throwinghandltr="R" battinghand="Switch" throwinghand="Right" games="0" playerbirthplace="New York, NY" playerdebutdate="05/29/2010">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="46.2" centerinplaypct="23.1" rightinplaypct="30.8"/>
+					<contact softcontactpct="20.5" medcontactpct="20.5" hardcontactpct="59.0"/>
+					<trajectories groundballpct="43.6" flyballpct="15.4" linedrivepct="41.0"/>
+					<hitballpcts avgexitvelo="90.5" avglchangle="6.6" brlhitballpct="0.0" hardcontactpct="59.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="66" era="3.21" oba=".208" ops=".623" inningspitched="61.2" runsallowed="24" earnedruns="22" walks="29" strikeouts="62" wins="1" losses="7" record="1-7" walksper9="4.2" fip="4.43" hitbatsmen="8" hits="46" hrallowed="7" intentwalks="3" saves="12" strikeoutsper9="9.0" kstowalkspct="2.14" whip="1.22" gbpct="43.6" hitsper9="6.7" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="61" firstname="Michael" lastname="Perez" fullname="Michael Perez" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="3" playerbirthplace="Bayamon, Puerto Rico" playerdebutdate="07/26/2018">
+				<bseasonstats avg=".500" onbasepct=".500" sluggingpct=".625" ops="1.125" atbats="8" hits="4" doubles="1" triples="0" hr="0" rbi="0" walks="0" strikeouts="1" runs="1" steals="0" sopercent="12.5" bbpercent="0.0" plateapp="8" totalbases="5">
+					<hitfields leftinplaypct="20.0" centerinplaypct="60.0" rightinplaypct="20.0"/>
+					<contact softcontactpct="20.0" medcontactpct="0.0" hardcontactpct="80.0"/>
+					<trajectories groundballpct="20.0" flyballpct="0.0" linedrivepct="60.0"/>
+					<hitballpcts avgexitvelo="97.0" avglchangle="11.4" brlhitballpct="40.0" hardcontactpct="80.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="23" firstname="David" lastname="Peterson" fullname="David Peterson" battinghandltr="L" throwinghandltr="L" battinghand="Left" throwinghand="Left" games="0" playerbirthplace="Denver, CO" playerdebutdate="07/28/2020">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="42.3" centerinplaypct="19.2" rightinplaypct="38.5"/>
+					<contact softcontactpct="21.2" medcontactpct="22.1" hardcontactpct="56.7"/>
+					<trajectories groundballpct="50.0" flyballpct="3.8" linedrivepct="44.2"/>
+					<hitballpcts avgexitvelo="92.8" avglchangle="3.3" brlhitballpct="4.8" hardcontactpct="56.7"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="27" era="5.03" oba=".287" ops=".765" inningspitched="111.0" runsallowed="64" earnedruns="62" walks="50" strikeouts="128" wins="3" losses="8" record="3-8" walksper9="4.1" fip="4.25" hitbatsmen="6" hits="124" hrallowed="16" intentwalks="0" saves="0" strikeoutsper9="10.4" kstowalkspct="2.56" whip="1.57" gbpct="51.0" hitsper9="10.1" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="62" firstname="José" lastname="Quintana" fullname="José Quintana" battinghandltr="R" throwinghandltr="L" battinghand="Right" throwinghand="Left" games="0" playerbirthplace="Arjona, Colombia" playerdebutdate="05/07/2012">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="40.0" centerinplaypct="28.6" rightinplaypct="31.4"/>
+					<contact softcontactpct="22.9" medcontactpct="31.4" hardcontactpct="45.7"/>
+					<trajectories groundballpct="40.0" flyballpct="4.3" linedrivepct="55.7"/>
+					<hitballpcts avgexitvelo="91.5" avglchangle="6.2" brlhitballpct="5.7" hardcontactpct="45.7"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="13" era="3.57" oba=".260" ops=".625" inningspitched="75.2" runsallowed="33" earnedruns="30" walks="24" strikeouts="60" wins="3" losses="6" record="3-6" walksper9="2.9" fip="3.43" hitbatsmen="1" hits="75" hrallowed="5" intentwalks="0" saves="0" strikeoutsper9="7.1" kstowalkspct="2.50" whip="1.31" gbpct="40.0" hitsper9="8.9" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="25" firstname="Brooks" lastname="Raley" fullname="Brooks Raley" battinghandltr="L" throwinghandltr="L" battinghand="Left" throwinghand="Left" games="66" playerbirthplace="San Antonio, TX" playerdebutdate="08/07/2012">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="42.5" centerinplaypct="25.0" rightinplaypct="32.5"/>
+					<contact softcontactpct="20.0" medcontactpct="20.0" hardcontactpct="60.0"/>
+					<trajectories groundballpct="25.0" flyballpct="15.0" linedrivepct="57.5"/>
+					<hitballpcts avgexitvelo="93.0" avglchangle="14.7" brlhitballpct="5.0" hardcontactpct="60.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="66" era="2.80" oba=".217" ops=".595" inningspitched="54.2" runsallowed="19" earnedruns="17" walks="25" strikeouts="61" wins="1" losses="2" record="1-2" walksper9="4.1" fip="3.59" hitbatsmen="6" hits="44" hrallowed="4" intentwalks="3" saves="3" strikeoutsper9="10.0" kstowalkspct="2.44" whip="1.26" gbpct="25.0" hitsper9="7.2" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="71" firstname="Sean" lastname="Reid-Foley" fullname="Sean Reid-Foley" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Agana Heights, GU" playerdebutdate="08/13/2018">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="50.0" centerinplaypct="50.0" rightinplaypct="0.0"/>
+					<contact softcontactpct="25.0" medcontactpct="0.0" hardcontactpct="75.0"/>
+					<trajectories groundballpct="75.0" flyballpct="0.0" linedrivepct="25.0"/>
+					<hitballpcts avgexitvelo="94.8" avglchangle="-4.5" brlhitballpct="25.0" hardcontactpct="75.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="8" era="3.52" oba=".148" ops=".442" inningspitched="7.2" runsallowed="3" earnedruns="3" walks="6" strikeouts="16" wins="0" losses="1" record="0-1" walksper9="7.0" fip="1.34" hitbatsmen="0" hits="4" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="18.8" kstowalkspct="2.67" whip="1.30" gbpct="75.0" hitsper9="4.7" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="72" firstname="Denyi" lastname="Reyes" fullname="Denyi Reyes" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="San Cristobal, DR" playerdebutdate="05/13/2022">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="50.0" centerinplaypct="6.2" rightinplaypct="43.8"/>
+					<contact softcontactpct="37.5" medcontactpct="12.5" hardcontactpct="50.0"/>
+					<trajectories groundballpct="31.2" flyballpct="12.5" linedrivepct="56.2"/>
+					<hitballpcts avgexitvelo="89.4" avglchangle="7.3" brlhitballpct="12.5" hardcontactpct="50.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="9" era="7.78" oba=".309" ops=".835" inningspitched="19.2" runsallowed="17" earnedruns="17" walks="8" strikeouts="17" wins="0" losses="2" record="0-2" walksper9="3.7" fip="4.79" hitbatsmen="1" hits="25" hrallowed="3" intentwalks="0" saves="0" strikeoutsper9="7.8" kstowalkspct="2.12" whip="1.68" gbpct="52.9" hitsper9="11.4" firstpitchstrikepct="53.8" firstpitchstrikes="7"/>
+			</player>
+			<player playernumber="65" firstname="Dennis" lastname="Santana" fullname="Dennis Santana" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="San Pedro de Macoris, DR" playerdebutdate="06/01/2018">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="50.0" centerinplaypct="25.0" rightinplaypct="25.0"/>
+					<contact softcontactpct="12.5" medcontactpct="50.0" hardcontactpct="37.5"/>
+					<trajectories groundballpct="25.0" flyballpct="0.0" linedrivepct="75.0"/>
+					<hitballpcts avgexitvelo="91.9" avglchangle="13.2" brlhitballpct="12.5" hardcontactpct="37.5"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="9" era="5.91" oba=".244" ops=".750" inningspitched="10.2" runsallowed="7" earnedruns="7" walks="7" strikeouts="12" wins="1" losses="0" record="1-0" walksper9="5.9" fip="5.60" hitbatsmen="1" hits="10" hrallowed="2" intentwalks="0" saves="0" strikeoutsper9="10.1" kstowalkspct="1.71" whip="1.59" gbpct="25.0" hitsper9="8.4" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="33" firstname="Gary" lastname="Sánchez" fullname="Gary Sánchez" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="75" playerbirthplace="Santo Domingo, DR" playerdebutdate="10/03/2015">
+				<bseasonstats avg=".217" onbasepct=".288" sluggingpct=".492" ops=".780" atbats="240" hits="52" doubles="9" triples="0" hr="19" rbi="47" walks="21" strikeouts="67" runs="33" steals="0" sopercent="25.1" bbpercent="7.9" plateapp="267" totalbases="118">
+					<hitfields leftinplaypct="51.5" centerinplaypct="30.3" rightinplaypct="18.2"/>
+					<contact softcontactpct="15.2" medcontactpct="36.4" hardcontactpct="48.5"/>
+					<trajectories groundballpct="54.5" flyballpct="15.2" linedrivepct="30.3"/>
+					<hitballpcts avgexitvelo="93.2" avglchangle="6.2" brlhitballpct="9.1" hardcontactpct="48.5"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="21" firstname="Max" lastname="Scherzer" fullname="Max Scherzer" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="St. Louis, MO" playerdebutdate="04/29/2008">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="46.9" centerinplaypct="18.4" rightinplaypct="34.7"/>
+					<contact softcontactpct="20.4" medcontactpct="28.6" hardcontactpct="51.0"/>
+					<trajectories groundballpct="38.8" flyballpct="9.2" linedrivepct="50.0"/>
+					<hitballpcts avgexitvelo="90.3" avglchangle="8.6" brlhitballpct="6.1" hardcontactpct="51.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="27" era="3.77" oba=".221" ops=".650" inningspitched="152.2" runsallowed="65" earnedruns="64" walks="45" strikeouts="174" wins="13" losses="6" record="13-6" walksper9="2.7" fip="4.23" hitbatsmen="4" hits="126" hrallowed="28" intentwalks="0" saves="0" strikeoutsper9="10.3" kstowalkspct="3.87" whip="1.12" gbpct="39.6" hitsper9="7.4" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="34" firstname="Kodai" lastname="Senga" fullname="Kodai Senga" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="0" playerbirthplace="Gamagori, Japan" playerdebutdate="04/02/2023">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="43.1" centerinplaypct="18.3" rightinplaypct="38.5"/>
+					<contact softcontactpct="22.9" medcontactpct="28.4" hardcontactpct="48.6"/>
+					<trajectories groundballpct="33.9" flyballpct="11.9" linedrivepct="52.3"/>
+					<hitballpcts avgexitvelo="90.9" avglchangle="9.9" brlhitballpct="3.7" hardcontactpct="48.6"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="29" era="2.98" oba=".208" ops=".593" inningspitched="166.1" runsallowed="60" earnedruns="55" walks="77" strikeouts="202" wins="12" losses="7" record="12-7" walksper9="4.2" fip="3.54" hitbatsmen="5" hits="126" hrallowed="17" intentwalks="0" saves="0" strikeoutsper9="10.9" kstowalkspct="2.62" whip="1.22" gbpct="34.3" hitsper9="6.8" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="40" firstname="Drew" lastname="Smith" fullname="Drew Smith" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="63" playerbirthplace="Fort Worth, TX" playerdebutdate="06/23/2018">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="25.6" centerinplaypct="27.9" rightinplaypct="46.5"/>
+					<contact softcontactpct="27.9" medcontactpct="18.6" hardcontactpct="53.5"/>
+					<trajectories groundballpct="20.9" flyballpct="20.9" linedrivepct="58.1"/>
+					<hitballpcts avgexitvelo="91.1" avglchangle="17.2" brlhitballpct="14.0" hardcontactpct="53.5"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="62" era="4.15" oba=".240" ops=".685" inningspitched="56.1" runsallowed="31" earnedruns="26" walks="29" strikeouts="60" wins="4" losses="6" record="4-6" walksper9="4.6" fip="4.46" hitbatsmen="5" hits="50" hrallowed="7" intentwalks="0" saves="3" strikeoutsper9="9.6" kstowalkspct="2.07" whip="1.40" gbpct="20.9" hitsper9="8.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="29" firstname="DJ" lastname="Stewart" fullname="DJ Stewart" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="58" playerbirthplace="Gainesville, FL" playerdebutdate="09/12/2018">
+				<bseasonstats avg=".238" onbasepct=".328" sluggingpct=".494" ops=".822" atbats="160" hits="38" doubles="8" triples="0" hr="11" rbi="26" walks="15" strikeouts="56" runs="21" steals="1" sopercent="30.6" bbpercent="8.2" plateapp="185" totalbases="79">
+					<hitfields leftinplaypct="10.3" centerinplaypct="13.8" rightinplaypct="75.9"/>
+					<contact softcontactpct="13.8" medcontactpct="34.5" hardcontactpct="51.7"/>
+					<trajectories groundballpct="27.6" flyballpct="10.3" linedrivepct="51.7"/>
+					<hitballpcts avgexitvelo="91.5" avglchangle="13.1" brlhitballpct="0.0" hardcontactpct="51.7"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="35" firstname="Justin" lastname="Verlander" fullname="Justin Verlander" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Manakin-Sabot, VA" playerdebutdate="07/04/2005">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="41.3" centerinplaypct="21.5" rightinplaypct="37.2"/>
+					<contact softcontactpct="16.5" medcontactpct="28.1" hardcontactpct="55.4"/>
+					<trajectories groundballpct="40.5" flyballpct="9.1" linedrivepct="49.6"/>
+					<hitballpcts avgexitvelo="92.8" avglchangle="7.3" brlhitballpct="9.9" hardcontactpct="55.4"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="27" era="3.22" oba=".226" ops=".597" inningspitched="162.1" runsallowed="63" earnedruns="58" walks="45" strikeouts="144" wins="13" losses="8" record="13-8" walksper9="2.5" fip="3.76" hitbatsmen="5" hits="139" hrallowed="18" intentwalks="0" saves="0" strikeoutsper9="8.0" kstowalkspct="3.20" whip="1.13" gbpct="40.8" hitsper9="7.7" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="27" firstname="Mark" lastname="Vientos" fullname="Mark Vientos" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="65" playerbirthplace="Norwalk, CT" playerdebutdate="09/11/2022">
+				<bseasonstats avg=".211" onbasepct=".253" sluggingpct=".367" ops=".620" atbats="218" hits="46" doubles="5" triples="1" hr="9" rbi="22" walks="10" strikeouts="71" runs="19" steals="1" sopercent="30.5" bbpercent="4.3" plateapp="233" totalbases="80">
+					<hitfields leftinplaypct="53.8" centerinplaypct="33.3" rightinplaypct="12.8"/>
+					<contact softcontactpct="10.3" medcontactpct="23.1" hardcontactpct="66.7"/>
+					<trajectories groundballpct="48.7" flyballpct="0.0" linedrivepct="46.2"/>
+					<hitballpcts avgexitvelo="96.7" avglchangle="9.6" brlhitballpct="7.7" hardcontactpct="66.7"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="32" firstname="Daniel" lastname="Vogelbach" fullname="Daniel Vogelbach" battinghandltr="L" throwinghandltr="R" battinghand="Left" throwinghand="Right" games="104" playerbirthplace="Orlando, FL" playerdebutdate="09/12/2016">
+				<bseasonstats avg=".233" onbasepct=".339" sluggingpct=".404" ops=".743" atbats="275" hits="64" doubles="8" triples="0" hr="13" rbi="48" walks="42" strikeouts="81" runs="33" steals="0" sopercent="25.4" bbpercent="13.2" plateapp="319" totalbases="111">
+					<hitfields leftinplaypct="26.0" centerinplaypct="22.1" rightinplaypct="51.9"/>
+					<contact softcontactpct="23.4" medcontactpct="20.8" hardcontactpct="55.8"/>
+					<trajectories groundballpct="41.6" flyballpct="15.6" linedrivepct="37.7"/>
+					<hitballpcts avgexitvelo="90.3" avglchangle="10.5" brlhitballpct="7.8" hardcontactpct="55.8"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="0" era="0.00" oba=".000" ops=".000" inningspitched="0.0" runsallowed="0" earnedruns="0" walks="0" strikeouts="0" wins="0" losses="0" record="0-0" walksper9="0.0" fip="0.00" hitbatsmen="0" hits="0" hrallowed="0" intentwalks="0" saves="0" strikeoutsper9="0.0" kstowalkspct="0.00" whip="0.00" gbpct="0.0" hitsper9="0.0" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="91" firstname="Josh" lastname="Walker" fullname="Josh Walker" battinghandltr="L" throwinghandltr="L" battinghand="Left" throwinghand="Left" games="0" playerbirthplace="Otisville, NY" playerdebutdate="05/16/2023">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="40.0" centerinplaypct="20.0" rightinplaypct="40.0"/>
+					<contact softcontactpct="20.0" medcontactpct="40.0" hardcontactpct="40.0"/>
+					<trajectories groundballpct="30.0" flyballpct="10.0" linedrivepct="60.0"/>
+					<hitballpcts avgexitvelo="89.8" avglchangle="15.1" brlhitballpct="0.0" hardcontactpct="40.0"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="14" era="8.10" oba=".286" ops=".804" inningspitched="10.0" runsallowed="11" earnedruns="9" walks="6" strikeouts="12" wins="0" losses="1" record="0-1" walksper9="5.4" fip="5.17" hitbatsmen="0" hits="12" hrallowed="2" intentwalks="0" saves="0" strikeoutsper9="10.8" kstowalkspct="2.00" whip="1.80" gbpct="30.0" hitsper9="10.8" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+			<player playernumber="73" firstname="Jimmy" lastname="Yacabonis" fullname="Jimmy Yacabonis" battinghandltr="R" throwinghandltr="R" battinghand="Right" throwinghand="Right" games="0" playerbirthplace="Elizabeth, NJ" playerdebutdate="06/11/2017">
+				<bseasonstats avg=".000" onbasepct=".000" sluggingpct=".000" ops=".000" atbats="0" hits="0" doubles="0" triples="0" hr="0" rbi="0" walks="0" strikeouts="0" runs="0" steals="0" sopercent="0.0" bbpercent="0.0" plateapp="0" totalbases="0">
+					<hitfields leftinplaypct="25.0" centerinplaypct="16.7" rightinplaypct="58.3"/>
+					<contact softcontactpct="8.3" medcontactpct="25.0" hardcontactpct="66.7"/>
+					<trajectories groundballpct="33.3" flyballpct="8.3" linedrivepct="58.3"/>
+					<hitballpcts avgexitvelo="95.8" avglchangle="10.0" brlhitballpct="8.3" hardcontactpct="66.7"/>
+				</bseasonstats>
+				<pseasonstats gamesplayed="7" era="6.59" oba=".259" ops=".709" inningspitched="13.2" runsallowed="10" earnedruns="10" walks="6" strikeouts="11" wins="2" losses="1" record="2-1" walksper9="4.0" fip="5.00" hitbatsmen="1" hits="14" hrallowed="2" intentwalks="0" saves="0" strikeoutsper9="7.2" kstowalkspct="1.83" whip="1.46" gbpct="33.3" hitsper9="9.2" firstpitchstrikepct="0.0" firstpitchstrikes="0"/>
+			</player>
+		</team>
+	</homteam>
+</scorepadmessage>

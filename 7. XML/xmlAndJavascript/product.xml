@@ -1,0 +1,86 @@
+<products>
+    <product code="1234-56">
+        <category>Electronics</category>
+        <name>Laptop</name>
+        <description>A high-performance laptop with a fast processor and a large screen.</description>
+        <quantity>10</quantity>
+        <unitPrice>899</unitPrice>
+    </product>
+    <product code="5678-90">
+        <category>Clothing</category>
+        <name>T-shirt</name>
+        <description>A comfortable and stylish t-shirt for everyday wear.</description>
+        <quantity>100</quantity>
+        <unitPrice>19</unitPrice>
+    </product>
+    <product code="9876-54">
+        <category>Home and Kitchen</category>
+        <name>Coffee Maker</name>
+        <description>An efficient coffee maker that brews delicious coffee in minutes.</description>
+        <quantity>25</quantity>
+        <unitPrice>49</unitPrice>
+    </product>
+    <product code="2468-10">
+        <category>Books</category>
+        <name>Novel</name>
+        <description>An intriguing novel that keeps you engaged from start to finish.</description>
+        <quantity>50</quantity>
+        <unitPrice>12</unitPrice>
+    </product>
+    <product code="1357-79">
+        <category>Toys</category>
+        <name>Action Figure</name>
+        <description>A collectible action figure of your favorite superhero.</description>
+        <quantity>30</quantity>
+        <unitPrice>15</unitPrice>
+    </product>
+    <product code="1122-33">
+        <category>Electronics</category>
+        <name>Smartphone</name>
+        <description>An advanced smartphone with a high-resolution display and multiple cameras.</description>
+        <quantity>20</quantity>
+        <unitPrice>699</unitPrice>
+    </product>
+    <product code="9090-11">
+        <category>Home and Kitchen</category>
+        <name>Blender</name>
+        <description>A powerful blender for making smoothies and soups.</description>
+        <quantity>15</quantity>
+        <unitPrice>59</unitPrice>
+    </product>
+    <product code="2222-44">
+        <category>Clothing</category>
+        <name>Jeans</name>
+        <description>High-quality jeans for a classic and comfortable look.</description>
+        <quantity>40</quantity>
+        <unitPrice>29</unitPrice>
+    </product>
+    <product code="7777-88">
+        <category>Books</category>
+        <name>Cookbook</name>
+        <description>A cookbook with a variety of delicious recipes for every occasion.</description>
+        <quantity>60</quantity>
+        <unitPrice>20</unitPrice>
+    </product>
+    <product code="4444-66">
+        <category>Toys</category>
+        <name>Puzzle</name>
+        <description>A challenging puzzle to test your problem-solving skills.</description>
+        <quantity>75</quantity>
+        <unitPrice>10</unitPrice>
+    </product>
+    <product code="8888-99">
+        <category>Electronics</category>
+        <name>Headphones</name>
+        <description>High-quality headphones for immersive audio experiences.</description>
+        <quantity>35</quantity>
+        <unitPrice>79</unitPrice>
+    </product>
+    <product code="3333-55">
+        <category>Home and Kitchen</category>
+        <name>Toaster</name>
+        <description>A toaster for perfectly toasted bread every time.</description>
+        <quantity>30</quantity>
+        <unitPrice>39</unitPrice>
+    </product>
+</products>
